@@ -1,5 +1,5 @@
 ---
-title: Mass import Gliffy diagrams to draw.io in Confluence Server
+title: Mass import Gliffy diagrams to draw.io in Confluence Data Center and Server
 layout: page
 faq: true
 categories: [Confluence Data Center and Server, Gliffy, Import]
@@ -11,7 +11,7 @@ The mass Gliffy import converts all Gliffy diagrams on all pages (or selected sp
 
 * Test the mass import on a mirrored test instance first.
 * Confluence must be re-indexed prior to performing the mass import so all diagrams are found.
-* The Gliffy app must be installed, but it's recommended to remove the license to make Gliffy diagrams effectively read-only during the mass import.
+* Ensure you have an active Gliffy license. As users will be able to create new and modify existing Gliffy diagrams in your instance during the import process, this can cause complications. Please notify your users in advance so that they avoid working on diagrams during the import.  
 
 ## Run the Gliffy mass import feature
 
@@ -44,7 +44,7 @@ https://BASE_URL/admin/drawioConfig.action?pageVersionComment=MyComment&keepDate
 
 It is better to perform the conversion outside of your company's normal usage hours of the Confluence instance. You can do the import during normal working hours, but it's best to carry out the whole operation whilst the minimum number of changes are being made to the relevant pages.
 
-We recommend that you remove the Gliffy license so that users do not start editing Gliffy diagrams while the process is running. Without a license, the Gliffy diagrams are effectively read-only. Please communicate to your users that you are doing this and when you expect to start/finish the process.
+An active Gliffy license is required to access the Gliffy diagrams in your instance. Please communicate to your users in advance that you will mass import Gliffy diagrams, when you expect to start/finish the process and that they should not edit or create Gliffy diagram during that period.
 
 **Diagram backups**
 
