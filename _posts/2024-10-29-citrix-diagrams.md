@@ -1,7 +1,7 @@
 ---
 layout: post
 author: draw.io
-slug: citrix-diagrams.md
+slug: citrix-diagrams
 date: 2024-10-29 09:43:00
 title: Updated Citrix shape library for clean infrastructure diagrams
 tags: [shape libraries]

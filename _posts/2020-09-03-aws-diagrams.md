@@ -15,21 +15,21 @@ draw.io provides you with several years worth of AWS icon (shape) libraries, fro
 ## Select an AWS shape library
 
 1. In the left panel, at the bottom, click on _More Shapes_ to open the shape library selection dialog.
-2. Scroll down to the _Networking_ section, make sure the checkbox next to the library you want to use is selected, then click _Apply_.
+2. Scroll down to the _Networking_ section, make sure the checkbox next to the AWS library you want to use is selected, then click _Apply_.
 <br /><img src="/assets/img/blog/aws19-shape-library-enable.png" style="width=100%;max-width:300px;height:auto;" alt="Enable whichever AWS library you want to use">
 
 [Draw your AWS infrastructure now with the 2019 AWS libraries](https://www.draw.io/?libs=aws4&splash=0)
 
 There are many AWS shapes available to visualise your infrastructure. When you enable just one of the shape libraries above, you'll see a number of sub-categories of shapes appear in the left panel.
 
-<img src="/assets/img/blog/aws19-update2022.png" style="max-width:100%;height:auto;" alt="Some of the AWS shapes available in draw.io">
+<img src="/assets/img/blog/aws19-update2024.png" style="max-width:100%;height:auto;" alt="Some of the AWS shapes available in draw.io">
 
 ## Use an AWS template
 
 If you don't want to start with a blank canvas, you can use one of a number of different example AWS infrastructure templates.
 
 1. Click _Arrange > Insert > Template_ to open the template library.
-2. Expand the _Cloud_ category on the left, then select AWS. Click on the magnifying glass in the top right to [see a larger preview of the template diagram](/blog/template-diagrams.html).
+2. Expand the _Cloud_ category on the left, then select _AWS_. Click on the magnifying glass in the top right to [see a larger preview of the template diagram](/blog/template-diagrams.html).
 <br /><img src="/assets/img/blog/aws-insert-template.png" style="width=100%;max-width:300px;height:auto;" alt="Start your infrastructure diagram with an AWS template in draw.io">
 3. Click _Insert_ to add this template to the drawing canvas. You can replace, move and add more shapes, text and connectors as you need.
 
@@ -51,7 +51,7 @@ When you add a new shape to the drawing canvas, it is dropped at the front of th
 
 ### AWS groups
 
-Indicate groupings of elements with the shapes from the AWS / Groups shape library.
+Indicate groupings of elements with the shapes from the _AWS / Groups_ shape library.
 
 <img src="/assets/img/blog/aws-19-group-shapes.png" style="width=100%;max-width:400px;height:auto;" alt="Use the group shapes to indicate logical groupings of components in your AWS architecture">
 
