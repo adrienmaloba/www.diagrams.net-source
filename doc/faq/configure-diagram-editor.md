@@ -247,7 +247,9 @@ This configuration produces the following _More Shapes_ dialog when combined wit
 
 * ``showRemoteCursors``: Specifies the default value for showing remote cursors in real-time collaboration. Default is ``true``.
 
-* ``enableCssDarkMode``: Specifies if CSS should be used for [dark mode](/blog/dark-mode-diagrams.html). Default is ``true``.
+* ``defaultAdaptiveColors``: Specifies the default for [adaptive colors](https://github.com/jgraph/drawio/discussions/4713) (``auto``, ``simple`` or ``none``, the default is ``simple`` in the desktop app and ``auto`` in all other apps, 26.0.0 and later).
+
+* ``enableCssDarkMode``: Specifies if CSS should be used for [dark mode](/blog/dark-mode-diagrams.html). Default is ``true``. Deprecated in 26.0.0. Use ``defaultAdaptiveColors`` instead. If this is set to ``true`` then ``defaultAdaptiveColors`` will be set to ``simple``. This is ignored if ``defaultAdaptiveColors`` is specified.
 
 * ``replaceSvgDataUris``: Specifies if data URIs should be replaced with SVG sub-trees in SVG export. Default is ``true``.
 
