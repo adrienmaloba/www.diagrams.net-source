@@ -199,7 +199,7 @@ This configuration produces the following _More Shapes_ dialog when combined wit
 
 * ``darkColor``: Defines the background color for dark mode. Default is #2A2A2A.
 
-* ``lightColor``: Defines the foreground color for dark mode. Default is #F0F0F0.
+* ``darkColorVar``: Defines the name of the CSS variable to be used for the dark color. Default is --ge-dark-color.
 
 * ``pageFormat``: Defines the default page format, eg. ``"pageFormat": {"width": 1169, "height": 1654}`` for DIN A3, with inches * 10 for width and height (15.0.0 and later).
 
