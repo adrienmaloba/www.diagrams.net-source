@@ -29,7 +29,7 @@ If you sign up for the new early access programme for app Editions in the Atlass
 
 See how to use draw.io in Confluence with [diagram files stored in Google Drive](/doc/faq/google-drive-diagrams.html).
 
-Administrators can [configure the draw.io app](/blog/configure-drawio-app.html) in Confluence Cloud to enable [data governance and lockdown options](/blog/data-governance-lockdown.html). These options are available in both the Connect and the Forge versions of the draw.io app for Confluence Cloud.
+Administrators can [configure the draw.io app](/blog/configure-drawio-app.html) in Confluence Cloud in the Advanced edition to enable the [lockdown option](/blog/data-governance-lockdown.html). 
 
 You can diagram offline with the [draw.io desktop app](/blog/diagrams-offline.html) if you need to work in a highly secure environment.
 
