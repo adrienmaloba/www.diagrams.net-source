@@ -5,7 +5,7 @@ slug: dark-theme-drawio-jira
 date: 2023-06-15 09:24:00
 title: draw.io automatically applies your Jira Cloud theme to diagram thumbnails
 tags: [features]
-categories: [features, Atlassian]
+categories: [features, atlassian]
 ---
 
 Atlassian has just released a dark theme for Jira Cloud for users who don't like working on light backgrounds. With Jira's new dark theme, draw.io diagram thumbnails in a Jira issue now automatically reflect your selected theme.
