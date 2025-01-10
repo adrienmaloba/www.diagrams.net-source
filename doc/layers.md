@@ -20,8 +20,8 @@ The sections below explain how to work with layers in draw.io.
   - [Remove a layer](#remove-a-layer)
 - [Work with shapes on layers](#work-with-shapes-on-layers)
   - [Add shapes to a layer](#add-shapes-to-a-layer)
-  - [Move shapes to another layer](#move-shapes-to-another-layer)
   - [See which layer a shape belongs to](#see-which-layer-a-shape-belongs-to)
+  - [Move shapes to another layer](#move-shapes-to-another-layer)
   - [Rearrange layers to move shapes forward or backward](#rearrange-layers-to-move-shapes-forward-or-backward)
 - [Hide or display layers](#hide-or-display-layers)
 - [Lock layers to prevent changes](#lock-layers-to-prevent-changes)
@@ -50,17 +50,17 @@ Your new layer will be automatically selected (with a blue background), and any 
 
 <img src="/assets/img/blog/layer-add.png" style="max-width:100%;height:auto;" alt="Click on Add Layer (+) in the Layers dialog to add a new layer">
 
-**Duplicate a layer:** Select the layer you want to duplicate, then click on _Duplicate_ in the _Layers_ dialog (a ``+`` in a box with a shadow).
+**Duplicate a layer:** Select the layer you want to duplicate, then click on _Duplicate_ in the _Layers_ dialog (a pair of overlapping boxes).
 
-<img src="/assets/img/blog/layer-duplicate.png" style="width=100%;max-width:150px;height:auto;" alt="Select a layer then click on Duplicate (+ in a box) in the Layers dialog to duplicate it">
+<img src="/assets/img/blog/layer-duplicate.png" style="width=100%;max-width:200px;height:auto;" alt="Select a layer then click on Duplicate (overlapping box) in the Layers dialog to duplicate it">
 
 [_Back to top_](#using-layers-in-diagrams)
 
 ### Rename a layer
 
-When you add a new layer, it will be given a default name. Double click on the layer, enter its new name, then click _Rename_ to name it something more meaningful. 
+When you add a new layer, it will be given a default name. Start typing immediately to change its name to something meaningful. You can double click on any layer to edit its new name at any time. 
 
-<img src="/assets/img/blog/layer-rename.png" style="max-width:100%;height:auto;" alt="Double click on a layer, enter a new name, then click Rename">
+<img src="/assets/img/blog/layer-rename.png" style="width=100%;max-width:400px;height:auto;" alt="Double click on a layer, and enter a new name">
 
 **Rename a layer via its metadata**
 
@@ -69,9 +69,9 @@ Layers have metadata, just like shapes have metadata. This metadata allowed adva
 [See how to use metadata and placeholders in labels and tooltips](/blog/placeholders.html)
 
 1. Select a layer, then click on the _Edit Data_ in the _Layers_ dialog (three vertical dots). 
-<br /><img src="/assets/img/blog/layer-edit-data.png" style="width=100%;max-width:150px;height:auto;" alt="Select a layer in the Layers dialog, then click on Edit Data">
-2. Change the text in the _Label_ field and click _Apply_ to change the layer's name.
-<br /><img src="/assets/img/blog/layer-edit-data-dialog.png" style="width=100%;max-width:250px;height:auto;" alt="In the Edit Data dialog for that layer, change the label text and click Apply to rename it">
+<br /><img src="/assets/img/blog/layer-edit-data.png" style="width=100%;max-width:200px;height:auto;" alt="Select a layer in the Layers dialog, then click on Edit Data">
+1. Change the text in the _Label_ field and click _Apply_ to change the layer's name.
+<br /><img src="/assets/img/blog/layer-edit-data-dialog.png" style="width=100%;max-width:300px;height:auto;" alt="In the Edit Data dialog for that layer, change the label text and click Apply to rename it">
 
 [_Back to top_](#using-layers-in-diagrams)
 
@@ -89,32 +89,35 @@ Remove a layer will delete all of the shapes and connectors that are on it as we
 
 Shapes are arranged in the order you added them to the drawing canvas, within the layer you added them. 
 
-Layers are arranged from front to back as they are ordered in the _Layers_ dialog. Shapes and connectors placed on a higher layer can not go back behind shapes on a lower layer - they can only be arranged from front to back within their layer.
+Layers are arranged from front to back as they are ordered top to bottom in the _Layers_ dialog. Shapes and connectors placed on a higher layer can not go back behind shapes on a lower layer - they can only be arranged from front to back _within their layer_.
 
 ### Add shapes to a layer 
 
-1. Make sure your layer is unlocked before you make changes (click on the lock/unlock icon to the left of the layer name). Layers are unlocked by default.
-2. Select the layer you want to add the shapes to in the _Layers_ dialog, then add the shapes to the drawing canvas. 
+1. Make sure your layer is visible and unlocked before you make changes (click on the eye to display a hidden layer and the lock icon to the left of the layer name). Layers are unlocked by default.
+2. Select the layer you want to add the shape to in the _Layers_ dialog, then add the shape to the drawing canvas. 
 
-<img src="/assets/img/blog/layer-add-shape.gif" style="max-width:100%;height:auto;" alt="Select the layer you want to add a shape or connector to first, then add the shape or connector">
+<img src="/assets/img/blog/layer-add-shape.gif" style="max-width:100%;height:auto;" alt="Make the layer you want to add the shape or connector to visible and unlocked, then select it, and add your shape/connector">
+
+[_Back to top_](#using-layers-in-diagrams)
+
+### See which layer a shape belongs to
+
+Select one shape or more shapes - make sure they are all on the same layer. Note the dot to the right of the layer name - this shows that your selected shape(s) are on that layer. 
+
+<img src="/assets/img/blog/shape-find-layer.png" style="max-width:100%;height:auto;" alt="Select a shape, note the dot on the right of the layer name - this is the layer the shape belongs to">
+
+**Note:** If you have selected shapes on different layers, you will not see a dot in the Layers dialog.
 
 [_Back to top_](#using-layers-in-diagrams)
 
 ### Move shapes to another layer
 
 1. Select the shapes, connectors and text you want to move to another layer. 
-2. In the layers dialog, click on the _Move selection to_ icon (a box with an arrow going into it vertically), then select the layer you want to move it to.
+2. In the layers dialog, click on the three vertical dots icon to open the list of layer targets, then select the layer you want to move your selected shapes to.
 
 <img src="/assets/img/blog/shapes-move-layers.png" style="max-width:100%;height:auto;" alt="Move the selected shapes to another layer via the Layers dialog">
 
-[_Back to top_](#using-layers-in-diagrams)
-
-### See which layer a shape belongs to
-
-1. Select one shape or a single group of shapes - this does not work when you select multiple shapes, as they may be on multiple layers.
-2. Click on _Move selection to_ in the _Layers_ dialog. The layer with the check mark next to it is the layer that the shape is on. 
-
-<img src="/assets/img/blog/shape-find-layer.png" style="max-width:100%;height:auto;" alt="Select a shape, then click on Move selection to in the Layers dialog to find out which layer a shape is on">
+The dot indicating on which layer your selected shapes are will be updated to your choice.
 
 [_Back to top_](#using-layers-in-diagrams)
 
@@ -136,13 +139,13 @@ Click and drag a layer in the _Layers_ dialog to place its shapes in front of or
 
 To understand complex diagrams that use layers, you can display and hide layers. 
 
-In the _Layers_ dialog, a check mark next to the layer's name indicates it is visible. Click on this checkbox to hide the layer, or display it if it was previously hidden. 
+In the _Layers_ dialog, click on the eye on the left of layer's name to display or hide the layer.
 
-<img src="/assets/img/blog/layers-display-hide.gif" style="max-width:100%;height:auto;" alt="Select a shape then click on Move selection to in the Layers dialog to find out which layer a shape is on">
+<img src="/assets/img/blog/layers-display-hide.gif" style="max-width:100%;height:auto;" alt="Click on the eye next to the layer name to display or hide the shapes and connectors on that layer">
 
-**Hide or display layers in the diagram viewer:** Click on the _Layers_ tool at the bottom of the diagram viewer, then click on the checkboxes next to the layer names to hide or display the layers. This tool is not available if the diagram only has one layer.
+**Hide or display layers in the diagram viewer:** Click on the _Layers_ tool at the bottom of the diagram viewer, then click on the eye icons next to the layer names to hide or display the layers. This tool is not available if the diagram only has one layer.
 
-<img src="/assets/img/blog/layers-viewer-display-hide.png" style="max-width:100%;height:auto;" alt="Click on the checkboxes next to layer names in the Layers dialog to hide or display them">
+<img src="/assets/img/blog/layers-viewer-display-hide.png" style="max-width:100%;height:auto;" alt="Click on the layer tool then on the eyes next to layer names to hide or display them in the diagram viewer">
 
 **Tip:** [Use custom links to make your diagram interactive](/blog/interactive-diagram-layers.html) and toggle layers on and off when you click on a shape within the diagram. 
 
