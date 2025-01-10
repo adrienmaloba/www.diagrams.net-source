@@ -61,7 +61,7 @@ _Foreground_ and _background_ elements are rendered following the concept of sta
 * ``<restore/>`` - retrieves (loads) the last saved state from the state stack.
 
 ### Style
-Elements that change the colours within the current state (style) require a hash-prefixed hex color code (``"#FFEA80"``).
+Elements that change the colours within the current state (style) require a hash-prefixed hex color code (``"#FFEA80"``) or ``fill``, ``stroke``, ``font`` or ``default`` to reference the current state.
 
 * ``<strokecolor>`` - defines the path colour when a _stroke_ or _fillstroke_ command is issued.
 * ``<fillcolor>`` - defines the colour inside a closed path when a _fill_ or _fillstroke_ command is issued.
