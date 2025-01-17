@@ -56,9 +56,9 @@ When you click on a shape that is used as a toggle and it exists on the layer or
 ### Copy the layer ID
 
 1. Select _View > Layers_ or press ``Ctrl+Shift+L`` / ``Cmd+Shift+L`` to display the _Layers_ dialog if you don't see it.
-2. Select a layer, then click on the _Edit Data_ in the _Layers_ dialog (three vertical dots). 
+2. Select a layer, then click on the pencil icon (_Edit Data_) in the _Layers_ dialog. 
 <br /><img src="/assets/img/blog/interactive-diagram-get-layer-id.png" style="width:100%; max-width:200px;height:auto;" alt="Edit the metadata of the layer to find its layer ID">
-3. Copy the layer _ID_ - the long string of numbers and letters. 
+1. Copy the layer _ID_ - the long string of numbers and letters. 
 <br /><img src="/assets/img/blog/interactive-diagram-get-layer-id2.png" style="width:100%; max-width:400px;height:auto;" alt="Copy the layer ID so you can build a custom link">
 
 **Tip:** If you want to toggle shapes instead of a layer, press ``Ctrl+M`` or ``Cmd+M`` to edit the shape's metadata, then copy its _ID_ (a short number).
@@ -67,7 +67,7 @@ When you click on a shape that is used as a toggle and it exists on the layer or
 
 1. Go to [jgraph.github.io/drawio-tools/tools/link.html](https://jgraph.github.io/drawio-tools/tools/link.html).
 2. Paste the layer ID into the _Cells/Layers_ text field. You can toggle more than one layer or shape in a custom link - add all of their shape/layer IDs separated by a space.
-3. Click on _5. Add Action_ to generate the _Custom Link_ in the larger text field below. 
+3. Click on _Add Action_ to generate the _Custom Link_ in the larger text field below. 
 4. Click on _Copy Link_ to copy the _Custom Link_.
 <br /><img src="/assets/img/blog/interactive-diagram-build-custom-link.png" style="max-width:100%;height:auto;" alt="Paste the shape and layer IDs, generate the custom link, then copy it to the clipboard using this free tool">
 
@@ -83,7 +83,7 @@ When you click on a shape that is used as a toggle and it exists on the layer or
 When you view the diagram in the editor, you can interact with your diagram in three ways:
 
 * Click on the checkbox in the the _Layers_ dialog. 
-* If the layer you toggle is locked, click directly on the shape in the same way as if you are interacting with the diagram in the viewer. 
+* If the layer you want to toggle is locked, click directly on the shape in the diagram. If you are viewing your diagram with interactive links in the lightbox viewer, click on those shapes to trigger their custom link actions. 
 * If the layer is unlocked, the custom link is shown in a tooltip with the label ``Action`` when you select the shape. Click on this link to display or hide your layers and shapes.
 
 <img src="/assets/img/blog/interactive-diagram-toggle-editor.gif" style="max-width:100%;height:auto;" alt="Paste the custom link into the first text field and click Apply">
