@@ -20,7 +20,7 @@ Sequence diagrams extend [use-case diagrams](/blog/uml-use-case-diagrams.html) -
 
 Read a sequence diagram from the top down. The further you progress down a sequence diagram, the more time has elapsed and the more events have occurred. 
 
-<img src="/assets/img/blog/uml-sequence-example.png" style="width=100%;max-width:500px;height:auto;" alt="Add shape and connector labels and drag text for conditions into a frame shape in a sequence diagram in draw.io">
+[<img src="/assets/img/blog/uml-sequence-example.png" style="width=100%;max-width:500px;height:auto;" alt="Add shape and connector labels and drag text for conditions into a frame shape in a sequence diagram in draw.io">](https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fsequence-diagram-examples.drawio)
 <br />[_Open this sequence diagram in our diagram viewer_](https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fsequence-diagram-examples.drawio)
 
 Each system/object instance and actor is placed on a _lifeline_ - a vertical dotted line - going across the top of the sequence diagram. 
@@ -94,7 +94,7 @@ Surrounding your sequence diagram in an overall frame shape (or the _Diagram_ sh
 **Conditions (guards)** on messages are indicated with square brackets either on the message, or in the frame shape. E.g. ``[value > $1000]``
 
 **Message numbers** can be used to clearly show the sequence of events. This works similar to release numbering, where each lifeline adds another point. Add the message number and a colon at the start of the message label. E.g. ``1.3: searchByItem(itemName)``
-<br /><img src="/assets/img/blog/uml-sequence-example.png" style="width=100%;max-width:500px;height:auto;" alt="Add shape and connector labels and drag text for conditions into a frame shape in a sequence diagram in draw.io">
+<br />[<img src="/assets/img/blog/uml-sequence-example.png" style="width=100%;max-width:500px;height:auto;" alt="Add shape and connector labels and drag text for conditions into a frame shape in a sequence diagram in draw.io">](https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fsequence-diagram-examples.drawio)
 <br />[_Open this sequence diagram in our diagram viewer_](https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fsequence-diagram-examples.drawio)
 
 
@@ -120,6 +120,8 @@ Sequence diagrams are the most common type of interaction diagram, modelling the
 
 <img src="/assets/img/blog/uml-2-5-diagram-overview.png" style="max-width:100%;height:auto;" alt="Diagram types defined in UML 2.5">
 <br />[_Open this UML diagrams concept map in our diagram viewer_](https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fconcept-map-uml-diagrams-overview.drawio)
+
+Refer to [this overview of UML diagrams](/blog/uml-overview.html) for all of the different types of diagrams.
 
 There are three other types of interaction diagrams.
 

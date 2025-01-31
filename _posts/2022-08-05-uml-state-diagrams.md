@@ -143,6 +143,7 @@ What problems can you discover by analysing these diagrams?
 ## Further resources
 
 Learn more about different UML diagrams: 
+* [UML diagram overview](/blog/uml-overview.html)
 * [UML use case diagrams](/blog/story-mapping.html) can also be used for story mapping.
 * [UML class diagrams](/blog/uml-class-diagrams.html) detail the data and methods in each class.
 * [Activity diagrams](/blog/uml-activity-diagrams.html) show the actions and control flows needed to complete a process flow.

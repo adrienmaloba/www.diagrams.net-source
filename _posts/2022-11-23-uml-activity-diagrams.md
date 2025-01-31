@@ -137,6 +137,7 @@ UML is a diagramming standard with many different types of diagrams used to mode
 
 Learn more about the following UML diagram types and how to create them in draw.io.
 
+* [UML diagram overview](/blog/uml-overview.html)
 * [UML class diagrams](/blog/uml-class-diagrams.html)
 * [Use case diagrams](/blog/uml-use-case-diagrams.html)
 * [Sequence diagrams](/blog/sequence-diagrams.html)
