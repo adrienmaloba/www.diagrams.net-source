@@ -38,7 +38,7 @@ Because your sensitive diagram data doesn't leave your infrastructure and is nev
 
 [Learn more about our commitment to data security and privacy](/blog/data-protection.html)
 
-Set the draw.io **lockdown** option as a JSON string in the app configuration to additionally restrict data transmission to _only_ between a user's browser and their Confluence Cloud instance: 
+Set the draw.io **lockdown** option as a JSON string in the app configuration to additionally restrict data transmission to _only_ between a user's browser and their Confluence Cloud instance (advanced edition only): 
 <br />``"lockdown": true``
 
 [See how to configure draw.io in Confluence Cloud](/doc/drawio-confluence-cloud.html)

@@ -33,7 +33,7 @@ This will disable data transmission apart from directly between your browser whe
 1. In the online version of draw.io at [app.diagrams.net](https://app.diagrams.net), select _Extras > Configuration_ in classic mode, _... > Settings > Configuration_ in Simple mode or the Sketch [editor theme](/doc/faq/editor-theme-change.html) to open the configuration.
 2. Enter the ``"lockdown": true`` JSON string and click _Apply_.
 
-In the draw.io app for Confluence Cloud, go to the administration area, then the _draw.io Configuration_ tab. Add ``"lockdown": true`` to the UI Configuration, and click _Save changes_.
+In the draw.io app for Confluence Cloud (advanced edition only), go to the administration area, then the _draw.io Configuration_ tab. Add ``"lockdown": true`` to the UI Configuration, and click _Save changes_.
 <br /><img src="/assets/img/blog/drawio-confluence-lockdown-config.png" style="width=100%;max-width:400px;height:auto;" alt="Configure draw.io for Confluence Cloud to lock down your diagram data to match your Atlassian data residency settings">
 
 **Note:** There are few functions that use the draw.io servers to perform operations that browsers are not capable of, including to generate a PDF version of your diagram, and import a diagram file in certain formats (.gliffy, .vsd, .vdx or .vssx). These functions won't be available if you lockdown data transmission.

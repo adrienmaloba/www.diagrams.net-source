@@ -39,7 +39,7 @@ In this way, diagramming and visualisations can be integrated into a remote team
 
 **[Small teams can diagram for free](/blog/confluence-cloud-free-diagrams.html)** - You can use an unlicensed version of the draw.io app in a free Confluence Cloud instance.
 
-**[Secure and private online whiteboard within Confluence](/blog/data-governance-lockdown.html)** - There are no third-party sign-in or freemium accounts needed to embed the draw.io Board or draw.io Diagram macros. All of your draw.io diagram and board data stays within Confluence according to your instance's data residency settings.
+**[Secure and private online whiteboard within Confluence](/blog/data-governance-lockdown.html)** - There are no third-party sign-in or freemium accounts needed to embed the draw.io Board or draw.io Diagram macros. All of your draw.io diagram and board data stays within Confluence according to your instance's data residency settings (advanced edition only).
 
 **Tip:** When editing a diagram with your team in Confluence Cloud, right-click on a blank area of the diagram and select _Share Cursor_. Now your team will be able to see where you move the mouse and what you select - a smoother experience than new shapes just appearing on the drawing canvas.
 <br /><img src="/assets/img/blog/share-cursor.png" style="width=100%;max-width:300px;height:auto;" alt="Share your mouse cursor with others who are editing the same diagram file stored in OneDrive or Google Drive">

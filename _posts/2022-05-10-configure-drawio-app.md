@@ -25,7 +25,7 @@ Administrator can configure these options in the draw.io app for Confluence Clou
 - [Set default draw.io shape libraries](#set-default-drawio-shape-libraries)
 - [Set up custom templates in Confluence Cloud](#set-up-custom-templates-in-confluence-cloud)
 
-**Tip:** Set ``"lockdown": true`` in the editor configuration to ensure data transmission is directly between the user's browser and the Atlassian Confluence or Jira instance.
+**Tip:** Set ``"lockdown": true`` in the editor configuration to ensure data transmission is directly between the user's browser and the Atlassian Confluence or Jira instance (advanced edition only).
 
 [Learn more about how the draw.io app helps your diagram data stay secure](/blog/data-governance-lockdown.html)
 
