@@ -31,6 +31,7 @@ The following URL parameters are supported by the online version of the draw.io 
 * ``rt=1``: Uses chromeless mode with Google Drive realtime enabled.
 * ``edit=url``: Adds a link for the _Edit_ button in chromeless mode (use ``edit=_blank`` to edit the diagram as a new copy).
 * ``lightbox=1``: Uses the lightbox in chromeless mode (larger zoom, no page visible, chromeless).
+* ``transparent=1``: Uses a transparent background in chromeless mode.
 * ``grid=1``: Sets the default grid enabled to true.
 * ``nav=1``: Enables folding in chromeless mode.
 * ``layers=1``: Adds layer control in chromeless mode
