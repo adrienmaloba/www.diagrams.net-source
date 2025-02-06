@@ -35,7 +35,7 @@ These functions include:
 
 ## Data transmission lockdown
 
-In Confluence Cloud, using the draw.io **lockdown** option, you can restrict data transmission to _only_ between your browser and your Confluence Cloud instance (and effectively disable the features described above).
+In Confluence Cloud, using the draw.io **lockdown** option, you can restrict data transmission to _only_ between your browser and your Confluence Cloud instance (and effectively disable the features described above) with the advanced edition of the app.
 
 * Add the following JSON string to the draw.io app configuration: ``"lockdown": true"``.
 

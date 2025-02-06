@@ -58,7 +58,7 @@ The draw.io app for Confluence Cloud offers some additional useful features:
 
 [Search for diagrams in your Confluence Cloud instance](/blog/confluence-diagram-search.html) by filename, label text or the name of a shape.
 
-[Set your data residency region](/blog/data-governance-lockdown.html) to choose where your data or in-scope product content resides at rest in your Confluence Cloud instance, in addition to setting data governance rules centrally for all users on your Confluence instance.
+[Set your data residency region](/blog/data-governance-lockdown.html) to choose where your data or in-scope product content resides at rest in your Confluence Cloud instance (advanced edition only), in addition to setting data governance rules centrally for all users on your Confluence instance.
 
 [Mass import all of the Gliffy diagrams in your Confluence Cloud instance to draw.io](/doc/faq/mass-import-gliffy-confluence-cloud.html) in one step.
 <br /><img src="/assets/img/blog/confluence-cloud-gliffy-import-log.png" style="width=100%;max-width:400px;height:auto;" alt="Log of the Gliffy mass import to draw.io in Confluence Cloud">

@@ -23,7 +23,7 @@ The features that use the server endpoints include:
 * Generation of diagram images from PlantUML.
 * Import of Gliffy diagrams.
 
-In Confluence Cloud you can restrict data transmission to between your browser and your Confluence Cloud instance only (and disable the features above). 
+In Confluence Cloud you can restrict data transmission to between your browser and your Confluence Cloud instance only (and disable the features above) when using the advanced edition of the app. 
 * Add the following JSON string to the draw.io app configuration: ``"lockdown": true"``.
 
 <img src="/assets/img/blog/confluence-cloud-data-governance-lockdown-configuration.png" style="width=100%;max-width:400px;height:auto;" alt="Set which draw.io server endppoint region to use and restrict data transmission to between browser and Confluence Cloud in the draw.io app configuration JSON code">
