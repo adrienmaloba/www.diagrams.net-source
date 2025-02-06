@@ -59,17 +59,17 @@ The configuration is represented as a [JSON (JavaScript Object Notation) string]
 <br />**Note:** Fonts with no fontUrl must be installed on the server and all client devices, or be added using the ``fontCss`` option. (6.5.4 and later).
 <br /><img src="/assets/img/blog/custom-fonts-list-confluence-cloud.png" style="width=100%;max-width:200px;height:auto;" alt="Customise the fonts in draw.io">
 
-* ``presetColors``: Colour codes for the upper palette in the colour dialog (no leading # for the colour codes, ``null`` for a blank entry).
+* ``presetColors``: Colour codes for the upper palette in the colour dialog (no leading ``#`` for the colour codes, ``null`` for a blank entry or a ``light-dark`` color function with leading ``#`` for the colour codes).
 
-* ``customPresetColors``: Colour codes to be added before ``presetColors`` (no leading ``#`` for the colour codes, ``null`` for a blank entry) (9.2.5 and later).
+* ``customPresetColors``: Colour codes to be added before ``presetColors`` (no leading ``#`` for the colour codes, ``null`` for a blank entry or a ``light-dark`` color function with leading ``#`` for the colour codes) (9.2.5 and later).
 <br /><img src="/assets/img/blog/preset-colours-new-defaults.png" style="width=100%;max-width:200px;height:auto;" alt="The default present colours can be customised in draw.io">
 
-* ``defaultColors``: Colour codes for the lower palette in the colour dialog (no leading ``#`` for the colour codes, ``null`` for a blank entry).
+* ``defaultColors``: Colour codes for the lower palette in the colour dialog (no leading ``#`` for the colour codes, ``null`` for a blank entry or a ``light-dark`` color function with leading ``#`` for the colour codes).
 <br /><img src="/assets/img/blog/large-palette-custom.png" style="width=100%;max-width:200px;height:auto;" alt="Modify the colour palettes easily with draw.io for Confluence Cloud">
 
-* ``colorNames``: Names for colors, eg. {'FFFFFF': 'White', '000000': 'Black'} that are used as tooltips (uppercase, no leading ``#`` for the colour codes).
+* ``colorNames``: Names for colors, eg. {'FFFFFF': 'White', '000000': 'Black'} that are used as tooltips (uppercase, no leading ``#`` for the colour codes or a ``light-dark`` color function with leading ``#`` for the colour codes).
 
-* ``defaultColorSchemes``: Available colour schemes in the style section at the top of the format panel (use leading ``#`` for the colour codes). Possible colour keys are ``fill``, ``stroke``, ``gradient`` and ``font`` (``font`` is ignored for connectors). An optional ``title`` can be added to be used as a tooltip. An optional border can be added to define the CSS for the border width and type, eg. '2px solid' or '3px dashed' (only setting the border width is not valid, the border type must be included).
+* ``defaultColorSchemes``: Available colour schemes in the style section at the top of the format panel (use leading ``#`` for the colour codes or ``light-dark`` color functions with leading ``#`` for the colour codes). Possible colour keys are ``fill``, ``stroke``, ``gradient`` and ``font`` (``font`` is ignored for connectors). An optional ``title`` can be added to be used as a tooltip. An optional border can be added to define the CSS for the border width and type, eg. '2px solid' or '3px dashed' (only setting the border width is not valid, the border type must be included).
 
 * ``customColorSchemes``: Colour schemes to be added before ``defaultColorSchemes`` (9.2.4 and later).
 <br /><img src="/assets/img/blog/style-colour-palette.png" style="width=100%;max-width:200px;height:auto;" alt="The default colour schemes in draw.io modify the style colour palette">
