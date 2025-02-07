@@ -10,6 +10,7 @@ Our draw.io diagramming applications are the leading solutions for web based ske
   - [Integrate diagrams with other software](#integrate-diagrams-with-other-software)
 - [Collaborate in real-time with shared cursors](#collaborate-in-real-time-with-shared-cursors)
 - [Easy-to-use diagram editor](#easy-to-use-diagram-editor)
+- [Diagram in dark mode](#diagram-in-dark-mode)
 - [Many advanced tools](#many-advanced-tools)
 - [Create a wide range of diagrams](#create-a-wide-range-of-diagrams)
 
@@ -73,6 +74,11 @@ The draw.io apps work just like the office and drawing tools you are used to usi
 <br /><img src="/assets/img/blog/import-file.gif" style="width=100%;max-width:500px;height:auto;" alt="Import diagrams into an existing diagram in two different ways">
 
 Read more about [new and useful editor features in our blog](/blog/features.html). 
+
+## Diagram in dark mode
+
+The draw.io editor can automatically adjust the colours and brightness to make sure you diagram is readable when you use [dark mode](/blog/dark-mode-diagrams.html). You can [set user-defined colours](/blog/adaptive-colours.html) to override the automatic dark-mode colours, or disable adaptive colours in the editor to have the editor panels in dark mode, but the diagram always in light mode. 
+<br /><img src="/assets/img/blog/style-tab-adaptive-colors.gif" style="width=100%;max-width:500px;height:auto;" alt="Change the adaptive colours settings on a diagram in draw.io via the Extras menu or the Style tab in the format panel when nothing is selected">
 
 ## Many advanced tools
 

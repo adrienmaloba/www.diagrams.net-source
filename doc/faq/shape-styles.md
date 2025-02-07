@@ -37,6 +37,10 @@ The style palette at the top of the _Style_ tab changes both the fill and outlin
 Click the left or right arrows or click on the page dots underneath the palette to view more styles.
 <br /><img src="/assets/img/blog/basic-flow-style-palette.png" style="width=100%;max-width:200px;height:auto;" alt="Set a new shape or connector style easily with the style palette in draw.io">
 
+If you are diagramming in [dark mode](/blog/dark-mode-diagrams.html), you'll see both a triangle for the light mode colour in the bottom right and the adapted colour for dark mode on top. By default, the editor [automatically adapts the colours](/blog/adaptive-colours.html) when you change to light or dark mode.
+<br /><img src="/assets/img/blog/basic-flow-style-palette-dark.png" style="width=100%;max-width:200px;height:auto;" alt="Set a new shape or connector style easily with the style palette in draw.io">
+
+
 ## Change the fill colour or add a gradient
 
 1. Click on the colour button next to _Fill_ to see the colour palette.
