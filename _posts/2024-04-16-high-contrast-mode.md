@@ -8,7 +8,7 @@ tags: [features]
 categories: [features]
 ---
 
-There are two new high contrast modes available in draw.io: _High Contrast_ makes the editor interface easier to read without adjusting your monitor's contrast settings, similar to the accessibility options in your operating system.
+The new high contrast mode is available in draw.io: _High Contrast_ makes the editor interface easier to read without adjusting your monitor's contrast settings, similar to the accessibility options in your operating system.
 <br /><img src="/assets/img/blog/high-contrast.gif" style="width=100%;max-width:500px;height:auto;" alt="High contrast simplifies the draw.io editor interface so that it is easier to read, and improve contrast updates the colours in dark mode to make diagrams easier to see on a dark background">
 
 High contrast mode simplifies and removes non-essential backgrounds and increases the definition between interface elements by adding clear outlines. You may find it is easier to read text and it can reduce eye strain. 
