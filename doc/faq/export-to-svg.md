@@ -27,3 +27,15 @@ If you want to add your exported SVG diagram to an online platform that does not
 If your viewer is displaying a warning in your diagram that the viewer doesn't support SVG 1.1, [export your diagram to SVG using different text settings](/doc/faq/svg-export-text-problems.html). 
 
 Alternatively, [export your diagram to a PDF file](/doc/faq/export-to-pdf.html), and convert that PDF to SVG via an SVG editor like Inkscape.
+
+## Adaptive colours in exported SVGs
+
+Colours in your draw.io diagram automatically adapt by default when you switch between light and [dark mode](/blog/dark-mode-diagrams.html). 
+
+The ``light-dark()`` function is used to define two colour values for each element in a diagram - one for light mode, and one for dark mode. SVG elements have a ``color-scheme: light dark`` CSS property. This means a static SVG will adapt to the color scheme of the operating system.  
+<br /><img src="/assets/img/blog/adaptive-colors-svg-export-comparison.png" style="width=100%;max-width:500px;height:auto;" alt="Change the adaptive colours settings on a diagram in draw.io via the Extras menu or the Style tab in the format panel when nothing is selected">
+<br />_The new SVG export is on the left, the old is on the right_
+
+**Note:** Diagrams exported to SVG from draw.io will show light colours as a fall-back for browsers that don't support ``light-dark()`` function. 
+
+[Learn more about adaptive colours in draw.io](/blog/adaptive-colours.html)

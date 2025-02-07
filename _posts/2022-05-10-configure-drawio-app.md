@@ -25,7 +25,7 @@ Administrator can configure these options in the draw.io app for Confluence Clou
 - [Set default draw.io shape libraries](#set-default-drawio-shape-libraries)
 - [Set up custom templates in Confluence Cloud](#set-up-custom-templates-in-confluence-cloud)
 
-**Tip:** Set ``"lockdown": true`` in the editor configuration to ensure data transmission is directly between the user's browser and the Atlassian Confluence or Jira instance (advanced edition only).
+**Tip:** Set ``"lockdown": true`` in the editor configuration to ensure data transmission is directly between the user's browser and the Atlassian Confluence or Jira instance.
 
 [Learn more about how the draw.io app helps your diagram data stay secure](/blog/data-governance-lockdown.html)
 
@@ -35,7 +35,7 @@ Edit the JSON string in the draw.io app configuration in the administration sect
 
 
 ### Set default colours 
-Add your own colours in the three colour palettes, including the shape styles at the top of the _Style_ tab in the format panel.
+Add your own light and dark mode colours in the three colour palettes, including the shape styles at the top of the _Style_ tab in the format panel.
 
 Define colours using hex codes, with the hash (``#``) character unless otherwise noted:
 * ``defaultColorSchemes:`` At the top of the _Style_ tab in the format panel.
