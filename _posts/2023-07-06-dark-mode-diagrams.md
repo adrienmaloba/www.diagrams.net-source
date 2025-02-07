@@ -23,7 +23,7 @@ To switch back, click on the moon icon and select _Light_, or _Settings > Appear
 
 Dark mode is available in [draw.io Desktop](https://get.diagrams.net/), our free online editor at [app.diagrams.net](https://app.diagrams.net/?splash=0&ui=dark), and in integrations such as the [unofficial draw.io extension for VSCode](https://www.drawio.com/blog/edit-diagrams-with-github-dev.html), and the [draw.io Chrome extension for Notion](https://www.drawio.com/blog/drawio-notion.html). 
 
-Dark mode will soon be available in [draw.io for Confluence Cloud](https://marketplace.atlassian.com/apps/1210933/draw-io-diagrams-for-confluence) and [Jira Cloud](https://marketplace.atlassian.com/apps/1211413/draw-io-diagrams-for-jira?hosting=cloud&tab=overview). 
+Dark is available in [draw.io for Confluence Cloud](https://marketplace.atlassian.com/apps/1210933/draw-io-diagrams-for-confluence) and [Jira Cloud](https://marketplace.atlassian.com/apps/1211413/draw-io-diagrams-for-jira?hosting=cloud&tab=overview), and diagram thumbnails and the draw.io editor will switch modes automatically when you switch between dark and light themes in Confluence or Jira. 
 
 ## Light and dark colours in draw.io
 
@@ -38,6 +38,14 @@ All of the style palette colours (in the Style tab of the format panel), and the
 
 **Dark mode palette colours**
 <br /><img src="/assets/img/blog/colour-test-dark-mode.png" style="width=100%;max-width:400px;height:auto;" alt="All the colours of the Style tab palettes and the global style in dark mode in draw.io">
+
+
+### Set specific colours for light and dark mode
+
+1. Select a shape or connector, and click on the _Fill_ or _Line_ colour block in the _Style_ tab of the format panel. For text colour, select the colour block in the _Text tab_ of the format panel. 
+2. The first value (default) is for light mode. Change this to a new hex colour code. 
+<br />By default, this will automatically shift hues to remain readable when someone views or edits the diagram in dark mode. 
+3. Expand _Advanced_ and enter a hex colour code for dark mode. Now, when you are in dark mode, the shape or connector will use this defined colour value instead of an automatic shifted hue.
 
 ### Exporting diagrams from dark mode
 

@@ -6,7 +6,9 @@ categories: [Features]
 ---
 
 You can set a coloured background instead of using the default transparent background, which will be  included when you print or export your diagram. 
-<br /><img src="/assets/img/blog/diagram-tab-background.png" style="width=100%;max-width:600px;height:auto;" alt="Change how the grid is displayed on the drawing canvas in draw.io"> 
+<br /><img src="/assets/img/blog/diagram-tab-background.png" style="width=100%;max-width:600px;height:auto;" alt="Change how the background is displayed on the drawing canvas in draw.io"> 
+
+The [background colour will automatically adapt](/blog/adaptive-colours.html) when using [dark mode](/blog/dark-mode-diagrams.html) - in the example, the automatic value for the light blue background colour is a dark blue. 
 
 **Set a background colour in the format panel**
 1. Ensure nothing is selected in your diagram to see the _Diagram_ tab in the format panel.

@@ -17,31 +17,32 @@ draw.io has had a [dark mode](/blog/dark-mode-diagram-editor.html) for some time
 
 ## Diagrams on dark backgrounds
 
-draw.io makes an intelligent guess about text and shape fill colours to keep your diagrams readable when you switch between dark and light. However, many styles in the palette have been designed for a light editor theme, and may not look good on a dark background (and vice versa).
+draw.io [makes an intelligent guess](/blog/adaptive-colours.html) about text and shape fill colours to keep your diagrams readable when you switch between dark and light. 
 
-As your team members can use their preferred dark or light theme, and the diagram thumbnail will match their theme, it's best to double check that your diagram is legible in both. 
+As your team members can use their preferred dark or light theme, and the diagram thumbnail will match their theme, it's best to double check that your diagram is easy to read in both dark and light mode. 
 
 1. Click on the _Edit_ pencil in the toolbar when you hover over diagram thumbnail in a Jira issue to edit it with draw.io. If you don't see this section, click on the draw.io section at the top. 
 <br /><img src="/assets/img/blog/jira-cloud-edit-diagram.png" style="width=100%;max-width:400px;height:auto;" alt="Click on the edit button when hovering over a diagram in a Jira issue to open it in draw.io">
-2. Click on the sun or moon in the top right to switch to the opposite theme - either _Dark_ or Light_ - and check that your diagram is still readable on that background. 
+1. Click on the sun or moon in the top right to switch to the opposite theme - either _Dark_ or Light_ - and check that your diagram is still readable on that background. 
 <br /><img src="/assets/img/blog/drawio-switch-dark-light.gif" style="width=100%;max-width:400px;height:auto;" alt="Click on the sun or moon in the top right of the draw.io editor to change the editor mode to dark or light">
 
 Choose _Automatic_ to make the draw.io editor automatically match your operating system's mode (dark mode or light mode).
 
 **Note:** Switching to dark or light mode in the draw.io editor will not affect the thumbnail on the Jira issue - whether it appears on a dark or light background is based on the Jira theme that the user looking at the issue has chosen.
 
-
 To use draw.io in dark mode on the web, go to [app.diagrams.net/?splash=0&ui=dark](app.diagrams.net/?splash=0&ui=dark), or switch modes via the sun/moon icon in the top right or via the draw.io menu.
 
+## Set specific colours in a diagram
 
-## Set a background colour in a diagram
+Colours in certain types of diagrams may have specific meanings - if you change their colours when adapting to dark mode, the diagram might not make sense.
 
-If you want your diagram to only ever be on a dark or a light background, and not switch to match the user's Jira Cloud theme, you'll need to set a background colour. 
+If you want your diagram to only ever be on a dark or a light background and not automatically adapt colours to match the user's Jira Cloud theme, you'll need to set a background colour, as well as a specific colours for both light and dark modes on the shapes, connectors and text in your diagram.
 
 1. Open the diagram from the Jira issue in the draw.io editor.
 2. Make sure nothing is selected in your diagram, then enable the _Background_ checkbox in the _Diagram_ tab in the format panel.
-3. Click on the colour button, select a colour from the palette or enter a colour code, and click _Apply_. 
+3. Click on the colour button, select a colour from the palette or enter a colour code, and click _Apply_. Open the _Advanced_ drop down and set the same colour as the dark mode background colour. 
 <br /><img src="/assets/img/blog/jira-cloud-set-background-colour.png" style="width=100%;max-width:400px;height:auto;" alt="Adding a diagram background ensures your diagram looks the same in both Jira's light and dark themes">
+4. Style the shapes and connectors via the _Fill_ and _Line_ colours in the _Style_ tab. Make sure you set both the light colour at the top, and the dark mode colour (under _Advanced_). Style all text labels via the _Text_ tab.
 
-This background colour is displayed in the diagram thumbnail in the Jira issue in both Jira's dark and light themes.
+Now, your diagram will use your defined colours in both dark and light mode. 
 <br /><img src="/assets/img/blog/jira-cloud-diagram-with-background-colour.png" style="width=100%;max-width:300px;height:auto;" alt="Adding a diagram background ensures your diagram looks the same in both Jira's light and dark themes">
