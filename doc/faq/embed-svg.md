@@ -17,7 +17,7 @@ You can embed the SVG markup of your diagram in web pages, or services such as B
       * **Layers:** Specifies whether individual layers can be shown or hidden in the lightbox.
     <br /><img src="/assets/img/blog/embed-svg.png" style="width=100%;max-width:300px;height:auto;" alt="Options available when you export your diagram to embeddable SVG markup">
 3. Click _Embed_.
-4. The SVG markup will be displayed in the following dialog, already selected. Click _Copy_, then paste it into your web page. Or click _Download_ to download this as a text file.
+4. The SVG markup will be displayed in the following dialog, already selected. Copy this, then paste it into your web page. Or click _Download_ to download this as a text file.
 <br /><img src="/assets/img/blog/embed-svg-copy.png" style="width=100%;max-width:450px;height:auto;" alt="Copy the embeddable SVG markup into your HTML page">
 
 ## Limitations

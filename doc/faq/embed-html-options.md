@@ -13,12 +13,14 @@ The HTML markup requires a remote script to be loaded to render the diagram in t
 
 * **Include a copy of my diagram**: Includes the XML copy of your diagram by default.
 * **Public URL of the diagram**: Uses the public URL to load the diagram, if available.
-* **Link**: Specifies how to open links (``automatic`` means relative links and anchors open in the same window).
+* **Links**: Specifies how to open links (``automatic`` means relative links and anchors open in the same window).
 * **Border Color**: Sets the highlight colour for the border of shapes with links.
+* **Appearance**: Allows you to force the diagram to display in dark or light mode (default is _Automatic_).
 * **Zoom**: Specifies whether the viewer should have a toolbar with a zoom feature and an initial zoom value (default is 100%).
-* **Link**: Highlights shapes with links in the given colour (default is ``#0000ff``).
 * **Fit**: Adjusts the diagram to fill the available width of the page or container.
+* **All Pages**: Choose whether to include all pages of a multi-page diagram, or just the current page. 
 * **Layers**: Specifies whether individual layers can be shown or hidden in the viewer and lightbox.
+* **Tags**: Specifies whether individual tags can be shown or hidden in the viewer and lightbox.
 * **Lightbox**: Opens the diagram in a new tab or using the built-in lightbox.
 * **Show Edit Button**: Shows an _Open in new window_ button in the lightbox.
 
