@@ -47,10 +47,10 @@ JPEG image files cannot contain your diagram data - only an image version of the
 **Export as a WebP**
 
 WebP image files cannot contain your diagram data - only an image version of the page you are exporting.
-   * Change the [WebP export options](/doc/faq/export-to-WebP.html) to suit your requirements.
+   * Change the [WebP export options](/doc/faq/export-to-webp.html) to suit your requirements.
    * If you only want to export the shapes and connectors that are currently selected, enable the _Selection only_ checkbox.
-   <br /><img src="/assets/img/blog/export-webp-options.png" style="width=100%;max-width:200px;height:auto;" alt="Choose the export settings for the JPEG image">
-
+   <br /><img src="/assets/img/blog/export-webp-options.png" style="width=100%;max-width:200px;height:auto;" alt="Choose the export settings for the WebP image">
+   
 **Export as a SVG**
 
 SVG images can include your diagram data, as well as any links you've added to shapes.

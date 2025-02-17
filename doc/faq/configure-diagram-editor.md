@@ -251,6 +251,9 @@ This configuration produces the following _More Shapes_ dialog when combined wit
 
 * ``enableCssDarkMode``: Specifies if CSS should be used for [dark mode](/blog/dark-mode-diagrams.html). Default is ``true``. Deprecated in 26.0.0. Use ``defaultAdaptiveColors`` instead. If this is set to ``true`` then ``defaultAdaptiveColors`` will be set to ``simple``. This is ignored if ``defaultAdaptiveColors`` is specified.
 
+* ``enableLightDarkColors``: Specifies if the light-dark color function should be used for colors. Default is ``true`` if the
+browser supports it.
+
 * ``replaceSvgDataUris``: Specifies if data URIs should be replaced with SVG sub-trees in SVG export. Default is ``true``.
 
 * ``foreignObjectImages``: Specifies if foreignObject alternate content should be replaced with an image of the HTML text. Default is ``true``.

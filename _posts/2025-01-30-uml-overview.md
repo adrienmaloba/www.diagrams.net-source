@@ -285,7 +285,7 @@ Interaction diagrams are closely related to [activity](/blog/uml-activity-diagra
 
 **AI generation?**  Not feasible. Interaction overview diagrams are typically drawn after the activity diagrams have been completed, showing how each activity interacts with each other and how control flows between them.
 
-[<img src="/assets/img/blog/interaction-overview-example.png" style="width=100%;max-width:500px;height:auto;" alt="An example communication diagram with an embedded sequence diagram for using a library in various ways">](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&page=1&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fuml-interaction-overview-example.drawio)
+[<img src="/assets/img/blog/interaction-overview-example.png" style="width=100%;max-width:500px;height:auto;" alt="An example interaction overview diagram with an embedded sequence diagram for using a library in various ways">](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&page=1&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fuml-interaction-overview-example.drawio)
 
 **Tip:** Use an interaction overview as the first page of your [multi-page diagram in draw.io](/blog/multiple-page-diagrams.html), and add a link from each interaction to the page where that activity or sequence diagram is drawn.
 
