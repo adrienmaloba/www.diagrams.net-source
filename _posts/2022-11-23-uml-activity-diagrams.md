@@ -20,7 +20,11 @@ _Activity diagrams_ show the flow of control in a process - the order of executi
 
 They are similar to [basic flowcharts](/doc/getting-started-basic-flow-chart.html) and are easy to draw and read. 
 
-**Enable the UML shape libraries**
+**Activities in interaction overview diagrams** 
+
+Activity diagrams are often used as part of [interaction overview diagrams](/blog/uml-interaction-overview.html. Store all of the diagrams in one [multi-page diagram](/blog/multiple-page-diagrams.html) and link from the overview page to each detailed activity or sequence diagram.
+
+## Enable the UML shape libraries
 
 Go to [our online version of draw.io](https://app.diagrams.net) or open the draw.io desktop app or any of our integrations to create a new activity diagram.
 

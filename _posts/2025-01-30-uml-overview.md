@@ -289,6 +289,8 @@ Interaction diagrams are closely related to [activity](/blog/uml-activity-diagra
 
 **Tip:** Use an interaction overview as the first page of your [multi-page diagram in draw.io](/blog/multiple-page-diagrams.html), and add a link from each interaction to the page where that activity or sequence diagram is drawn.
 
+See how to [draw interaction overview diagrams in draw.io](/blog/uml-interaction-overview.html)
+
 [_Back to top_](#list-of-uml-diagrams)
 
 ## Are AI-generated UML diagrams viable?
