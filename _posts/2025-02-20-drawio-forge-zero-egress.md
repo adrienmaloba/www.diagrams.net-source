@@ -2,7 +2,7 @@
 layout: post
 author: draw.io
 slug: drawio-forge-zero-egress
-date: 2040-11-04 09:54:00
+date: 2025-02-20 09:54:00
 title: draw.io zero-egress Forge apps for Confluence and Jira 
 tags: [features, Atlassian]
 categories: [features,atlassian]
