@@ -125,7 +125,9 @@ Refer to [this overview of UML diagrams](/blog/uml-overview.html) for all of the
 
 There are three other types of interaction diagrams.
 
-**Interaction overview diagrams** - A higher level diagram that is closer to an activity diagram. Each activity is surrounded by a frame shape, which may contain a sequence diagram or another type of interaction diagram.
+**Interaction overview diagrams** - A higher level diagram that is closer to an activity diagram. Each activity is surrounded by a frame shape, which may contain a sequence diagram or another type of interaction diagram. 
+
+Use a [multi-page diagram](/blog/multiple-page-diagrams.html) to store all the sequence diagrams with the [interaction overview diagram](/blog/uml-interaction-overview.html), and link from the overview page to each detailed sequence.
 
 **Communication diagrams** - Also known as collaboration diagrams, are an alternative view of sequence diagrams, looking more like a flowchart.
 
