@@ -273,7 +273,7 @@ only on app.diagrams.net.
 
 ## Additional options for Confluence Server and Data Center
 
-* ``inplaceedits``: Disables the ability to launch the diagram editor from the viewer if set to ``false``. The default is ``true`` (8.3.13 and later).
+* ``inplaceEdits``: Disables the ability to launch the diagram editor from the viewer if set to ``false``. The default is ``true`` (8.3.13 and later).
 
 * ``forceSimpleViewer``: Forces simple diagram viewer for every diagram if set to ``true``. The default is ``false`` (8.4.0 and later).
 
