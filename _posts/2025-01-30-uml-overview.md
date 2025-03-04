@@ -267,6 +267,8 @@ Timing diagrams should match their related [state machine diagrams](/blog/uml-st
 
 **AI generation?** Not feasible as this diagram shows specific time constraints and the low-level details of a system.
 
+See how to [draw a timing diagram in draw.io](/blog/timing-diagrams.html)
+
 [<img src="/assets/img/blog/uml-timing-example-invisible-waypoints.png" style="width=100%;max-width:500px;height:auto;" alt="An example timing diagram where the waypoint shapes have been made invisible to look neater">](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&page=0&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fuml-timing-example.drawio)
 
 **Tip:** Use [waypoint shapes](/blog/waypoint-shape.html) at each timing point and draw connectors between them. Select all the waypoint shapes when you are finished and make them invisible by deselecting _Line_ in the _Style_ tab of the format panel.
