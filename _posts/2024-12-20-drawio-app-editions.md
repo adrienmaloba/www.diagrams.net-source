@@ -18,7 +18,6 @@ If you sign up for the new early access programme for app Editions in the Atlass
 
 * The _Advanced edition_ of draw.io for Atlassian Cloud products is for _large enterprise customers_ who require advanced support and stricter data security. Along with the fully featured draw.io app from the Standard edition, you will receive the following additional support: 
    * Extended support hours and shorter initial response times. 
-   * Additional support for the online version of the draw.io editor at [app.diagrams.net](https://app.diagrams.net) as well as [draw.io desktop](https://get.diagrams.net/) (when using Google Drive). 
    * A dedicated account manager as your single point of contact for enquiries.
    * Custom security reviews for compliance submissions. 
    * Access to development feature previews. 

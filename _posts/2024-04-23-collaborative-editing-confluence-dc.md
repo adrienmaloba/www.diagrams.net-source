@@ -50,7 +50,7 @@ Also, you can shorten the time between auto-saving the diagram. A shorter interv
 
 1. Go to the administration area of your Confluence DC instance. 
 2. Go to the _Configuration_ tab in the _draw.io Add-on Configuration_ section. 
-3. Add the following lines to the _Add-on Configuration_ text field: ``pollingInterval=10000`` and ``maxAutoSaveDelay=5000``
+3. Add the following lines to the _Add-on Configuration_ text field: ``pollingInterval=10000`` and ``maxAutosaveDelay=5000``
 4. Click _Save changes_ to update the draw.io configuration.
 <br /><img src="/assets/img/blog/confluence-dc-polling-interval.png" style="width=100%;max-width:400px;height:auto;" alt="Set a faster polling interval for collaborative editing in Confluence DC 8.x via the app configuration in your Confluence administration">
 
