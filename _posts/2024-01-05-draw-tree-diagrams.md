@@ -49,7 +49,7 @@ You can draw tree diagrams even faster in draw.io in a number of ways.
 <br /><img src="/assets/img/blog/insert-from-text-tree-diagram1.png" style="width=100%;max-width:400px;height:auto;" alt="Insert text to create a tree diagram ">
 <br />**Tip:** Create fancier org charts with pictures and links by [inserting CSV text and diagram formatting information](/blog/org-charts#create-an-org-chart-from-csv-data).
 
-**Use an automatic layout shape:** Add a [tree diagram layout shape](blog/automated-layout-shapes.html) from the _Advanced_ shape library. Hover over any shape and click a left or right direction arrow to add a sibling node, or the down arrow to add a child node. The layout shape will expand to fit your tree, and automatically space the nodes evenly. 
+**Use an automatic layout shape:** Add a [tree diagram layout shape](/blog/automated-layout-shapes.html) from the _Advanced_ shape library. Hover over any shape and click a left or right direction arrow to add a sibling node, or the down arrow to add a child node. The layout shape will expand to fit your tree, and automatically space the nodes evenly. 
 <br /><img src="/assets/img/blog/automatic-layout-tree.gif" style="width=100%;max-width:500px;height:auto;" alt="Click on the directional arrows that appear when you hover over a shape to clone and connect a new shape inside of a container layout shape">
 <br />**Tip:** You can automatically layout your diagram via the menu too - click _Arrange > Insert > Layout_ to use the layout dialog to build your tree
 
@@ -61,6 +61,6 @@ You can draw tree diagrams even faster in draw.io in a number of ways.
 
 Use a [smart diagram template to generate a tree diagram](/blog/smart-diagram-generation.html) from a natural language description that you can then modify as required. 
 
-To keep many branches coming from one node neatly organised, use a [waypoint shape as an intermediate connection point](blog/waypoint-shape.html).
+To keep many branches coming from one node neatly organised, use a [waypoint shape as an intermediate connection point](/blog/waypoint-shape.html).
 
-Have a look at our earlier posts for more details about specific types of tree diagrams: [organisation charts](https://www.drawio.com/blog/org-charts.html) and [sentence trees](/blog/sentence-trees.html).
+Have a look at our earlier posts for more details about specific types of tree diagrams: [organisation charts](/blog/org-charts.html) and [sentence trees](/blog/sentence-trees.html).
