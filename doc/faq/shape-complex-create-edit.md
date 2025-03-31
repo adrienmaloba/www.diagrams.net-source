@@ -12,7 +12,7 @@ draw.io has a large library of pre-built shapes, but it also lets you embed your
 
 You can create your own custom shapes in draw.io by describing their geometry, connection points and styles in an XML format. The basic draw.io shapes use XML. Select _Arrange > Insert > Shape_ from the draw.io menu  to open the _Edit Shape_ dialog where you can see the XML structure of the shape.
 
-<img src="/assets/img/blog/custom-shape-example-code.png" style="width=100%;max-width:300px;height:auto;" alt="A complex custom shape and its code, created in draw.io">
+<img src="/assets/img/blog/custom-shape-example-code.png" style="max-width:300px;height:auto;" alt="A complex custom shape and its code, created in draw.io">
 
 [See how to create this basic custom shape](/doc/faq/custom-shapes.html)
 
@@ -25,7 +25,7 @@ You can create your own custom shapes in draw.io by describing their geometry, c
 
 At the end of this page you'll find the XML to create the example used below. Copy and paste this XML into the _Edit Shape_ dialog via _Arrange > Insert > Shape_ in [draw.io online](https://app.diagrams.net/), and click _Preview_ to see [how more complex shapes are constructed in XSD](https://jgraph.github.io/mxgraph/docs/stencils.xsd).
 
-<img src="/assets/img/blog/edit-shape-dialog-complex-shape.png" style="width=100%;max-width:300px;height:auto;" alt="A complex custom shape and its code, created in draw.io">
+<img src="/assets/img/blog/edit-shape-dialog-complex-shape.png" style="max-width:300px;height:auto;" alt="A complex custom shape and its code, created in draw.io">
 
 Use the reference below to see how each custom shape element is defined and the order in which you need to nest these elements.
 
@@ -84,7 +84,7 @@ For font styling, the following elements are used:
 ### Custom Colors
 User-defined custom colors can be defined in the cell style and used in stencils. The `fillColorStyles` and `strokeColorStyles` contain a comma-separated list of style names, eg. `fillColorStyles=ellipseFill,rectangleFill;`. The user can select colors for these styles using the color picker in the style panel:
 
-<img src="/assets/img/blog/shape-custom-colors.png" style="width=100%;max-width:300px;height:auto;" alt="Color picker for custom colors in the style panel">
+<img src="/assets/img/blog/shape-custom-colors.png" style="max-width:300px;height:auto;" alt="Color picker for custom colors in the style panel">
 
 These colors are then be referenced in stencil XML by using the respective style name in the `color` attribute, eg. `<fillcolor color="ellipseFill" />`.
 
@@ -143,7 +143,7 @@ Attributes are:
 
 ## Example complex custom shape
 
-<img src="/assets/img/blog/edit-shape-dialog-complex-shape.png" style="width=100%;max-width:300px;height:auto;" alt="A complex custom shape and its code, created in draw.io">
+<img src="/assets/img/blog/edit-shape-dialog-complex-shape.png" style="max-width:300px;height:auto;" alt="A complex custom shape and its code, created in draw.io">
 
 This complex custom shape is represented by the following XML code. Copy and paste this XML into the _Edit Shape_ dialog via _Arrange > Insert > Shape_ in [our online editor](https://app.diagrams.net/), then click _Preview_.
 
