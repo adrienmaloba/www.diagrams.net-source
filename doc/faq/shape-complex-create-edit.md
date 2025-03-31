@@ -81,6 +81,17 @@ For font styling, the following elements are used:
 * ``<fontstyle> ``- an ORed bit pattern that indicates bold (1), italic (2) and underline (4). For example, _bold underline_ is defined by the value ``"5"``.
 * ``<fontfamily>`` - a string that defines the typeface to be used.
 
+### Custom Colors
+User-defined custom colors can be defined in the cell style and used in stencils. The `fillColorStyles` and `strokeColorStyles` contain a comma-separated list of style names, eg. `fillColorStyles=ellipseFill,rectangleFill;`. The user can select colors for these styles using the color picker in the style panel:
+
+<img src="/assets/img/blog/shape-custom-colors.png" style="width=100%;max-width:300px;height:auto;" alt="Color picker for custom colors in the style panel">
+
+These colors are then be referenced in stencil XML by using the respective style name in the `color` attribute, eg. `<fillcolor color="ellipseFill" />`.
+
+Any color can be referenced in any color directive, with the `default` keyword for `fillcolor` resolving to `shapeBackgroundColor` and `shapeForegroundColor` for all other colors.
+
+[Example](https://draw.io/#R%3Cmxfile%3E%3Cdiagram%20name%3D%22Seite-1%22%20id%3D%22gUHTMNNLZZwGmcybP8rU%22%3EjZRdc6owEIZ%2FjTPtRWeQqNRL%2BVLsUVT85C5AIJFAKERBf%2F0JBWttT2dOBobNk91NSPZNB2hJNc5hhmcsQLQjS0HVAXpHlrtSTxGfmlwaMpTkBkQ5CRok3YFDrugW2dITCVDRsgZxxign2SP0WZoinz8wmOesfHQLGQ0eQAYj9AM4PqQ%2F6Y4EHDf0VVbufIJIhG8zdwfDZiSBN%2Bf2TwoMA1Z%2BQcDoAC1njDdWUmmI1pv3uC%2FmL6OfC8tRyv8nIB0Bx97SwYDY1g7GA3O%2F2b60Wc6QntofbhfLL7cdEOvOarPgKPUJfeLuiuvMKnXLXRTKMCkm0SgClrq%2BatXl9Me%2F6K7pyUM8q0xpOSpjdW4t0rzHA2tF%2BWm5jafODo%2B704TATQ8DfkqC606a4PNiYR%2FRaKKt%2ByQNjP37bL9SD%2B5yujrihBw9w8vV1HbJDo63S3ZcXtIDmYCx4cNJuQ%2FzsjDFalXZM977ptgFNVrG5OyiWMD9uoC5NLNNanlVqGyPgingnI72%2Fn66wcPTPNUvi75LB1Y6BFqpvNrTy%2Fz8nhyFp2mmlrPBrgeZnYSeI%2BuzN8U20reZroTrzOoX64nIF4hXPGfxFoOd5U%2BdQj9UUt8QwBwF4xWPzbdNEE%2FXYaH5viWwpmKC547rXoNMt%2BVRHesd0FleAT1Dzx2glphw5GTQrw%2BgFAoTDPOEil5XmCGhVGOU5U59XHWliyMXykAmqY9ey4UiYBrRpg%2FUgucsRv%2BMcD6GhM%2B3vh6gEJ6oqDD1Wzad1mX%2FEsA8furIwBSt3xOTClsSzTSf79naiHuutuxQzlH1az13P1UirhfEEsTzi3BpA0A9Wx3S3ixduVVeeddp9yY%2B%2FFWjNwjbuyH6zH2XjzBaBd26d6V%2BjH2574DxFw%3D%3D%3C%2Fdiagram%3E%3C%2Fmxfile%3E)
+
 ### Drawing
 Most of the drawing (the lines inside the shape) is contained within a ``<path>`` element. The graphic primitives used by mxGraph in draw.io are very similar to that of HTML 5 Canvas.
 * ``<move>`` - to attributes, required decimals ``(x,y)``.
