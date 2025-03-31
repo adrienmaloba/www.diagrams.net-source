@@ -73,16 +73,6 @@ When you export your diagram to a PDF file, you can include a copy of your diagr
 
 **Tip:** If _File > Export as > PDF_ throws an error, you can try _File > Print_, click on _All Pages_ then on _Print_.  Finally, in the printer settings dialog that appears, choose _Print to PDF_ or _Save as PDF_.
 
-## Export to a VSDX file
-
-1. Select _File > Export As > VSDX (beta)_.
-2. Enter a _Filename_, then click on one of the save locations, or click _Download_ to save the .vsdx file to your device.
-<br /><img src="/assets/img/blog/export-vsdx-options.png" style="width=100%;max-width:200px;height:auto;" alt="Export your diagram as a VSDX, and choose where to save the exported VSDX file">
-
-Depending on your browser, you may be prompted to open it with a default program, or simply save the file.
-
-**Note:** Images in your diagram, such as clipart, may not be embedded in the ``.vsdx`` file.
-
 ## Export to HTML
 
 You can embed a diagram in a web page or in any online platform that can render HTML.

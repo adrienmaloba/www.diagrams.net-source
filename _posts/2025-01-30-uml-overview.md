@@ -251,6 +251,8 @@ See how to [draw a sequence diagram in draw.io](/blog/sequence-diagrams.html)
 
 **AI generation?** Not feasible as they include specific elements of a planned or implemented system and are typically drawn after the sequence diagrams have been finalised.
 
+See how to [draw a communication diagram in draw.io](/blog/communication-diagrams.html)
+
 [<img src="/assets/img/blog/communication-diagram-example.png" style="width=100%;max-width:500px;height:auto;" alt="An example communication diagram of the sequence diagram above">](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&page=0&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fuml-communication-example.drawio)
 
 [_Back to top_](#list-of-uml-diagrams)
