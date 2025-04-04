@@ -3,25 +3,28 @@ layout: post
 author: draw.io
 slug: simple-mode-diagrams
 date: 2022-12-20 12:24:00
-title: New simple mode for the diagram editor
+title: New Simple editor theme for draw.io
 tags: [features]
 categories: [features]
 ---
 
-With the new Simple mode for draw.io, we have redesigned the diagram editor to combine the fixed panels and page tabs from the original diagram editor layout, the responsive toolbar from the Minimal [editor theme](/doc/faq/editor-theme-change.html), and the menu and shape picker from the [Sketch whiteboard](sketch-online-whiteboard.html)-like theme.
+With the new Simple editor theme for draw.io, we have redesigned the diagram editor to combine the fixed panels and page tabs from the original diagram editor layout, the responsive toolbar from the Minimal [editor theme](/doc/faq/editor-theme-change.html), and the menu and shape picker from the [Sketch whiteboard](sketch-online-whiteboard.html)-like theme.
 <br /><img src="/assets/img/blog/simple-mode.png" style="width=100%;max-width:600px;height:auto;" alt="The draw.io simple mode has a simpler toolbar which integrates the menu">
 
-_Simple mode will become the default editor mode sometime early in 2023._
+## Switch to the Simple editor theme
 
-## Switch to simple mode now
+Select _Extras > Theme > Simple_ from the draw.io menu. The draw.io editor will switch immediately to the simple mode toolbar.
 
-Click on the sun/moon in the far right of the toolbar, and select _Simple_. The draw.io editor will switch immediately to the simple mode toolbar.
 Hide the format panel and shapes panel in simple mode for a large, distraction-free drawing canvas.
 <br /><img src="/assets/img/blog/simple-mode-switch.gif" style="width=100%;max-width:600px;height:auto;" alt="Draw a freehand shape in your diagram via the toolbar in simple mode in draw.io">
 
-## Simple mode toolbar
+If you are using the Sketch editor theme, click on the three horizontal lines to open the draw.io menu. If you are using the Minimal editor theme, click on _Diagram_. Then select _Settings > Theme > Simple_ and reload your browser tab to switch to the new Simple theme. 
+<br /><img src="/assets/img/blog/sketch-settings-appearance.png" style="width=100%;max-width:400px;height:auto;" alt="Switch between dark and light modes via the draw.io menu under Settings > Appearance">
 
-The tools and menu in the simple mode toolbar (in the image below) are described in the next section, with links to further information about their function.
+
+## Simple editor toolbar
+
+The tools and menu in the Simple editor toolbar (in the image below) are described in the next section, with links to further information about their function.
 <br /><img src="/assets/img/blog/simple-mode-toolbar.png" style="width=100%;max-width:600px;height:auto;" alt="The draw.io simple mode has a simpler toolbar which integrates the menu">
 
 **Tip:** Hover over any of the tools or text to see a tooltip.
@@ -35,12 +38,11 @@ Alternatively, hide or display just the format panel via _Format_ at the right e
 Zoom in and out of your diagram or fit it to the browser window using the drop-down list at the left end of the toolbar. 
 <br /><img src="/assets/img/blog/simple-mode-zoom.png" style="width=100%;max-width:300px;height:auto;" alt="Change the zoom level via the drop down list on the toolbar in simple mode in draw.io">
 
-Work with [multiple-page diagrams](/blog/multiple-page-diagrams.html) via the _Pages_ tool.
+Work with [multiple-page diagrams](/blog/multiple-page-diagrams.html) via the _Pages_ tool, and via the page tabs at the bottom left of the editor.
 * Insert a new blank page or duplicate the current page. 
 * Rename, remove or move the current page.
 * Open just this diagram page in a new browser tab.
-* Create a link to this diagram page that when shared will open it in our free diagram viewer.
-<br /><img src="/assets/img/blog/simple-mode-pages.png" style="width=100%;max-width:200px;height:auto;" alt="Work with multi-page diagrams via the Pages tool in the toolbar in simple mode in draw.io">
+<br /><img src="/assets/img/blog/simple-mode-pages.png" style="width=100%;max-width:300px;height:auto;" alt="Work with multi-page diagrams via the Pages tool in the toolbar in simple mode in draw.io"> <img src="/assets/img/blog/simple-mode-page-tabs.png" style="width=100%;max-width:300px;height:auto;" alt="Work with multi-page diagrams via the page tabs in the bottom left of the draw.io editor">
 
 Once you have made changes to a diagram, click on _Undo_ to undo an edit. Click on _Redo_ to apply the change again.
 <br /><img src="/assets/img/blog/simple-mode-undo-redo.gif" style="width=100%;max-width:400px;height:auto;" alt="Undo or redo edits to your diagram via the toolbar in simple mode in draw.io">
@@ -70,7 +72,7 @@ Click on the ``+`` in the middle to insert specific shapes, an image, a template
 ### Share or publish your diagram
 
 Click on _Share_ (a person with a plus) in the toolbar and select _Share_ to share your diagram with colleagues if you have stored it in Google Drive or Microsoft One Drive. 
-<br /><img src="/assets/img/blog/simple-mode-share.png" style="width=100%;max-width:300px;height:auto;" alt="Click on the ... to open the menu in draw.io in simple mode">
+<br /><img src="/assets/img/blog/simple-mode-share.png" style="width=100%;max-width:400px;height:auto;" alt="Click on the ... to open the menu in draw.io in simple mode">
 
 Select _Publish_, choose the settings you want to use and click _Create_ to generate a link with your diagram data encoded into it. You can share this (long) link and the recipient will open a copy of the diagram in either the viewer or the editor, depending on the the publish settings you selected. 
 <br /><img src="/assets/img/blog/simple-mode-publish.gif" style="width=100%;max-width:600px;height:auto;" alt="Work with cross-functional tables via the toolbar or the Arrange tab in the format panel in simple mode in draw.io">
@@ -82,8 +84,8 @@ Click on ``...`` (three dots) at the right end of the toolbar to open the settin
 
 ### Switch to dark mode
 
-Click on the sun/moon in the far right of the toolbar and enable _Dark_ to switch to dark mode. Alternatively, select _Automatic_ to match your browser or operating system settings for dark/night mode.
-<br /><img src="/assets/img/blog/mode-switch-dark.png" style="width=100%;max-width:200px;height:auto;" alt="Click on the sun/moon in the draw.io simple mode toolbar and select Dark to switch the editor to dark mode">
+Open the menu and select _Settings > Appearance > Dark_.
+<br /><img src="/assets/img/blog/simple-settings-appearance.png" style="width=100%;max-width:300px;height:auto;" alt="Switch between dark and light modes via the draw.io menu under Settings > Appearance">
 
 
 **Tip:** Many diagrams in the template diagram will also work in dark mode - click on the magnifying glass in the top right of a diagram in the [template library](/blog/template-diagrams.html) to see how it looks in dark mode.
@@ -93,6 +95,3 @@ Click on the sun/moon in the far right of the toolbar and enable _Dark_ to switc
 
 If you have not selected a location to store your diagram file, once you make any changes, a warning will be displayed in the toolbar. Click on it and select a storage location to save your diagram. 
 <br /><img src="/assets/img/blog/simple-mode-unsaved-changes.png" style="width=100%;max-width:600px;height:auto;" alt="Click on the unsaved changes warning in the toolbar draw.io in simple mode to choose a location to store your diagram file">
-
-If there is news about draw.io, click on the bell to see these notifications. This won't be displayed when there are no new notifications.
-<br /><img src="/assets/img/blog/simple-mode-notifications.png" style="width=100%;max-width:200px;height:auto;" alt="Click on the bell in the toolbar in draw.io in simple mode to see any notifications">
