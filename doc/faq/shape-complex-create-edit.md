@@ -86,7 +86,7 @@ User-defined custom colors can be defined in the cell style and used in stencils
 
 <img src="/assets/img/blog/shape-custom-colors.png" style="max-width:300px;height:auto;" alt="Color picker for custom colors in the style panel">
 
-These colors are then be referenced in stencil XML by using the respective style name in the `color` attribute, eg. `<fillcolor color="ellipseFill" />`.
+These colors are then referenced in stencil XML by using the respective style name in the `color` attribute, eg. `<fillcolor color="ellipseFill" />`.
 
 Any color can be referenced in any color directive, with the `default` keyword for `fillcolor` resolving to `shapeBackgroundColor` and `shapeForegroundColor` for all other colors.
 

@@ -40,4 +40,6 @@ You can set a specific page and layers to be displayed in the Simple Viewer when
 
 ## Related
 
+[Disable the simple viewer on a draw.io diagram in Confluence](/doc/faq/confluence-simple-viewer-disable.html)
+
 [Disable the Lightbox on a draw.io diagram in Confluence Cloud](/doc/faq/confluence-cloud-lightbox-disable.html)
