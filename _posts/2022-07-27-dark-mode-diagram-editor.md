@@ -15,13 +15,12 @@ Go to our online diagram editor with the ``dark`` URL parameter at [app.diagrams
 
 ## Switch to dark mode
 
-1. Click on the sun/moon icon in the top right of the editor. 
-<br /><img src="/assets/img/blog/mode-switch-simple.png" style="width=100%;max-width:300px;height:auto;" alt="Click on the sun/moon in the top right and switch between the four different classic editor themes and the simple mode, as well as between dark and light modes">
-1. Click on _Dark_ to switch to dark mode in whatever editor theme you are using. Click on it again to return to light mode. 
+In the draw.io menu, select _Settings > Appearance > Dark_.
+<br /><img src="/assets/img/blog/simple-settings-appearance.png" style="width=100%;max-width:300px;height:auto;" alt="Switch between dark and light modes via the draw.io menu under Settings > Appearance">
 
 **Tip:** _Automatic_ should reflect your operating system or browser settings automatically (when they are set to dark mode).
 
-If you are using the [simplified Sketch editor theme](/blog/sketch-online-whiteboard.html), switch between dark and light mode via the menu: _Settings > Appearance > Dark_
+If you are using the Classic editor theme, select _Extras > Appearance > Dark_.
 
 ## Diagramming in dark mode
 
