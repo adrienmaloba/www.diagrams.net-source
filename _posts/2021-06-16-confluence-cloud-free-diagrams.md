@@ -97,7 +97,7 @@ If you have started a free trial in your team of more than 10 users and let the 
 * Use the collaborative editing functionality to simultaneously edit a diagram with your teammates.
 * Work with the diagram file's revision history. 
 * Display an older version of the diagram when viewing a page.
-* Import PlantUML or Mermaid code to automatically create a diagram. 
+* Import Mermaid code to automatically create a diagram. 
 * Import CSV data with formatting options to automatically create a diagram.
 * Embed diagrams from cloud storage platforms (Google Drive and Microsoft OneDrive).
 <br /><img src="/assets/img/blog/embed-diagrams-confluence-cloud.png" style="width=100%;max-width:500px;height:auto;" alt="Embedded diagrams in draw.io for Confluence Cloud">

@@ -8,7 +8,7 @@ tags: [security]
 categories: [integrations, trust, features]
 ---
 
-Run your own diagramming server using our Docker image of draw.io. This image includes server-side support for export to PDF, image and .vsdx formats, diagram storage with Google Drive, OneDrive and [PlantUML diagram generation](/blog/plantuml-mindmaps-from-text.html), without any dependency on the draw.io servers.
+Run your own diagramming server using our Docker image of draw.io. This image includes server-side support for export to PDF, image and .vsdx formats, diagram storage with Google Drive and OneDrive, without any dependency on the draw.io servers.
 <br /><img src="/assets/img/blog/dockerhub-drawio.png" style="width=100%;max-width:400px;height:auto;" alt="The draw.io desktop app works on MacOS, Windows and Linux">
 
 There are many reasons that a SaaS application is not the right choice and companies prefer to run their own environment, where all of their data and applications are kept behind a firewall for maximum security. Containerised software applications are isolated from their environment, inherently providing better security. 

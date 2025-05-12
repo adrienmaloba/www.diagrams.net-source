@@ -24,7 +24,6 @@ There are a few features that are not available in the desktop version, whether 
 
 - Load, save or export diagrams to cloud storage platforms.
 - Use the online clipart shapes (via the Search Shapes field).
-- Insert from PlantUML to automatically create a UML diagram.
 
 If you want to [use external fonts](external-fonts.html) with the draw.io desktop app, please download them and install them in your system.  
 
@@ -50,4 +49,4 @@ This works on mobile devices as well as on your desktop computer.
 
 You'll be able to save diagrams to your device, or keep them only in your browser.
 
-The following features are not available when you use the draw.io editor offline in your browser, including: cloud storage platforms, templates, clipart shapes, PlantUML insertion, external fonts, math typesetting, online help, and depending on your browser, exporting to PDF and image formats (PNG, JPG).
+The following features are not available when you use the draw.io editor offline in your browser, including: cloud storage platforms, external fonts and online help.

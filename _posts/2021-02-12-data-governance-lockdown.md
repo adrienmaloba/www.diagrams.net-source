@@ -21,7 +21,6 @@ The online draw.io editor at app.diagrams.net is delivered via Cloudflare edge d
 - Translation of ``vsd``, ``vss``, and ``vdx`` files to ``vsdx``. draw.io understands ``vsdx`` natively in JavaScript on the client.
 - Import of Gliffy files.
 - Migration of EMF images embedded in ``vsd``/``vsdx`` files. EMF licensing means only the Windows operating system may manipulate these.
-- Generation of PlantUML diagrams. PlantUML is written in Java.
 - Generation of PDFs of diagrams.
 - Collaborative editing by sending only deltas of changes to other editors.
 

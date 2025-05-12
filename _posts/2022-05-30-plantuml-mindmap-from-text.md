@@ -2,7 +2,7 @@
 layout: post
 author: draw.io
 slug: plantuml-mindmaps-from-text
-date: 2022-05-30 09:10:00
+date: 2200-05-30 09:10:00
 title: Create a mindmap from text with PlantUML
 tags: [integrations,uml]
 categories: [integrations,features,use-cases, import]

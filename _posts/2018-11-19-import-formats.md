@@ -29,7 +29,6 @@ Plus using the text-based import tools (_Arrange > Insert > ..._) you can create
 - SQL code
 - CSV data (you'll need to describe how to translate that into a diagram)
 - Text
-- PlantUML code
 - Freehand drawing
 
 <img src="/assets/img/blog/insert-SQL-example.png" style="max-width:100%;height:auto;" alt="Insert from SQL to automatically create a diagram">

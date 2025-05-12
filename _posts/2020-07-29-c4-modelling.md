@@ -77,7 +77,7 @@ Simpler than their [UML counterparts](/blog/component-diagrams.html), C4 compone
 
 ## C4 class diagram (UML)
 
-Representing the actual implementation details, UML class diagrams, entity relationship diagrams and others from the UML set of diagrams are used in the final level of C4 modelling. Often, these diagrams can be automatically created from code in a development environment, or described quickly in text form using systems like PlantUML (which can be imported into draw.io).
+Representing the actual implementation details, UML class diagrams, entity relationship diagrams and others from the UML set of diagrams are used in the final level of C4 modelling. Often, these diagrams can be automatically created from code in a development environment, or described quickly in text form using systems like Mermaid.js (which can be imported into draw.io).
 
 [<img src="/assets/img/blog/c4-class-example.png" style="max-width:100%;height:auto;" alt="An example C4 class diagram in UML">
 ](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&page=3&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fmaster%2Fblog%2FC4.drawio)

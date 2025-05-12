@@ -159,8 +159,6 @@ pie title Commits to mxgraph2 on GitHub
 
 [_Open this example in our online diagram viewer_](https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&page=4&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fmaster%2Fblog%2Fmermaid-examples.drawio)
 
-Mermaid's syntax is similar to Graphviz DOT and PlantUML, both of which can be inserted into draw.io to create diagrams from a text description.
-
 [See all of the elements you can insert into your diagram](/doc/faq/arrange-insert-menu.html)
 
 **Tip:** We've recently [updated draw.io to support the new Mermaid ELK layout option](/blog/mermaid-elk-layout.html) that can create neater more compact versions of large and complex flowcharts. 

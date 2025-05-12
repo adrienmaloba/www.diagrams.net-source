@@ -189,11 +189,9 @@ For more about UML notation, please refer to the [UML 2.5 specification](https:/
 
 To collaborate remotely on a rough class diagram with your colleagues, [use the Sketch online whiteboard theme](/blog/sketch-online-whiteboard.html) to minimise distraction. [Share your cursor in real time](/blog/real-time-collaboration-diagrams.html) with your team when you store the diagram file in Google Drive or Microsoft One Drive.
 
-[Describe classes and their relationships in Mermaid notation](/blog/mermaid-diagrams.html) and generate a diagram automatically from the text. Select _Arrange > Insert > Advanced > Mermaid_ from the menu. 
+[Describe classes and their relationships in Mermaid notation](/blog/mermaid-diagrams.html) and generate a diagram automatically from the text. Select _Arrange > Insert > Mermaid_ from the menu. 
 
-Generate a PlantUML diagram in the same way: select _Arrange > Insert > Advanced > PlantUML_ from the menu. 
-
-**Note:** If you are using the Sketch whiteboard theme, click ``+`` in the toolbar, then select _Advanced_ to see the Mermaid and PlantUML options.
+**Note:** If you are using the Sketch whiteboard theme, click ``+`` in the toolbar, then select the Mermaid option.
 
 <img src="/assets/img/blog/sketch-insert-advanced-mermaid.png" style="width=100%;max-width:600px;height:auto;" alt="Insert a diagram generated from Mermaid syntax via the Sketch online whiteboard toolbar">
 <br />[_Open this PlantUML example in the draw.io viewer_](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&page=2&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fuml-class-example.drawio)
