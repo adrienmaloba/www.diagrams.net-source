@@ -91,7 +91,7 @@ Many advanced and helpful tools are built into the diagram editor.
 <br /><img src="/assets/img/blog/freehand-brush-width.gif" style="width=100%;max-width:400px;height:auto;" alt="Use the freehand drawing tool in a draw.io Board diagram to markup diagrams or draw shapes with your mouse">
 * Create your own [custom shapes](/doc/faq/custom-shapes.html) and [custom shape libraries](/blog/custom-libraries.html).
 * [Format text with HTML](/doc/faq/text-styles.html) and use [mathematics typesetting](/blog/maths-in-diagrams.html) in labels.
-* Generate diagrams text using PlantUML or [Mermaid code](/blog/mermaid-diagrams.html), [CSV spreadsheet data](/doc/faq/insert-from-csv.html) and formatting information, or [SQL code](/blog/insert-sql.html).
+* Generate diagrams text using [Mermaid code](/blog/mermaid-diagrams.html), [CSV spreadsheet data](/doc/faq/insert-from-csv.html) and formatting information, or [SQL code](/blog/insert-sql.html).
 * [Customise the editor](/doc/faq/configure-diagram-editor.html) to set a specific palette, custom fonts, templates, shape libraries, and more. 
 
 **Tip:** If you use draw.io in Confluence, you can [mass import all the Gliffy diagrams](/doc/faq/mass-import-gliffy-confluence-cloud.html) in your instance in one step.

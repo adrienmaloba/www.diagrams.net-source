@@ -75,4 +75,4 @@ UML is a standard with many different types of diagrams used to model the behavi
 
 [<img src="/assets/img/blog/uml-2-5-diagram-overview.png" style="max-width:100%;height:auto;" alt="Diagram types defined in UML 2.5">](https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fconcept-map-uml-diagrams-overview.drawio)
 
-**Tip:** draw.io can also automatically create use case diagrams from text using the [Mermaid syntax](/blog/mermaid-diagrams.html) and PlantUML, or using the [smart template generator](/blog/smart-diagram-generation.html).
+**Tip:** draw.io can also automatically create use case diagrams from text using the [Mermaid syntax](/blog/mermaid-diagrams.html), or using the [smart template generator](/blog/smart-diagram-generation.html).

@@ -312,6 +312,4 @@ Learn more about [smart templates](/blog/smart-diagram-generation.html) and how 
 
 Input Mermaid code to generate a UML diagram with draw.io shapes that you can style and edit as needed, including using the [Mermaid ELK layout](/blog/mermaid-elk-layout.html).
 
-See how the online draw.io editor can [generate UML diagrams from PlantUML code](/blog/plantuml.html) in SVG, PNG or text shapes for fast documentation. 
-
 See what [features you should look for in a UML diagramming tool](/blog/uml-diagram-tools.html) to help your team collaborate quickly and securely on all types of UML diagrams. 

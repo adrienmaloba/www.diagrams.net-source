@@ -38,7 +38,7 @@ There are many different forms of specialised flowcharts, in addition to the bas
 
 As flowcharts can contain confidential or sensitive information, you may not want to share that data with anyone outside your company or outside your host instance. Atlassian's data governance settings allow administrators to choose the region where your data resides when a Confluence Cloud or Jira Cloud user is not editing a page or issue.
 
-With the draw.io apps for Confluence and Jira, your flowchart data stays in the user's browser as they are editing, and in your Confluence Cloud or Jira Cloud instance at rest. Optional conversion features, such as PlantUML or Mermaid syntax auto-diagram generation, or import conversions can be disallowed in the configuration settings.
+With the draw.io apps for Confluence and Jira, your flowchart data stays in the user's browser as they are editing, and in your Confluence Cloud or Jira Cloud instance at rest. Optional conversion features, such as import conversions, can be disallowed in the configuration settings.
 
 
 ## Start with an example or template flowchart

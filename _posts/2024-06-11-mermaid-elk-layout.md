@@ -15,7 +15,6 @@ Mermaid is a text-based syntax that you can use to describe a diagram, and autom
 
 There are several text-to-diagram tools built into draw.io: 
 * [Mermaid diagrams](/blog/mermaid-diagrams.html)
-* [PlantUML diagrams](/blog/plantuml.html)
 * [SQL to entity shapes](/blog/insert-sql.html)
 * [Specially formatted CSV data](/blog/insert-from-csv.html)
 * [Basic text-to-diagram converter for trees and lists](/blog/insert-from-text.html). 

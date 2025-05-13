@@ -83,7 +83,7 @@ Detail data flows and control sequences for software projects in specialised UML
 
 Maintaining technical documentation visually in flowcharts in Confluence is especially important when multiple teams are responsible for different features in the one software product or in a suite of related products.
 
-**Tip:** Generate flowcharts and UML flow diagrams automatically using the [Mermaid syntax](/blog/mermaid-diagrams.html) or insert a text description of your diagram with PlantUML (_Arrange > Insert > PlantUML_).
+**Tip:** Generate flowcharts and UML flow diagrams automatically using the [Mermaid syntax](/blog/mermaid-diagrams.html).
 <br /><img src="/assets/img/blog/mermaid-sequence-example.png" style="width=100%;max-width:400px;height:auto;" alt="A simple sequence diagram inserted using the Mermaid syntax">
 
 Visualise your version control system with development and release flows in [gitflow diagrams](/blog/gitflow-diagram.html) using simple shapes and connectors.

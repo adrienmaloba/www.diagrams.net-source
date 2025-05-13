@@ -149,4 +149,4 @@ Learn more about the following UML diagram types and how to create them in draw.
 * [Component diagrams](/blog/component-diagrams.html)
 * Examples of [component, composite structure and deployment diagrams](/blog/uml-2-5.html#example-uml-diagrams)
 
-**Tip:** draw.io can also automatically create activity diagrams from text using the [Mermaid syntax](/blog/mermaid-diagrams.html) and PlantUML.
+**Tip:** draw.io can also automatically create activity diagrams from text using the [Mermaid syntax](/blog/mermaid-diagrams.html).

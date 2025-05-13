@@ -309,8 +309,6 @@ only on app.diagrams.net.
 
 * ``iconfinder``: Toggles searching for shapes using Iconfinder in the left panel search box.
 
-* ``plantUml``: Toggles the ability to insert PlantUML markup, which uses ``exp-plant.diagrams.net`` (``true`` or ``false``, where the default is ``true``).
-
 * ``exportPdf``: Toggles the ability to export to a PDF file, which uses ``exp.diagrams.net`` (``true`` or ``false``, where the default is ``true``).
 
 * ``remoteConvert``: Toggles the ability to convert files that require a remote connection, namely Gliffy, .vsd and .vss files (``true`` or ``false``, where the default is ``true``).

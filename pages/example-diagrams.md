@@ -152,9 +152,6 @@ ___
 [<img src="/assets/img/blog/template-living_beings_mind_map.png" style="width=100%;max-width:400px;height:auto;" alt="Mindmap of living beings - a template in draw.io">](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Ftemplates%2Fmaps%2Fliving_beings_mind_map.xml)
 <br />Mindmap of living beings (template library) | [_Download_](https://raw.githubusercontent.com/jgraph/drawio-diagrams/dev/templates/maps/living_beings_mind_map.xml)
 
-[<img src="/assets/img/blog/mindmap-plantuml-example2.png" style="width=100%;max-width:200px;height:auto;" alt="Mindmaps are easy to create from text with draw.io and PlantUML">](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fmindmap-plantuml-example.drawio)
-<br />Task map [generated from text with PlantUML](/blog/plantuml-mindmaps-from-text.html) in draw.io | [_Download_](https://raw.githubusercontent.com/jgraph/drawio-diagrams/dev/blog/mindmap-plantuml-example.drawio)
-
 ___
 ## Industry and engineering
 

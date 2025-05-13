@@ -38,7 +38,6 @@ There are a few features that you won't have access to if you are using the draw
 - Convert diagrams to PDF and image file formats.
 - Create a new diagram from a template or insert a template diagram.
 - Search for and use the online clipart shapes.
-- Insert from PlantUML to auto-generate a UML diagram, or use math typesetting.
 - Use fonts that are hosted online (download these fonts and install them in your system).
 - Use the online help.
 

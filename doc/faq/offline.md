@@ -33,7 +33,6 @@ Depending on where you you have chosen to save your diagram, you may need to rec
 - Convert diagrams to PDF and image file formats.
 - Create a new diagram from a template or insert a template diagram.
 - Search for and use the online clipart shapes.
-- Insert from PlantUML to auto-generate a UML diagram, or use [mathematical typesetting](/doc/faq/math-typesetting.html).
 - Use fonts such as Google fonts and ``*.woff`` files that are hosted online.
 - Use the [online help](/doc/faq/help-menu.html).
 
