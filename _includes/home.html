@@ -11,18 +11,15 @@
             <p>Bring your storage to our online tool, or save locally with the desktop app.</p>
           </div>
 
-          <!--
-          <input size="60" id="diagramDescription" placeholder="Eg. five tier sequence diagram for ordering fast food online" style="font-size: small;width: 300px;"></input>
-          -->
+          <p class="small">Describe your diagram: <input id="diagramDescription" type="text" placeholder="eg. 5 tier sequence diagram to order pizza" size="44" style="border:1px solid lightgray;"></p>
 
           <div class="mb-3">
-            <a class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3" id="startButton" href="https://app.diagrams.net/?src=about" target="_blank">Start</a>
+            <a id="startButton" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3" href="https://app.diagrams.net/?src=about" target="_blank">Start</a>
             <a class="btn btn-outline-primary btn-wide transition-3d-hover mb-2 mb-sm-0" href="https://get.diagrams.net" target="_blank">Download</a>
           </div>
 
           <p class="small">No login or registration required.</p>
 
-          <!--
           <script>
             document.getElementById('startButton').onclick = function() {
               var value = document.getElementById('diagramDescription').value;
@@ -31,12 +28,9 @@
                 data: value
               })) : '';
               
-              // window.open('https://app.diagrams.net/?src=about' + create, '_blank');
-              window.open('https://test.draw.io/?dev=1&test=1' + create, '_blank');
+              window.open('https://app.diagrams.net/?src=about' + create, '_blank');
             };
           </script>
-          -->
-
           <!-- End Info -->
         </div>
 
