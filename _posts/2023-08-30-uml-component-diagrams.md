@@ -118,27 +118,6 @@ The concept of a _component_ was redefined for UML 2.
 
 In earlier versions of the UML specification, components referred to the files and executables of a running system. In UML 2.0 and later, files and executables are now referred to as _artifacts_ and components represent large design units, where implementation details are encapsulated behind interfaces. This has made it easier to reuse and substitute components in system designs. 
 
-## Component diagrams from text with PlantUML
-
-You can also generate [UML component diagrams from PlantUML](https://plantuml.com/component-diagram) text in draw.io.  PlantUML functionality in only available in online versions of draw.io, not draw.io Desktop or draw.io for Confluence/Jira DC, for example. Note that you have limited styling options as the generated diagram is an SVG image, and the lollipop-socket notation is not available.
-1. Select _Arrange > Insert from > Advanced > PlantUML_ or click on the ``+`` in the toolbar and select _Advanced > PlantUML_.
-2. Click _Insert_ to generate the diagram as an SVG image and add it to the drawing canvas. 
-3. Double click on the PlantUML diagram again to open the dialog and edit the text, should you need to change something. 
-
-The first example at the top of this page looks as follows in PlantUML. 
-```
-@startuml
-package "OnlineStore" {
-  OrderSubmission - [Order] 
-  [Order] - Person 
-  [Order] -down- OrderableProduct
-  OrderableProduct -down- [Product]
-}
-Person - [Account]
-@enduml
-```
-<img src="/assets/img/blog/component-diagram-plantuml.png" style="width=100%;max-width:400px;height:auto;" alt="Component diagrams can also be generated from a text description using PlantUML">
-
 ## More UML diagrams
 
 There are many more types of UML diagrams that can show both the various structural aspects and behaviours of your system, both in how it is implemented and used. 
