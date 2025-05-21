@@ -67,11 +67,11 @@ Click _Arrange > Insert > Template_ and look in the _Software_ and _UML_ categor
 See the [draw.io diagram repository on GitHub](https://github.com/jgraph/drawio-diagrams/tree/dev/blog) for more examples. Alternatively, try the [smart templates in draw.io](/blog/smart-diagram-generation.html) to generate sequence, class and state diagrams. 
 <br /><img src="/assets/img/blog/diagram-generator-sequence.png" style="width=100%;max-width:300px;height:auto;" alt="Generate a UML sequence diagram from a text description via the template library in draw.io"> 
 
-### PlantUML and Mermaid text input
+### Mermaid text input
 
-[PlantUML](/blog/plantuml.html) and [Mermaid](/blog/mermaid-diagrams.html) are the two most popular text-based UML diagramming tools and supported by draw.io. Many developers find describing sequence diagrams in particular easier using text.
+[Mermaid](/blog/mermaid-diagrams.html) is a popular text-based UML diagramming tools and supported by draw.io. Many developers find describing sequence diagrams in particular easier using text.
 
-Click _Arrange > Insert > Advanced_ or then select PlantUML or Mermaid. 
+Click _Arrange > Insert > Advanced > Mermaid_. 
 
 For example, the following Mermaid text generates a sequence diagram.
 ```

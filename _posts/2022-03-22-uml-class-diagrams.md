@@ -194,7 +194,7 @@ To collaborate remotely on a rough class diagram with your colleagues, [use the 
 **Note:** If you are using the Sketch whiteboard theme, click ``+`` in the toolbar, then select the Mermaid option.
 
 <img src="/assets/img/blog/sketch-insert-advanced-mermaid.png" style="width=100%;max-width:600px;height:auto;" alt="Insert a diagram generated from Mermaid syntax via the Sketch online whiteboard toolbar">
-<br />[_Open this PlantUML example in the draw.io viewer_](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&page=2&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fuml-class-example.drawio)
+<br />[_Open this example in the draw.io viewer_](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&page=2&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fuml-class-example.drawio)
 
 ### Other types of UML diagrams
 
