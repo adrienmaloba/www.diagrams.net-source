@@ -29,6 +29,14 @@
               startButton.innerHTML = (value != '') ? 'Generate' : 'Start';
             };
 
+            // Adds a keydown handler to handle Enter key
+            document.getElementById('diagramDescription').onkeydown = function(event)
+            {
+              if (event.keyCode == 13 && document.getElementById('diagramDescription').value != '') {
+                document.getElementById('startButton').click();
+              }
+            };
+
             // Handles click on start button with description
             document.getElementById('startButton').onclick = function() {
               var value = document.getElementById('diagramDescription').value;
