@@ -21,6 +21,15 @@
           <p class="small">No login or registration required.</p>
 
           <script>
+            // Changes Start button label when description is entered
+            document.getElementById('diagramDescription').oninput = function()
+            {
+              var value = document.getElementById('diagramDescription').value;
+              var startButton = document.getElementById('startButton');
+              startButton.innerHTML = (value != '') ? 'Generate' : 'Start';
+            };
+
+            // Handles click on start button with description
             document.getElementById('startButton').onclick = function() {
               var value = document.getElementById('diagramDescription').value;
               var create = (value != '') ? '#create=' + encodeURIComponent(JSON.stringify({
