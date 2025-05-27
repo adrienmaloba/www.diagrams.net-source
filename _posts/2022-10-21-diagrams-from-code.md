@@ -8,14 +8,14 @@ tags: [uml]
 categories: [features,use-cases, import]
 ---
 
-Documenting software costs developers time and becomes outdated quickly. A code-first diagramming approach - describing the diagram in code or text while programming - works well for entity models (SQL database code), and class descriptions (PlantUML and Mermaid syntax).
+Documenting software costs developers time and becomes outdated quickly. A code-first diagramming approach - describing the diagram in code or text while programming - works well for entity models (SQL database code), and class descriptions using Mermaid syntax.
 <br /><img src="/assets/img/blog/mermaid-sequence-example-with-code.png" style="width=100%;max-width:500px;height:auto;" alt="An example sequence diagram inserted from Mermaid code">
 
 Use our built-in advanced tools to generate a diagram or diagram components automatically. 
 
 **Disclaimer:** We've linked a number of open source projects and tools below. We don't endorse these tools specifically, but want to highlight that useful code generation tools are readily available.
 
-**Tip:** To modify an existing SVG 'shape' generated from PlantUML, Mermaid, or text, double-click on it to open the _Insert_ dialog. 
+**Tip:** To modify an existing SVG 'shape' generated from Mermaid or text, double-click on it to open the _Insert_ dialog. 
 
 
 <br />
@@ -35,34 +35,9 @@ Now, draw the relationship connectors between the entities as needed.
 To recreate the entities, you'll need to delete the existing entities and their connectors first, then insert the new SQL code. 
 
 <br />
-## Software diagrams from PlantUML
-
-PlantUML is a syntax for drawing UML diagrams from plain text descriptions. PlantUML functionality in only available in online versions of draw.io, not draw.io Desktop or draw.io for Confluence/Jira DC, for example.
-
-1. Click _Arrange > Insert > Advanced > PlantUML_.
-<br /><img src="/assets/img/blog/mindmap-plantuml-example1-insert.png" style="width=100%;max-width:300px;height:auto;" alt="Generate a mindmap from text in draw.io by inserting PlantUML in arithmetic notation via Arrange > Insert > Advanced > PlantUML">
-2. Paste or write the PlantUML description of your diagram in the text field. 
-3. Click _Insert_ to generate a diagram, and it will be inserted as a 'shape' on the drawing canvas.
-
-PlantUML can describe other types of diagrams, [such as mindmaps](/blog/plantuml-mindmaps-from-text.html) as in the example above, and simple flow charts, but it's predominantly used to document software systems. 
-
-UML class, use case, object, activity, component, deployment, sequence, state and timing diagrams can all be created using PlantUML.  
-<br /><img src="/assets/img/blog/uml-state-diagram-plantuml.png" style="width=100%;max-width:600px;height:auto;" alt="The Reconnecting sub-state diagram converted into text with PlantUML and a diagram generated automatically in draw.io">
-
-**Code ➞ PlantUML text**
-
-Some programming languages have tools to automatically generate the PlantUML syntax using code inspection (or reflexion). Use these tools to automatically document class hierarchies with inheritance, dependencies and aggregation. Some examples include those that parse [C++ header files](https://github.com/thibaultmarin/hpp2plantuml), [Python source code](https://github.com/lucsorel/py2puml), and [Java code using Javadoc](https://github.com/talsma-ict/umldoclet).
-
-Take the generated PlantUML description of the code and insert it into a ``.drawio`` diagram. Then save and embed the diagram in GitHub, GitLab, Confluence/Jira, or wherever you want to document your software.
-
-**PlantUML text ➞ Code**
-
-There are also a variety of tools available that take PlantUML and turn it into code in a specific programming language, such as this [plantuml-code-generator](https://github.com/bafolts/plantuml-code-generator). 
-
-<br />
 ### Diagrams from Mermaid syntax
 
-Mermaid is younger than PlantUML and can describe a wider range of diagrams, not just UML.  Its Markdown-like syntax is very easy to write and supported by several popular platforms. 
+Mermaid can describe a wider range of diagrams, not just UML.  Its Markdown-like syntax is very easy to write and supported by several popular platforms. 
 
 1. Click _Arrange > Insert > Advanced > Mermaid_. 
 <br /><img src="/assets/img/blog/mermaid-flowchart-example-code.png" style="width=100%;max-width:300px;height:auto;" alt="Paste the text in Mermaid syntax, then click Insert">
@@ -88,18 +63,8 @@ If you want to use a Mermaid diagram as a component of a larger diagram, or embe
 View, compare and edit [``.drawio`` diagram files in your GitHub repositories](/blog/edit-diagrams-with-github-dev.html) in Visual Studio Code with a third-party extension and github.dev.
 <br /><img src="/assets/img/blog/github-dev-compare-commit-changes.png" style="width=100%;max-width:600px;height:auto;" alt="Compare and commit the changes you made to the diagram files in your repository via github.dev">
 
-**Code ➞ Mermaid syntax**
+**Tip:** There currently are many tools that generate Mermaid syntax directly from your codebase. Search on GitHub for a tool that suits your need, or write your own parser, such as [this one in Python for parsing Prolog](https://www.noveltech.dev/diagram-mermaid/).
 
-There currently seems to be fewer tools that generate Mermaid syntax from code. You could write your own parser, such as [this one in Python for parsing Prolog](https://www.noveltech.dev/diagram-mermaid/), but the existing PlantUML tools may be more convenient.
-
-
-<br />
-## Generate PlantUML & Mermaid diagrams offline
-
-PlantUML conversion is not available in our draw.io desktop app because it requires our servers to convert text to a diagram. 
-
-Instead, [run your own draw.io server with our docker app](/blog/diagrams-docker-app.html) as it supports PlantUML diagram, image and PDF generation, and does not depend on the draw.io servers.
-<br /><img src="/assets/img/blog/dockerhub-drawio.png" style="width=100%;max-width:400px;height:auto;" alt="The draw.io desktop app works on MacOS, Windows and Linux">
 
 ## Related
 

@@ -19,7 +19,6 @@ A few extended features require operations that cannot be performed within your 
 The features that use the server endpoints include:
 
 * Export to ``.pdf`` files.
-* Import from ``.vdx``, ``.vsd``, and ``.vssx`` diagram files, including embedded EMF images.
 * Import of Gliffy diagrams.
 
 In Confluence Cloud you can restrict data transmission to between your browser and your Confluence Cloud instance only (and disable the features above) when using the advanced edition of the app. 

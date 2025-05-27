@@ -89,40 +89,39 @@ The label on the connector / transition usually follows the format ``trigger [gu
 <br /><img src="/assets/img/blog/uml-state-diagram-transitions.png" style="width=100%;max-width:400px;height:auto;" alt="Transitions in UML state diagrams will generally have a trigger [guard conditions] and /actions on their labels">
 
 
-## Create a UML state diagram in PlantUML
+## Create a UML state diagram from text
 
-You can define a state diagram in text, and draw.io will generate the diagram for you. PlantUML functionality in only available in online versions of draw.io, not draw.io Desktop or draw.io for Confluence/Jira DC, for example.
+You can define a state diagram in text using Mermaid syntax, and draw.io will generate the diagram for you. 
 
-1. Click _Arrange > Insert > Advanced > PlantUML_ to open the text entry.
-2. Enter the PlantUML description of your state machines in the textbox, and click _Apply_. The diagram editor will convert this to a SVG representation on the canvas. Double-click on this to edit the PlantUML again. 
+1. Click _Arrange > Insert > Advanced > Mermaid_ to open the text entry.
+2. Enter the Mermaid description of your state machines in the textbox, and click _Apply_. The diagram editor will convert this to a SVG representation on the canvas. Double-click on this to edit the Mermaid again. 
 
-For example, turning the example of the composite _Reconnecting_ state above into a PlantUML text description: 
+For example, turning the example of the composite _Reconnecting_ state above into a Mermaid text description: 
 
 ```
-@startuml
-hide empty description
-[*] --> Reconnecting
-state Reconnecting {
-[*] --> EstablishingConnection
-EstablishingConnection --> EstablishingConnection : failed [no connection] /wait 5s then reconnect
-EstablishingConnection --> [*] : success [connection established]
-||
-[*] --> Listening
-Listening --> VerifyingAccess : key presented [valid RFID code] /verify
-VerifyingAccess --> Listening
-state VerifyingAccess{
-[*] --> CheckingInternalRecords
-CheckingInternalRecords --> KeyAccessVerified : key allowed [valid key]
-KeyAccessVerified --> Unlocked : [valid key] /unlock
-Unlocked --> [*] : wait 5 seconds after door close [unlocked] /lock
-CheckingInternalRecords --> InvalidKey : not found [invalid key] /ignore
-InvalidKey --> [*] : /ignore
-}
-}
-@enduml
+stateDiagram-v2
+  [*] --> Active
+  state Active {
+    [*] --> Reconnecting
+    Reconnecting --> EstablishingConnection
+    EstablishingConnection --> Reconnecting : failed [no connection] /wait 5s then reconnect
+    EstablishingConnection --> [*] : success [connection established]
+  --
+  [*] --> Listening
+  Listening  --> VerifyingAccess : key presented [valid RFID code] /verify
+  VerifyingAccess --> [*]
+    state VerifyingAccess{
+      [*] --> CheckingInternalRecords
+      CheckingInternalRecords --> KeyAccessVerified : key allowed [valid key]
+      KeyAccessVerified --> Unlocked : [valid key] /unlock
+      Unlocked --> [*] : wait 5 seconds after door close [unlocked] /lock
+      CheckingInternalRecords --> InvalidKey : not found [invalid key] /ignore
+      InvalidKey --> [*] : /ignore
+    }
+  }
 ```
 
-<img src="/assets/img/blog/uml-state-diagram-plantuml.png" style="width=100%;max-width:600px;height:auto;" alt="The Reconnecting sub-state diagram converted into text with PlantUML and a diagram generated automatically in draw.io">
+<img src="/assets/img/blog/uml-state-diagram-mermaid.png" style="width=100%;max-width:600px;height:auto;" alt="The Reconnecting sub-state diagram converted into text with Mermaid and a diagram generated automatically in draw.io">
 
 ## Example UML state diagrams - smart lock
 

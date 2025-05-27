@@ -311,7 +311,7 @@ only on app.diagrams.net.
 
 * ``exportPdf``: Toggles the ability to export to a PDF file, which uses ``exp.diagrams.net`` (``true`` or ``false``, where the default is ``true``).
 
-* ``remoteConvert``: Toggles the ability to convert files that require a remote connection, namely Gliffy, .vsd and .vss files (``true`` or ``false``, where the default is ``true``).
+* ``remoteConvert``: Toggles the ability to convert files that require a remote connection, namely Gliffy files.(``true`` or ``false``, where the default is ``true``).
 
 * ``password``: Protects access to the site configuration with an optional string (only site administrators are allowed access).
 
