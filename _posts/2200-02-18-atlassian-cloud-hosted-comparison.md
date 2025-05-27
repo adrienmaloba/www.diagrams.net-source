@@ -58,8 +58,6 @@ draw.io for Confluence Cloud has a several additional features based on Atlassia
 
 **Change the size of a diagram on a page** by changing it's zoom percentage. As Atlassian hasn't implemented a similar macro-resize function, you can only [resize the draw.io diagram on a Confluence Cloud page](/doc/faq/resize-viewer-confluence-cloud.html).
 
-**[Insert PlantUML and Graphiz DOT code](/blog/plantuml.html)** to add an image of your diagram via _Arrange > Insert > Advanced > PlantUML_.
-
 As external server connectivity is enabled by default, draw.io for Confluence Cloud allows you to do the following.
 
 **Generate PDF versions of diagrams** with external fonts. 

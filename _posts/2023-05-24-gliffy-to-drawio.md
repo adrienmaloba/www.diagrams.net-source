@@ -165,7 +165,7 @@ While users will likely not need these functions for most of their diagrams, it 
 
 **Diagrams from text:** There are many ways you can generate diagrams from text. 
 * Use a [smart template](/blog/smart-diagram-generation.html) - type a text description of your diagram in the template library and select the type of diagram you want to generate. 
-* Write your diagram in [PlantUML](/blog/plantuml-mindmaps-from-text.html) or [Mermaid](/blog/mermaid-diagrams.html) syntax - Create UML diagrams, flowcharts, mindmaps and org charts from text. 
+* Write your diagram in [Mermaid](/blog/mermaid-diagrams.html) syntax - Create UML diagrams, flowcharts, mindmaps and org charts from text. 
 * Generate a diagram from [CSV data plus formatting information](/blog/insert-from-csv.html).
 * Draw entities in an [ER diagram directly from SQL code](/blog/insert-sql.html).
 

@@ -58,8 +58,6 @@ And because the previous phrase makes no sense when describing a mindmap, here's
 ### More ways to generate diagrams from text
 
 In draw.io, there are many different ways to generate diagrams automatically from text.
-
-* [PlantUML](/blog/plantuml.html) - class diagrams, state diagrams, activity diagrams, user diagrams, component diagrams and more. 
   
 * [Mermaid](/blog/mermaid-diagrams.html) - all UML diagram types, as well as pie charts, flowcharts, organisation charts, Gantt charts and more. 
   

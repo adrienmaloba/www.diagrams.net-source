@@ -43,7 +43,7 @@ There are a huge variety of diagrams that you can use in a software development 
 * Create UML diagrams of your existing code to see where changes and extensions will affect other code areas.
 * Mock up user interfaces and document infrastructures quickly and easily.
 * Diagram your testing processes to ensure a thorough test coverage, and let as few bugs as possible through to production.
-* Create diagrams quickly and easily from text with PlantUML and [Mermaid diagram](/blog/mermaid-diagrams.html) integrations.
+* Create diagrams quickly and easily from text with the [Mermaid diagram](/blog/mermaid-diagrams.html) integration.
 * Use diagrams to double check the security of your processes and data transfer with attack modelling.
 * ...
 

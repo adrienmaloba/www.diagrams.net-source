@@ -2,7 +2,7 @@
 layout: post
 author: draw.io
 slug: drawio-monday
-date: 2024-03-27 09:54:00
+date: 2200-03-27 09:54:00
 title: Add draw.io diagrams and boards to your Monday Workspace
 tags: [integrations]
 categories: [integrations]

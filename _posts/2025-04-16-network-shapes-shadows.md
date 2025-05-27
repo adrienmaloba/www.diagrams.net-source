@@ -8,10 +8,10 @@ tags: [shape libraries]
 categories: [use-cases, shape-libraries]
 ---
 
-The new _Network_ shape library in draw.io has extra styling options built in. When you enable the background colour, the shapes will have a bold long shadow. You can colour each part of these shapes individually - shape outline, shape fill colour (and neutral colour for internal details), background colour and gradient.
+The new _Network 2025_ shape library in draw.io has extra styling options built in. When you enable the background colour, the shapes will have a bold long shadow. You can colour each part of these shapes individually - shape outline, shape fill colour (and neutral colour for internal details), background colour and gradient.
 <br /><img src="/assets/img/blog/network-shadow-colours.png" style="width=100%;max-width:600px;height:auto;" alt="The new Network shape library includes a long shadow with additional colour styling options">
 
-**Open the new _Network_ shape library:** Click on _More Shapes_ in the shapes panel, enable the new (second) _Network_ shape library, and click _Apply_.
+**Open the new _Network 2025_ shape library:** Click on _More Shapes_ in the shapes panel, enable the new (second) _Network_ shape library, and click _Apply_.
 <br /><img src="/assets/img/blog/network-shape-library-new.png" style="width=100%;max-width:400px;height:auto;" alt="The new Network shape library includes a long shadow with additional colour styling options">
 
 Networks are getting more complex. Even a simple home network has many devices connected to it. This is only becoming more complicated as wi-fi is built into more and more household appliances. A quick [network diagram](/blog/network-diagrams.html) will help you stay on top of what device is connected where.
@@ -55,7 +55,7 @@ If you don't like the long shadows, you can disable it and keep the background c
 
 ### Dark mode network shapes
 
-The new Network shapes also look great in [dark mode](/blog/dark-mode-diagram-editor.html) using the automatic [adaptive colours](/blog/adaptive-colours.html). To switch to dark mode, select _Settings > Appearance > Dark_ or _Extras > Appearance > Dark_ from the draw.io menu. 
+The new _Network 2025_ shapes also look great in [dark mode](/blog/dark-mode-diagram-editor.html) using the automatic [adaptive colours](/blog/adaptive-colours.html). To switch to dark mode, select _Settings > Appearance > Dark_ or _Extras > Appearance > Dark_ from the draw.io menu. 
 <br /><img src="/assets/img/blog/network-dark-mode.gif" style="width=100%;max-width:500px;height:auto;" alt="The new Network shape library includes a long shadow with additional colour styling options">
 
 

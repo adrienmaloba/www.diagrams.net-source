@@ -10,7 +10,7 @@ categories: [use-cases]
 
 Tree diagrams are used to show hierarchies, to categorise something or show decisions. They are commonly used in computer science for binary search trees, red-black trees, and more, and to show directory structures on computers or a website navigation structure. Tree diagrams are quick and easy to create in draw.io.
 
-**Tip:** You have most likely seen tree diagrams casually as family trees, workplace organisation charts, evolutionary trees, table of contents in books, and playoff brackets in sports. [Mindmaps](/blog/plantuml-mindmaps-from-text.html) are also typically tree diagrams, although mindmap nodes may sometimes be connected to multiple parents. 
+**Tip:** You have most likely seen tree diagrams casually as family trees, workplace organisation charts, evolutionary trees, table of contents in books, and playoff brackets in sports. Mindmaps are also typically tree diagrams, although mindmap nodes may sometimes be connected to multiple parents. 
 
 **Tree terminology**
 
@@ -45,7 +45,7 @@ Right click on a blank area of the drawing canvas and select _All Edges_. From t
 
 You can draw tree diagrams even faster in draw.io in a number of ways. 
 
-**Generate a tree diagram from text:** Click on the ``+`` in the toolbar or select _Arrange > Insert from_ and select _Text_, then [describe your tree diagram using text](/blog/insert-from-text.html) and click _Insert_ to generate the tree diagram. You can also generate tree diagrams with [PlantUML](/blog/plantuml.html) and [Mermaid syntax](/blog/mermaid-diagrams.html).
+**Generate a tree diagram from text:** Click on the ``+`` in the toolbar or select _Arrange > Insert from_ and select _Text_, then [describe your tree diagram using text](/blog/insert-from-text.html) and click _Insert_ to generate the tree diagram. You can also generate tree diagrams with [Mermaid syntax](/blog/mermaid-diagrams.html).
 <br /><img src="/assets/img/blog/insert-from-text-tree-diagram1.png" style="width=100%;max-width:400px;height:auto;" alt="Insert text to create a tree diagram ">
 <br />**Tip:** Create fancier org charts with pictures and links by [inserting CSV text and diagram formatting information](/blog/org-charts#create-an-org-chart-from-csv-data).
 

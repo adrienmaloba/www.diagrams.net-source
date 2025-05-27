@@ -132,7 +132,7 @@ In addition to the vast shape library and built-in templates, you can create you
 
 Teams can work together on the same diagram with shared cursors for seamless remote collaboration. 
 
-You can also automatically generate diagrams from text - PlantUML, Mermaid, CSV, SQL, and more.
+You can also automatically generate diagrams from text - Mermaid, CSV, SQL, and more.
 
 To diagram faster, you can customise the editor to use your preferred styles, fonts, and colours.
 

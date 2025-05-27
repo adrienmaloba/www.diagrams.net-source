@@ -40,8 +40,6 @@ Because your sensitive diagram data doesn't leave your infrastructure and is nev
 * When you select _File > Export As > PDF_, it will automatically open a dialog where you can [print your diagram to a PDF file](/doc/faq/pdf-print-to.html).
 * The conversion to a ``.vsdx`` file is done in your browser. Select _File > Export As > VSDX_ to export to this format.
 
-**PlantUML:** PlantUML is a text description of a UML diagram, which is converted into a SVG or PNG image shape using tools on the our servers. PlantUML conversion is not available when you use se.diagrams.net as diagram data is never sent to our servers. 
-
 Use the [Mermaid syntax](/blog/mermaid-diagrams.html) instead: _Arrange > Insert > Advanced > Mermaid_
 
 **Storage location:** Google Drive is the only cloud storage location available for both diagram files and custom shape libraries. 
