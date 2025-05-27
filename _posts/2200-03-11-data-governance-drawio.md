@@ -27,8 +27,6 @@ When using these features, the data is securely sent from your browser to the dr
 These functions include:
 
 * Export to ``.pdf`` files.
-* Import from ``.vdx``, ``.vsd``, and ``.vssx`` diagram files, including embedded EMF images.
-* Generation of diagram images from PlantUML.
 * Import of Gliffy diagrams.
 
 **Note:** Data is encrypted during all network transmission to and from the endpoint.

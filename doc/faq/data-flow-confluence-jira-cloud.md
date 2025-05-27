@@ -14,7 +14,7 @@ There are a couple of cases where data is sent to our *.diagrams.net servers to 
 These functions include:
 
 * Export to PDF
-* Import a .vsd, .vdx, .vssx or .gliffy file
+* Import a .gliffy file
 
 **Tip:** If you want to disable all communication except between the user's browser and the location where it is stored in your Atlassian product (advanced edition only), set ``lockdown`` to ``true``. 
 

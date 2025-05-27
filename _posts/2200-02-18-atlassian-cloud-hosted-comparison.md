@@ -64,10 +64,6 @@ As external server connectivity is enabled by default, draw.io for Confluence Cl
 
 **Generate PDF versions of diagrams** with external fonts. 
 
-**Open and convert ``vsd``, ``vss``, ``vdx``, and ``vsdx`` files**, including ``vsd`` and ``vsdx`` diagram files that contain embedded EMF images.
-
-
-
 
 <br />
 _The following two features are available by default in Confluence Cloud but must be manually enabled via the [draw.io configuration](/doc/faq/configure-drawio-confluence-server) in Data Center / Server, should your company's data policy allow connections to external services._

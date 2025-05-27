@@ -18,10 +18,8 @@ Data is encrypted during all network transmission up to the endpoint processing.
 
 The online draw.io editor at app.diagrams.net is delivered via Cloudflare edge data centers and data transmitted outbound is directed via those same Cloudflare centers. The server endpoints are all located within AWS data centers. The features requiring server-side functionality are:
 
-- Translation of ``vsd``, ``vss``, and ``vdx`` files to ``vsdx``. draw.io understands ``vsdx`` natively in JavaScript on the client.
 - Import of Gliffy files.
 - Migration of EMF images embedded in ``vsd``/``vsdx`` files. EMF licensing means only the Windows operating system may manipulate these.
-- Generation of PlantUML diagrams. PlantUML is written in Java.
 - Generation of PDFs of diagrams.
 - Collaborative editing by sending only deltas of changes to other editors.
 
