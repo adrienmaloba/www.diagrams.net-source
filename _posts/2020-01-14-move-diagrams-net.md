@@ -22,7 +22,7 @@ However, the domain administrator made no attempt, at any time, to communicate w
 
 ## draw.io in Atlassian
 
-draw.io will remain as-is within Atlassian. Our partnership in that ecosystem with [//SEIBERT/MEDIA](https://seibert-media.com) will continue in the same way for a long time to come.
+draw.io will remain as-is within Atlassian. Our partnership in that ecosystem with [Seibert Group GmbH](https://seibert.group/en/) will continue in the same way for a long time to come.
 
 Our draw.io documentation and official blog will move away from the .io domain to [drawio.com](https://drawio.com).
 
