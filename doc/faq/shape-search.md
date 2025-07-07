@@ -14,6 +14,12 @@ The shape library search feature looks for shape names that match or are similar
 
 **Tip:** Try several synonyms to see a wider range of appropriate shapes.
 
+**Search within your diagram**
+
+The new search field also allows you to search for text, tags, shape metadata and more within your diagram, and access draw.io features quickly. 
+
+[Learn more about the new search omnibox](/blog/search-omnibox.html)
+
 **Extended icon search limitations**
 
 External clipart libraries are only available via draw.io's servers. These are not searchable if you are using the following:

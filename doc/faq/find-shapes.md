@@ -15,9 +15,9 @@ You can find shapes and connectors by searching for their metadata (shape proper
 
 ## Regular expressions find all matches
 
-Note that _Find_ attempts to match the search term to the first string in the label or metadata (before any spaces). If you want to find shapes that include the search term at any position in a label or property string, you'll need to use a regular expression.
+You can also use a regular expression as a search term.
 
-1. Click the _Regular Expression_ checkbox in the _Find_ dialog
+1. Enable the _Regular Expression_ checkbox in the _Find_ dialog
 2. [Enter a regular expression using JavaScript syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) as the search term.
 3. Click _Find_ or press ``Enter``.
 

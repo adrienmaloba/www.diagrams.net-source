@@ -3,7 +3,7 @@ layout: post
 author: draw.io
 slug: drawio-sensitive-label
 date: 2022-12-09 09:24:00
-title: Use the new sensitive label to stop draw.io listing a diagram in the recent diagrams list and search results
+title: Keep a draw.io diagram out of the recent diagrams list and search results with a sensitive label
 tags: [features, Atlassian]
 categories: [features,atlassian,trust]
 ---
