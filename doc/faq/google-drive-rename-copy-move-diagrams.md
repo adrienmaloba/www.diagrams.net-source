@@ -38,11 +38,9 @@ To return to Google Drive from the draw.io editor, hover over the draw.io logo a
 
 <img src="/assets/img/blog/google-drive-return-from-editor.png" style="width=100%;max-width:400px;height:auto;" alt="Click on the logo at the top left to return to Google Drive from the draw.io editor">
 
-**Embed diagrams in Google Docs, Slides and Sheets** 
+**Tip:** To [use a draw.io diagram in a Google Doc, Sheet or Slide](/blog/diagrams-google.html), export your diagram from the draw.io editor to a [PNG image](/doc/faq/export-to-png.html), then import that image file into your Google document. 
 
-Using the draw.io apps for Google Workplace, you can [add diagrams from Google Drive to Google Docs](/blog/diagrams-google-docs.html) and other Google Workplace apps, without needing to create and embed a static image version of your diagram.
-
-<img src="/assets/img/blog/addon-google-docs-examples.png" style="max-width:100%;height:auto;" alt="Embed a diagram in Google Docs">
+<img src="/assets/img/blog/diagram-google-docs-examples.png" style="width=100%;max-width:400px;height:auto;"  alt="It's easy to import images of diagrams in Google Docs">
 
 **Embed diagrams from Google Drive in Atlassian Confluence and Jira**
 

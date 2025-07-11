@@ -60,6 +60,9 @@ Some menu options are also available in the search omnibox. For example:
 * Search for ``Clear`` when you have selected a connector to see the _Clear Waypoints_ option.
 <br /><img src="/assets/img/blog/search-omnibox-clear.png" style="width=100%;max-width:600px;height:auto;" alt="Search for draw.io features in the new search omnibox to avoid having to hunt through the menus">
 
+* Search for the name of a diagram page that is not the one you are currently editing. Click on the name to open that diagram page in the editor. This is useful for diagram that contain a large number of diagram pages.
+<br /><img src="/assets/img/blog/search-omnibox-page.png" style="width=100%;max-width:350px;height:auto;" alt="Search for the name of a draw.io diagram page and click on it to open that page in the editor">
+
 This list remembers and shows you the last five search actions you selected - an ideal way to 'bookmark' the tools and menu options that you use often. 
 
 **Note:** Only a limited number of tools are available in the new search field at the moment. Raise a feature request to suggest the features you'd like us to add to the search omnibox over on the [JGraph/drawio repository](https://github.com/jgraph/drawio/issues). 

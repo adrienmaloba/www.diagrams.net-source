@@ -61,13 +61,17 @@ Hover over the draw.io logo in the top left of the editor, and you'll see it cha
 
 ### Use draw.io inside Google Workplace (G Suite) apps
 
-Embed diagrams in documents, slides and sheets with the [draw.io (diagrams.net) add-ons for Google Workplace apps](/blog/diagrams-google-docs.html). Using the draw.io add-ons means you don't need to manually export an image and update it in your document every time you edit your diagram. Simply use the _Add-ons_ menu and update all of your embedded diagrams at once.
+Export a diagram from draw.io to a PNG image, and import that image into your Google Document, Slide or Sheet. 
 
-<img src="/assets/img/blog/addon-google-docs-examples.png" style="max-width:100%;height:auto;"  alt="It's easy to embed diagrams in Google Docs">
+**Note:** When the draw.io diagram file is updated in Google Drive, you will need to re-export the PNG image file, and replace the image within your document. 
+
+<img src="/assets/img/blog/diagram-google-docs-examples.png" style="width=100%;max-width:400px;height:auto;"  alt="It's easy to import images of diagrams in Google Docs">
+
+**Important:** The older [draw.io apps for Docs, Slides and Sheets](/blog/diagrams-google.html) are now deprecated due to Google's new security permissions limitations.
 
 ### Allow all Google Workplace users to diagram
 
-As a Google Workplace (G Suite) administrator, you will need to [install and approve the draw.io add-ons for Google Workplace](/doc/faq/gsuite-addons-domain-wide.html) on behalf of all users on a domain.
+As a Google Workplace (G Suite) administrator, you will need to [install and approve the draw.io add-on for Google Workplace](/doc/faq/gsuite-addons-domain-wide.html) on behalf of all users on a domain.
 
 ## Embed files from Google Drive in Confluence and Jira
 
@@ -85,4 +89,4 @@ With useful collaboration features supporting group work and ongoing feedback, s
 
 <img src="/assets/img/blog/google-classroom-diagram-demonstration.gif" style="max-width:100%;height:auto;" alt="Preview, add comments to and open diagrams in the draw.io editor from Google Classroom">
 
-**Tip:** WHen working in a group on the same diagram stored in Google Drive, right-click on the drawing canvas and [share your mouse cursor with your group members](/blog/concurrent-editing.html) in real-time.
+**Tip:** When working in a group on the same diagram stored in Google Drive, right-click on the drawing canvas and [share your mouse cursor with your group members](/blog/concurrent-editing.html) in real-time.

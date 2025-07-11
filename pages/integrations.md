@@ -29,13 +29,11 @@ draw.io is designed to be easy to configure and fast to deploy in a container.
 * [Get the draw.io application code on GitHub](https://github.com/jgraph/docker-drawio)
 * [Learn more about docker and containers](https://www.docker.com/resources/what-container)
 
-### Google Workspace add-ons for Docs, Sheets and Slides
+### Google Drive add-on for Google Workspace and Classroom
 
-draw.io lets you [store your diagram files in Google Drive](https://app.diagrams.net/?mode=google) and [work with them in Google Workspace](https://gsuite.diagrams.net/). There are also add-ons available for [Docs](https://docsaddon.diagrams.net/), [Sheets](https://sheetsaddon.diagrams.net/) and [Slides](https://slidesaddon.diagrams.net/).
+draw.io lets you [store your diagram files in Google Drive](https://app.diagrams.net/?mode=google) and [work with them in using the draw.io Google Workspace app](https://gsuite.diagrams.net/). This app also works in [Google Classroom](/blog/google-classroom-diagrams.html)
 
-<img src="/assets/img/blog/addon-google-docs-examples.png" width="400" alt="It's easy to embed diagrams in Google Docs">
-
-[See how to use the draw.io add-ons for Google Workspace](/blog/diagrams-google-docs.html)
+[See how to use the draw.io add-ons for Google Drive](/doc/faq/google-drive-diagrams.html)
 
 ### Microsoft Sharepoint, OneDrive, Office 365 and Teams integrations
 
