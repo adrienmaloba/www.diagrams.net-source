@@ -73,6 +73,7 @@ The following URL parameters are supported by the online version of the draw.io 
 * ``offline=[1|0]``: Registers or unregisters the progressive web app (all remote storage locations are disabled).
 * ``pwa=0``: Disables the ability to (un)register the progressive web app (when installed it will stay installed).
 * ``stealth=1``: Disables all features that require external web services (such as [PDF export](/blog/export-pdf.html)).
+* ``gapi-stealth=1``: Disables all features that require external web services except Google Drive (such as [PDF export](/blog/export-pdf.html)).
 * ``demo=1``: Shortcut for ``db=0&gapi=0&math=0&picker=0``, disables the splash screen and creates an empty, local diagram file.
 * ``url=url``: _Deprecated_ - Use U hash property ``#U{uri_encoded_url}`` to open a diagram from a URI-encoded URL, eg. https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fmaster%2Fdiagrams%2Fschema.xml
 * ``client=1``: Runs diagrams.net in client mode. This displays a normal UI and sends a ``ready`` message to the opener or parent when the page is loaded. After receiving a message containing XML or compressed XML, a local file is created. The file is then set to ``modified`` so the connection to the window can be closed after sending the initial XML. Whether the XML is loaded again after a page refresh, depends on the caller implementation. Use ``proto=json`` to use a custom protocol for special cases.
