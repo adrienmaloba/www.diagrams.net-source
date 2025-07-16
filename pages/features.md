@@ -36,7 +36,7 @@ Store and work with diagrams in [Atlassian Confluence](https://marketplace.atlas
 
 **Embed diagrams** in other applications with our draw.io add-ons:
 * [Microsoft Office 365 apps](/doc/faq/microsoft-office-diagrams.html) and [Microsoft Teams](/doc/faq/microsoft-teams-diagrams.html)
-* [Google Workplace apps](/doc/faq/google-docs-diagrams.html) and [Google Classroom](/blog/google-classroom-diagrams.html)
+* [Google Drive](/doc/faq/google-drive-diagrams.html) which works with Google Workplace and [Google Classroom](/blog/google-classroom-diagrams.html)
 * [Notion](https://chrome.google.com/webstore/detail/drawio-for-notion/plhaalebpkihaccllnkdaokdoeaokmle) and [NextCloud](https://apps.nextcloud.com/apps/drawio)
 
 Plus, many more [3rd-party integrations](/integrations.html) are available because [we are open source](https://github.com/jgraph/drawio). 

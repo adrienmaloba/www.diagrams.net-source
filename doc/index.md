@@ -35,7 +35,7 @@ Troubleshooting, how-to instructions, example diagrams and training for the draw
 **Training videos on YouTube**
 
 * [Getting started with draw.io](https://www.youtube.com/watch?v=PfY5BN-Saho&list=PLX6xdk86h_0zxz0Ia4Te17VTehnlqmBnw&index=7)
-* [Diagramming faster with shortcuts](https://www.youtube.com/watch?v=LwNYm7DCDCY&list=PLX6xdk86h_0zDOt2OUYYHB25vBvwe6rq3&index=1)
+* [Diagram faster with shortcuts](https://www.youtube.com/watch?v=LwNYm7DCDCY&list=PLX6xdk86h_0zDOt2OUYYHB25vBvwe6rq3&index=1)
 * [Use cases and different types of diagrams](https://www.youtube.com/playlist?list=PLX6xdk86h_0xJDSi1X7j-Amdc4OjIEKdY)
 
 <br />
