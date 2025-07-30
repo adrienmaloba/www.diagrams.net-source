@@ -15,9 +15,9 @@ Many developers prefer to describe their data structures and processes using tex
 
 ## Insert a Mermaid diagram
 
-1. Click _Arrange > Insert > Advanced > Mermaid_. Alternatively, click the ``+`` icon in the toolbar, then select _Advanced > Mermaid_.
-<br /><img src="/assets/img/blog/insert-mermaid-menu.png" style="max-width:100%;height:auto;" alt="Click Arrange > Insert > Advanced > Mermaid to create a diagram from Mermaid Markdown-inspired code">
-2. Paste your text into the text box, then click _Insert_.
+1. Click _Arrange > Insert > Mermaid_. Alternatively, click the ``+`` icon in the toolbar, then select _Mermaid_.
+<br /><img src="/assets/img/blog/insert-mermaid-menu.png" style="max-width:100%;height:auto;" alt="Click Arrange > Insert > Mermaid to create a diagram from Mermaid Markdown-inspired code">
+1. Paste your text into the text box, then click _Insert_.
 <br /><img src="/assets/img/blog/mermaid-flowchart-example-code.png" style="width=100%;max-width:400px;height:auto;" alt="Paste the text in Mermaid syntax, then click Insert">
 
 Your diagram will be automatically created and formatted from your text, and inserted as a single shape on the drawing canvas.

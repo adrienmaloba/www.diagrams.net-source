@@ -55,8 +55,8 @@ We'll use an example of migrating draw.io from one Confluence Cloud instance (so
 
 Export and save the ``Page IDs`` used in diagrams that contain a link to a Confluence page.
 
-1. Go to your Confluence administration, and select _draw.io Configuration_ in the left panel, then select the _``Page IDs Export``_ tab.
-2. Click _Export data_ and wait until it the process completes.
+1. Go to your Confluence administration, and select _Draw.io add-on > Configuration_ in the left panel, then select the _``Page IDs Export``_ tab.
+2. Click _Start Export_ and wait until it the process completes.
 <br /><img src="/assets/img/blog/confluence-cloud-export-pageids.png" style="max-width:100%;height:auto;" alt="To make sure links in diagrams continue to work, export the page IDs from Confluence to correctly migrate">
 1. Once the processing is done, click _Download_ to save the ``Page ID`` mapping file to your local device.
 
@@ -64,10 +64,11 @@ Export and save the ``Page IDs`` used in diagrams that contain a link to a Confl
 
 Restore the link targets in your draw.io diagrams in the target Confluence Cloud instance by importing the Page IDs.
 
-1. Go to your target Confluence Cloud administration, and select _draw.io Configuration_ in the left panel, then select the _``Page IDs Import``_ tab.
-2. Click _Start import_, select the file you previously saved to your local device, and select _Upload_. Wait until the import is complete.
+1. Go to your target Confluence Cloud administration, and select _Draw.io add-on > Configuration_ in the left panel, then select the _``Page IDs Import``_ tab.
+2. Click _Start Import_, select the file you previously saved to your local device, and select _Upload_. Wait until the import is complete.
 <br /><img src="/assets/img/blog/confluence-cloud-import-pageids.png" style="max-width:100%;height:auto;" alt="Import draw.io diagram data from another Confluence Cloud instance">
 
 Now, those diagrams that contained links should send you do the correct page in your new Confluence Cloud instance. And embedded diagrams should display correctly.
 
-_Optional:_ Re-index your target Confluence instance after importing the draw.io ``Page IDs`` to double check that attachments are correctly indexed.
+_Optional:_ Re-index your target Confluence instance after importing the draw.io ``Page IDs`` to double check that attachments are correctly indexed via the _draw.io re-indexing_ tab.
+<br /><img src="/assets/img/blog/confluence-cloud-reindexing.png" style="max-width:100%;height:auto;" alt="Reindex the draw.io diagrams in the Confluence Cloud instance">

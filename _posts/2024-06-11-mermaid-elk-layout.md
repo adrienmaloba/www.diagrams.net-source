@@ -8,7 +8,7 @@ tags: [integrations,uml]
 categories: [integrations,features,use-cases, import]
 ---
 
-Mermaid is a text-based syntax that you can use to describe a diagram, and automatically lay it out neatly on the diagram canvas. Enter your Mermaid diagram description in draw.io via _Arrange > Insert > Advanced > Mermaid_ in the draw.io menu or _+ > Advanced > Mermaid_ from the toolbar. draw.io has updated to Mermaid version 10.9.1 to support the new ELK automatic layout.
+Mermaid is a text-based syntax that you can use to describe a diagram, and automatically lay it out neatly on the diagram canvas. Enter your Mermaid diagram description in draw.io via _Arrange > Insert > Mermaid_ in the draw.io menu or _+ > Mermaid_ from the toolbar. draw.io has updated to Mermaid version 10.9.1 to support the new ELK automatic layout.
 <br /><img src="/assets/img/blog/mermaid-flow-elk-insert.png" style="width=100%;max-width:350px;height:auto;" alt="Tell the Mermaid diagram generation tool to use the ELK layout option in your text diagram description">
 
 ## Text to diagram tools in draw.io
@@ -39,10 +39,10 @@ graph TD
 ```
 Add this Mermaid diagram to draw.io.
 
-1. Select _Arrange > Insert > Advanced > Mermaid_ from the menu or _+ > Advanced > Mermaid_ from the toolbar if you are using the [Simple mode](/blog/simple-mode-diagrams.html) or the [Sketch editor theme](/blog/sketch-online-whiteboard.html).
-<br /><img src="/assets/img/blog/insert-mermaid-menu.png" style="max-width:100%;height:auto;" alt="Click Arrange > Insert > Advanced > Mermaid to create a diagram from Mermaid Markdown-inspired code">
-2. Enter the text description of your diagram using Mermaid syntax in the large text box. 
-3. From the drop-down list, select whether you want to insert the diagram with draw.io shapes (_Diagram_), or as a single image (_Image_), and click _Insert_. 
+1. Select _Arrange > Insert > Mermaid_ from the menu or _+ > Mermaid_ from the toolbar if you are using the [Simple mode](/blog/simple-mode-diagrams.html) or the [Sketch editor theme](/blog/sketch-online-whiteboard.html).
+<br /><img src="/assets/img/blog/insert-mermaid-menu.png" style="max-width:100%;height:auto;" alt="Click Arrange > Insert > Mermaid to create a diagram from Mermaid Markdown-inspired code">
+1. Enter the text description of your diagram using Mermaid syntax in the large text box. 
+2. From the drop-down list, select whether you want to insert the diagram with draw.io shapes (_Diagram_), or as a single image (_Image_), and click _Insert_. 
 <br /><img src="/assets/img/blog/mermaid-flowchart-example-code.png" style="width=100%;max-width:400px;height:auto;" alt="Paste the text in Mermaid syntax, then click Insert">
 
 **Diagram** (default): When you insert the Mermaid diagram using the draw.io shapes, you can connect additional shapes and connectors and style your diagram. To change the original Mermaid syntax, first delete the previously inserted shapes, and re-enter the Mermaid description of your diagram by repeating the steps above. 
