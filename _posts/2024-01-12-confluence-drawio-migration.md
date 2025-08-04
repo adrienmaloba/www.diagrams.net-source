@@ -3,27 +3,23 @@ layout: post
 author: draw.io
 slug: confluence-drawio-migration
 date: 2024-01-12 09:54:00
-title: Migrating with draw.io from Confluence Data Center/Server to Confluence Cloud
+title: Migrating with draw.io from Confluence Data Center/Server to Confluence Cloud Alternative Process
 tags: [features, Atlassian]
 categories: [features,atlassian]
 ---
 
-draw.io has updated the migration process for moving a Confluence Data Center/Server instance to Confluence Cloud with a macro to ensure diagrams are embedded and linked properly, providing no Confluence pages are renamed in the migration process. 
+**Note:** Do not use this migration process unless agreed with draw.io support.
 
-**Minimum versions:** The new migration tool is for draw.io 11.3.8 and later on Confluence DC/Server 7.x, and draw.io 12.2.0 and later on Confluence DC/Server 8.x.
-
-The Confluence ``pageID`` is used when adding a links to diagrams and for embedding a diagram from one page to another. When a page is recreated in Confluence Cloud, it is assigned a different ``pageID``, often breaking in-diagram links and embedded diagrams.
+The main issue with migration of draw.io diagram across Confluence instance is that the Confluence ``pageID`` is used when adding a links to diagrams and for embedding a diagram from one page to another. When a page is recreated in Confluence Cloud, it is assigned a different ``pageID``, often breaking in-diagram links and embedded diagrams.
 
 With draw.io's migration tool, diagram macros in your Data Center/Server instance will be updated to use ``SPACE/PAGENAME``.  
 
 **Should I use this new migration tool?**
 
-We recommend that you [use the older ``Page IDs`` method](/doc/faq/migrate-drawio-confluence.html), now that [Atlassian supports bulk space permissions editing in Cloud](https://jira.atlassian.com/browse/CONFCLOUD-1053), but especially if you are: 
-* migrating from an older version of Confluence DC/Server
-* migrating from one Cloud instance to another or from Cloud to DC/Server
-* you have write permissions to your entire new Cloud instance (rare) and want to migrate from the Confluence DC/Server 8.0 using this older method
-
-However, if you are using Confluence Data Center/Server 8.0, and you will not rename Confluence pages as part of the migration process, you may find this new migration tool convenient. Follow the steps below.
+We recommend that you [use the older ``Page IDs`` method](/doc/faq/migrate-drawio-confluence.html), now that [Atlassian supports bulk space permissions editing in Cloud](https://jira.atlassian.com/browse/CONFCLOUD-1053), but especially if: 
+* you are migrating from an older version of Confluence DC/Server
+* you are migrating from one Cloud instance to another or from Cloud to DC/Server
+* you have write permissions to your entire new Cloud instance and the long running task of updating pageIDs from a browser is viable.
 
 **Run the draw.io migrate tool on Data Center/Server**
 
@@ -35,11 +31,11 @@ Additionally, the draw.io Cloud migration tool sets up the _draw.io configuratio
 
 ## Run the draw.io Cloud migration tool
 
-The draw.io Cloud migration is performed by a Confluence administrator.
+The draw.io Cloud migration is performed by a Confluence administrator. It's assumed that the instance is set in read-only mode at the start of the migration process. The DC part of the process needs to run before the CCMA migration part:
 
 1. First, stop the [Synchrony service](https://confluence.atlassian.com/doc/administering-collaborative-editing-858772086.html) that enables collaborative editing. Note that you'll need to stop the Synchrony service script on the server, not via the Confluence administration console - please refer to [Atlassian's documentation](https://confluence.atlassian.com/doc/administering-collaborative-editing-858772086.html) if you don't know how to do this.
 
-2. Go to the _draw.io add-on > Configuration_ section, and select the _Cloud Migration_ tab. Click _Start_ to update links within the diagram macros. 
+2. Go to the _draw.io add-on > Configuration_ section, and select the _Cloud Migration_ tab (note you need to ask draw.io support how to enable the tab). Click _Start_ to update links within the diagram macros. 
 <br /><img src="/assets/img/blog/confluence-server-cloud-migration.png" style="width=100%;max-width:500px;height:auto;" alt="Start the Confluence DC/Server to Cloud migration preparation for draw.io diagrams in the administration area via draw.io add-on > Configuration > Cloud Migration">
 <br />You will be reminded that you need to stop the [Synchrony service](https://confluence.atlassian.com/doc/administering-collaborative-editing-858772086.html). Click _OK_ to continue.
 <br /><img src="/assets/img/blog/confluence-server-cloud-migration-synchrony-warning.png" style="width=100%;max-width:300px;height:auto;" alt="Stop the Synchrony service to speed up the process as there will be many edits to pages and diagrams">
@@ -67,11 +63,9 @@ Migrating to Confluence Cloud helps you to consolidate IT applications and reduc
 
 It's convenient to have a central Cloud application suite for recording and tracking information both at a corporate level and for distributed teams: task tracking and support requests in Jira, and technical documentation, project planning, and corporate communications in Confluence.
 
-Confluence Cloud has several features and tools that aren't available in an on-premise or standalone instance, and it is tightly integrated with Atlassian's Cloud applications. A centralised admin console reduces the workload for IT support, the organisation-wide data privacy and and data storage location rules simplify compliance requirements, and apps are kept up to date automatically.
+Confluence Cloud has several features and tools that aren't available in an on-premise or standalone instance, and it is tightly integrated with Atlassian's Cloud applications. A centralised admin console reduces the workload for IT support, the organisation-wide data privacy and data storage location rules simplify compliance requirements, and apps are kept up to date automatically.
 
 draw.io works better in Confluence Cloud too - with [real-time collaborative editing](/blog/collaborative-editing-confluence-cloud.html) showing everyone's cursors. As [draw.io is an Atlassian Cloud Fortified app](/blog/drawio-atlassian-cloud-fortified.html), you can lock down data transmission with configuration options in draw.io and [data residency settings in the Atlassian Cloud](https://support.atlassian.com/security-and-access-policies/docs/understand-data-residency/) to keep diagram data between the user's browser and a Cloud instance in your preferred location. 
-
-**Tip:** [Apply a _sensitive_ label to a draw.io diagram](/blog/drawio-sensitive-label.html) to keep it out of Confluence search results. 
 
 [Learn more about the difference between draw.io for Confluence Data Center/Server and Cloud](/blog/atlassian-cloud-hosted-comparison.html)
 
