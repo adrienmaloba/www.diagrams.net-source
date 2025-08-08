@@ -12,9 +12,13 @@ Whether you have added draw.io as part of a migration to Confluence Cloud, or ar
 
 ## Data security
 
-If your organisation has strict data management requirements, such as those in regulated industries like finance or healthcare, you'll be familiar with [Atlassian's data residency settings](https://confluence.atlassian.com/cloud/manage-data-residency-976763149.html) to keep your data in one particular server region. 
+If your organisation has strict data management requirements, such as those in regulated industries like finance or healthcare, you'll be familiar with [Atlassian's data residency settings](https://confluence.atlassian.com/cloud/manage-data-residency-976763149.html) to keep your data in one particular server region. The draw.io apps for Confluence and Jira will automatically use your data residency settings.
 
-You can configure draw.io to match this and lock down your diagram data so it won't leave your instance or your user's browser.
+However, data transmission ``lockdown`` is only available in the [advanced edition](https://drawio-app.com/blog/introducing-the-draw-io-advanced-app-for-confluence-cloud/) of the draw.io app for Confluence. This disables all communication except between the user's browser and the location where it is stored in your Atlassian product.
+
+1. Go to the draw.io app configuration section in your Confluence Cloud settings.
+2. Add the following JSON string: ``"lockdown": true"`` to the configuration.
+<br /><img src="/assets/img/blog/drawio-confluence-lockdown-config.png" style="width=100%;max-width:400px;height:auto;" alt="Configure draw.io for Confluence Cloud to lock down your diagram data to match your Atlassian data residency settings">
 
 **As an administrator**
 
