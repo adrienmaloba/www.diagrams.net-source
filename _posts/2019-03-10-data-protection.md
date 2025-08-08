@@ -34,6 +34,13 @@ Our [updated privacy policy is available on GitHub](https://github.com/jgraph/ww
 
 If you want to diagram in a totally secure and offline environment, download and install [draw.io desktop](https://get.diagrams.net). This stand-alone version is available for MacOS, Windows and Linux.
 
+## Data residency and lockdown in Confluence Cloud
+
+If you are using the draw.io apps for Confluence Cloud, you can [set a **data residency** region](https://confluence.atlassian.com/cloud/manage-data-residency-976763149.html) to choose the server region where the content of your instance and associated metadata will be stored when it is at rest. The draw.io apps for Confluence and Jira Cloud will automatically use your Atlassian data residency settings.
+
+Additionally, you can configure the [advanced edition](https://drawio-app.com/blog/introducing-the-draw-io-advanced-app-for-confluence-cloud/) of the draw.io app for Confluence to [''lockdown'' data transmission](/blog/data-governance-lockdown.html) and disable all communication except between the user's browser and the location where it is stored in your Atlassian product.
+
+
 ## Do you need to obfuscate your diagram's text before you share it?
 
 The ``anonymize plugin`` overwrites all text and metadata so you can safely share sensitive diagrams with clients or parters without fear of breaching non-disclosure clauses or the GDPR.

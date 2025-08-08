@@ -103,6 +103,8 @@ In medium to large software projects, it is common to use modules or 'packages' 
 
 **Related diagrams:** As a more abstract type of package diagrams, _model diagrams_ show an even broader view of the structure of a system, often to visualise how multi-layered application is logically organised.
 
+See how to [draw a package diagram in draw.io](/blog/uml-package-diagrams.html)
+
 [<img src="/assets/img/blog/package-diagram-example.png" style="width=100%;max-width:250px;height:auto;" alt="A UML package diagram created in draw.io">](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&page=0&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fuml-package-example.drawio)
 
 [_Back to top_](#list-of-uml-diagrams)

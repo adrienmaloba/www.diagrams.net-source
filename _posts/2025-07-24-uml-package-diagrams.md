@@ -57,12 +57,12 @@ Keep in mind that the generator doesn't currently understand the package diagram
 ## UML package diagram examples
 
 In this simple example of an online shop, the system's elements are separated into one package containing the web and mobile app interface, packages for the shopping cart and payment systems, and one package containing all the databases. 
-<br /><img src="/assets/img/blog/package-diagram-example.png" style="width=100%;max-width:300px;height:auto;" alt="A simple UML package diagram to show ">
+<br />[<img src="/assets/img/blog/package-diagram-example.png" style="width=100%;max-width:300px;height:auto;" alt="A simple UML package diagram to show ">](https://app.diagrams.net/?page=0&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fuml-package-example.drawio)
 
 This example can be extended into a medium-level overview of a larger company that develops products and sells them both in their physical stores and online in their web app and mobile app. This company employs third-party services for photography, video creation and shipping. 
 
 While this is likely more detailed than most package diagrams as it shows business and application package 'layers' as well the store-related packages, it does illustrate how elements of a more complex business system can be grouped into logical packages. 
-<br /><img src="/assets/img/blog/uml-package-example.png" style="width=100%;max-width:600px;height:auto;" alt="A simple UML package diagram to show ">
+<br />[<img src="/assets/img/blog/uml-package-example.png" style="width=100%;max-width:600px;height:auto;" alt="A simple UML package diagram to show ">](https://app.diagrams.net/?page=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fuml-package-example.drawio)
 
 
 

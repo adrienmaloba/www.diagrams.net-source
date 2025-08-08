@@ -16,6 +16,6 @@ These functions include:
 * Export to PDF
 * Import a .gliffy file
 
-**Tip:** If you want to disable all communication except between the user's browser and the location where it is stored in your Atlassian product (advanced edition only), set ``lockdown`` to ``true``. 
+**Tip:** If you want to disable all communication except between the user's browser and the location where it is stored in your Atlassian product ([draw.io advanced edition](https://drawio-app.com/blog/introducing-the-draw-io-advanced-app-for-confluence-cloud/) only), set ``lockdown`` to ``true``. 
 
 [Learn more about lockdown](/blog/data-governance-lockdown.html)
