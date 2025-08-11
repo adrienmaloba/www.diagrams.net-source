@@ -7,9 +7,11 @@ categories: [Features,Customisation]
 
 1. Select _Extras > Configuration_ from the menu, or _... > Settings > Configuration_ from the toolbar. 
 <br /><img src="/assets/img/blog/extras-configuration-menu.png" style="width=100%;max-width:300px;height:auto;" alt="Access the draw.io configuration via Extras > Configuration">
-1. Add the following JSON string to the configuration: ``"lockdown": true``
-<br /><img src="/assets/img/blog/configuration-lockdown-true.png" style="width=100%;max-width:300px;height:auto;" alt="Add the lockdown option to the draw.io configuration to disable smart templates">
+1. Add the following JSON string to the configuration: ``"enableChatGPT": false``
+<br /><img src="/assets/img/blog/configuration-chatgpt-false.png" style="width=100%;max-width:300px;height:auto;" alt="Set the enableChatGpt option to false in the draw.io configuration to disable smart templates and the Generate option in search">
 1. Click _Apply_ to save your changes. Reload the browser tab to load the new draw.io configuration and disable the smart templates feature. 
+
+This removes the Smart Templates section from the template library dialog, and the _Generate_ options in the search field and menus. 
 
 **Feature availability**
 
@@ -18,6 +20,8 @@ If you are using the online version of draw.io at app.diagrams.net, then this fe
 Smart templates are not available in draw.io Desktop as the Desktop version is fully offline. 
 
 Administrators must [enable smart templates in draw.io for Confluence Cloud and Jira Cloud](/doc/faq/confluence-cloud-enable-smart-templates.html) in the draw.io configuration options before their users can generate diagrams. Smart templates are disabled by default. 
+
+When the [``lockdown`` option](/blog/data-governance-lockdown.html) is set to true, the smart templates feature and the _Generate_ option in the shape search will also be disabled. 
 
 **Using smart templates in draw.io**
 
