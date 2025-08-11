@@ -77,12 +77,13 @@ If there is an error in your Mermaid mindmap text, draw.io will display a parser
 ### Mindmaps with different shapes
 
 You can use different shapes to more clearly differentiate between branches.
-  * ``[]`` - rectangle with sharp corners
-  * ``()`` - rounded rectangle
-  * ``(())`` - circle
-  * ``))((`` - bang shape
-  * ``)(`` - cloud shape
-  * ``{{}}`` - hexagon
+
+* [] - rectangle with sharp corners
+* () - rounded rectangle
+* (()) - circle
+* ))(( - bang shape
+* )( - cloud shape
+* \{\{\}\} - hexagon
 
 [<img src="/assets/img/blog/mindmap-mermaid-example2.png" style="width=100%;max-width:600px;height:auto;" alt="Mindmaps are easy to create from text with draw.io and Mermaid">
 <br />_Open this example in our diagram viewer_](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&page=2&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fmindmap-mermaid-example.drawio)
@@ -107,7 +108,7 @@ mindmap
         Set goals
         Get team feedback
 
-    id2{{Offboarding}}
+    id2{ {Offboarding} }
       [Feedback and review]
       [Exit interview]
       [Tasks/projects reassigned]

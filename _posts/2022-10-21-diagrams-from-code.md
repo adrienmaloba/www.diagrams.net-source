@@ -39,7 +39,7 @@ To recreate the entities, you'll need to delete the existing entities and their 
 
 Mermaid can describe a wider range of diagrams, not just UML.  Its Markdown-like syntax is very easy to write and supported by several popular platforms. 
 
-1. Click _Arrange > Insert > Advanced > Mermaid_. 
+1. Click _Arrange > Insert > Mermaid_. 
 <br /><img src="/assets/img/blog/mermaid-flowchart-example-code.png" style="width=100%;max-width:300px;height:auto;" alt="Paste the text in Mermaid syntax, then click Insert">
 1. Add the Mermaid syntax description in the large text field. 
 2. Click _Insert_ and the diagram will be generated and added as a 'shape' on the drawing canvas.

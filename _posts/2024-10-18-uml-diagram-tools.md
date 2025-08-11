@@ -71,7 +71,7 @@ See the [draw.io diagram repository on GitHub](https://github.com/jgraph/drawio-
 
 [Mermaid](/blog/mermaid-diagrams.html) is a popular text-based UML diagramming tools and supported by draw.io. Many developers find describing sequence diagrams in particular easier using text.
 
-Click _Arrange > Insert > Advanced > Mermaid_. 
+Click _Arrange > Insert > Mermaid_. 
 
 For example, the following Mermaid text generates a sequence diagram.
 ```

@@ -26,13 +26,12 @@ Flow charts let you visually describe a process or system. The shapes and very s
 ## Create a new blank diagram
 
 1. Go to [the online draw.io editor](https://app.diagrams.net).
-2. Select _Device_ to save your flow chart to your device.
-<br />**Note:** You can [select another location to store your diagram file](/doc/faq/storage-location-select), but you may be prompted to grant the editor permission if you select a cloud storage platform.
-<br /><img src="/assets/img/blog/basic-flow-save-to-device.png" style="width=100%;max-width:200px;height:auto;" alt="Select Device to save your diagram to your local device">
-3. Click on _Create New Diagram_.
+2. Click on _Create New Diagram_.
 <br /><img src="/assets/img/blog/basic-flow-create-new-diagram.png" style="width=100%;max-width:200px;height:auto;" alt="Click Create New Diagram to start a new diagram">
-4. In the template manager, enter a filename for your flow chart, ensure _Blank Diagram_ is selected, then click _Create_.
+1. In the template manager, enter a filename for your flow chart, ensure _Blank Diagram_ is selected, then click _Create_.
 <br /><img src="/assets/img/blog/basic-flow-create-blank-diagram.png" style="width=100%;max-width:300px;height:auto;" alt="Enter a filename, select Blank Diagram, and click Create">
+
+**Tip:** Click on _Change storage_ first if you want to [save your diagram to another location](/doc/faq/storage-location-select.html). 
 
 <br />
 ## Add shapes to the drawing canvas

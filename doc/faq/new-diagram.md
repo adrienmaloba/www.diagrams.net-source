@@ -7,13 +7,13 @@ categories: [Features]
 
 draw.io is a free online diagramming tool that supports a wide range of diagrams with its extensive shape libraries. Create flow charts, UML diagrams, org charts, mind maps, mockups, floor plans, infographics and more.
 
-1. Go to our online version at [app.diagrams.net](https://app.diagrams.net/) and select the location where you want to [store your diagram file](/faq/doc/storage-location-select.html).
-<br /><img src="/assets/img/blog/storage-locations.png" style="width=100%;max-width:200px;height:auto;" alt="Select the location where you want to save your diagram files">
-2. If you have selected a cloud storage platform, authorise draw.io to access your files.
-3. Click _Create new diagram_ to start a new diagram in the draw.io editor.
-<br /><img src="/assets/img/blog/google-drive-dialog.png" style="width=100%;max-width:200px;height:auto;" alt="Start using draw.io with Google Drive">
-4. Edit the _Diagram Name_, then click _Create_ to start a new blank diagram immediately. Alternatively, select a template category, choose a template from which to start your diagram, then click _Create_.
-<br /><img src="/assets/img/blog/google-drive-new-diagram-dialog.png" style="width=100%;max-width:300px;height:auto;" alt="Select a template and enter a diagram name to create a new diagram in Google Drive">
+1. Go to [the online draw.io editor](https://app.diagrams.net).
+2. Click on _Create New Diagram_.
+<br /><img src="/assets/img/blog/basic-flow-create-new-diagram.png" style="width=100%;max-width:200px;height:auto;" alt="Click Create New Diagram to start a new diagram">
+1. In the template manager, enter a filename for your flow chart, ensure _Blank Diagram_ is selected, then click _Create_.
+<br /><img src="/assets/img/blog/basic-flow-create-blank-diagram.png" style="width=100%;max-width:300px;height:auto;" alt="Enter a filename, select Blank Diagram, and click Create">
+
+**Tip:** Click on _Change storage_ first if you want to [save your diagram to another location](/doc/faq/storage-location-select.html). 
 
 ## Use the draw.io editor
 
@@ -40,4 +40,4 @@ You can start a new diagram via the menu if you are already working in the draw.
 ## Related
 
 * [Open an existing diagram file](/doc/faq/open-diagram-file.html)
-* [Import a diagram file, including .drawio, .xml, .vsdx and more formats](/doc/faq/import-diagram.html)
+* [Import a diagram file, including .drawio, .xml, .vsdx and other formats](/doc/faq/import-diagram.html)

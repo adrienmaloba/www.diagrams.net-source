@@ -7,8 +7,6 @@ categories: [Integrations,Features,Google]
 
 The draw.io app for Google Drive lets you work more easily with diagram files stored in your Google Drive account. 
 
-
-
 1. Log into your Google account. 
 2. Go to the [draw.io for Google Drive listing](https://workspace.google.com/marketplace/app/drawio/671128082532) on the Google Workspace Marketplace and click _Install_.
 <br /><img src="/assets/img/blog/google-drive-drawio-install-marketplace.png" style="width=100%;max-width:500px;height:auto;" alt="Install the draw.io app for Google Drive via the Google Workspace Marketplace">
@@ -23,4 +21,6 @@ The draw.io app for Google Drive lets you work more easily with diagram files st
 You can now use draw.io from within your Google Drive account - click on the Google Apps grid in the top right, scroll to the bottom to where your marketplace apps are, and click on _draw.io_ to go to the diagram editor. 
 <br /><img src="/assets/img/blog/google-drive-drawio.png" style="width=100%;max-width:150px;height:auto;" alt="Go to draw.io from Google Drive via the Marketplace apps menu in the top right">
 
-**Tip:** draw.io apps for Google Workspace are also available for [Google Docs](/doc/faq/google-docs-diagrams.html) and [Google Slides](/doc/faq/google-slides-drawio-install.html).
+**Tip:** To [use a draw.io diagram in a Google Doc, Sheet or Slide](/blog/diagrams-google.html), export your diagram from the draw.io editor to a [PNG image](/doc/faq/export-to-png.html), then import that image file into your Google document. 
+
+<img src="/assets/img/blog/diagram-google-docs-examples.png" style="width=100%;max-width:400px;height:auto;"  alt="It's easy to import images of diagrams in Google Docs">

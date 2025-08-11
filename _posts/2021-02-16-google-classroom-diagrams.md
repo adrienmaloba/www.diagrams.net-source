@@ -89,15 +89,11 @@ It happens rarely, but you may see an error along the lines of ``Log in attempts
 
 ## Embed diagrams in Docs, Slides and Sheets
 
-To conveniently include diagram files in written assignments, you can also install the draw.io add-ons for Google Docs, Slides and Sheets. Search for [_``draw.io``_ or _``diagrams.net``_ in the Google Workspace Marketplace](https://gsuite.google.com/u/0/marketplace/search/diagrams.net%20diagram?hl=en) to see all of the draw.io add-ons.
+1. Export the diagram from with our free online draw.io editor at [app.diagrams.net](https://app.diagrams.net) to a PNG image.
+2. Then import that image file into your Google Doc, Slide or Sheet to embed their diagram.
 
-The draw.io add-ons are useful when a group has diagrams for a project but needs to write individual reports. One student (or the teacher) can host the diagram file, and the students simply embed it in their document. After making changes to the diagram in the draw.io editor and saving it, the students only need to update the diagrams in their documents.
+<img src="/assets/img/blog/diagram-google-docs-examples.png" style="max-width:100%;height:auto;"  alt="It's easy to import images of diagrams in Google Docs">
 
-1. Select the diagram in your Google Doc.
-2. Click _Add-ons > draw.io for Docs > Update Selected_.
+**Note:** Google has applied new security limitations that limit how apps access files from Google Drive. If you have old, installed versions of these apps, you may be able to continue to embed and work with diagram files in your documents. 
 
-If you want to update all of the diagrams, click _Add-ons > draw.io Diagrams for Docs > Update All_.
-
-[Learn more about working with diagrams within Google documents](/blog/diagrams-google-docs.html)
-
-<img src="/assets/img/blog/addon-google-docs-examples.png" style="max-width:100%;height:auto;" alt="Embed a diagram in Google Docs">
+[Learn more about the changes to the draw.io apps for Google documents](/blog/diagrams-google.html)

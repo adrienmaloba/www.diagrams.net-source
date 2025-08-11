@@ -16,7 +16,7 @@ Of course, if you contact us here at JGraph for support via GitHub, Google Group
 
 In our [updated privacy policy](https://github.com/jgraph/www.diagrams.net-source/blob/release/trust/index.md), we have now clarified that we will not send you any marketing communication using your details or data. We will also not share your personal data with any third-party company for marketing purposes. 
 
-**Note:** The draw.io app listings in the Atlassian Marketplace for Confluence and Jira are managed by Seibert Media GmbH, and therefore are governed by [their privacy policy](http://seibert.biz/dataprivacy).
+**Note:** The draw.io app listings in the Atlassian Marketplace for Confluence and Jira are managed by Seibert Group GmbH, and therefore are governed by [their privacy policy](http://seibert.biz/dataprivacy).
 
 ## Use draw.io Desktop to diagram offline
 
