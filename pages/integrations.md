@@ -35,9 +35,9 @@ draw.io lets you [store your diagram files in Google Drive](https://app.diagrams
 
 [See how to use the draw.io add-ons for Google Drive](/doc/faq/google-drive-diagrams.html)
 
-### Microsoft Sharepoint, OneDrive, Office 365 and Teams integrations
+### Microsoft Sharepoint, OneDrive, and Office 365 integrations
 
-draw.io works with [OneDrive and Sharepoint](https://app.diagrams.net/?mode=onedrive). An [Office 365 app](https://office.diagrams.net/) is available for Word, Powerpoint and Excel, and a [Microsoft Teams app](/doc/faq/microsoft-teams-diagrams.html). 
+draw.io works with [OneDrive and Sharepoint](https://app.diagrams.net/?mode=onedrive). An [Office 365 app](https://office.diagrams.net/) is available for Word, Powerpoint and Excel. 
 
 ### GitHub app
 

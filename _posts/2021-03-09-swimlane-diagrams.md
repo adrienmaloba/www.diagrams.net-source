@@ -46,6 +46,9 @@ draw.io provides you with a simple swimlane flowchart to get you started. Get co
 **Delete a swimlane:** Select the swimlane, then press ``Delete`` or ``Backspace`` to delete it. Shapes inside the swimlane are also deleted. As connectors go across swimlanes, they must be deleted separately.
 <br /><img src="/assets/img/blog/swimlane-delete.gif" style="width=100%;max-width:400px;height:auto;" alt="Select a swimlane then press delete to remove it and the shapes inside of it - you will need to remove connectors separately">
 
+**Add a new swimlane:** Select the outer pool shape or one of the swimlanes. In the _Arrange_ tab of the format panel, click _Insert Row Above_ or _Insert Row After_. Alternatively, select a swimlane in the pool shape and press ``Alt+Enter`` to duplicate the selected swimlane.
+<br /><img src="/assets/img/blog/swimlane-insert-arrange-tab.png" style="width=100%;max-width:400px;height:auto;" alt="Select a swimlane then select Insert Row in the Table section of the Arrange tab of the format panel to insert a new swimlane above or below your selection">
+
 **Add labels to the process steps in the swimlanes:** Double click on a shape to add or edit its label, or select a shape and start typing.
 
 **Style the shapes in your swimlane diagram:** Select the shapes you want to style, then change their styles in the format panel on the right. Use the _Style_ tab to change their colours, outlines and connector styles, and the _Text_ tab to format the shape labels. 
@@ -95,6 +98,9 @@ To style a set of shapes at once, you can either select them all, then set a sty
 You can create a duplicate of a swimlane that isn't automatically added to the containing shape: Select the swimlane you want to duplicate, then press ``Ctrl+C`` then ``Ctrl+V`` on Windows (``Cmd+C`` then ``Cmd+V`` on macOS) to create a copy (this also duplicates its content). Drag this copy and hover over the label of the outer container shape until the outside border is highlighted (make sure it's not one of the swimlanes that is highlighted). Drop the copy of the swimlane to add it to the flowchart.
 
 **Overlap a shape on a swimlane:** Normally when you drag a shape onto a swimlane, it will be added to it automatically. If you want the shape to just overlap and not be added to the swimlane container shape, hold down ``Alt`` on Windows or ``Option`` on macOS, then release the mouse button to drop it to [place the shape over the swimlane](/doc/faq/shapes-overlap.html)
+
+**Lock a swimlane but not its shapes:** You can lock the swimlane within the pool shape so you don't accidentally move it when trying to move the shapes it contains. Select the swimlane, expand the _Properties_ in the _Style_ tab, and deselect the _Moveable_ property. Note that [Lock/Unlock](/doc/faq/lock-elements.html) on this swimlane will reset this property. 
+
 
 ### Shapes for flowcharts
 

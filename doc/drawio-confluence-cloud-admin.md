@@ -39,7 +39,7 @@ Administrators can convert all of the Gliffy diagrams in a Confluence Cloud inst
 
 ## Lockdown diagram data
 
-If your organisation gas strict data management requirements, such as those in regulated industries like finance or healthcare, you'll be familiar with [Atlassian's data residency settings](https://confluence.atlassian.com/cloud/manage-data-residency-976763149.html) to keep your data in one particular server region. Configure draw.io to match this.
+If your organisation gas strict data management requirements, such as those in regulated industries like finance or healthcare, you'll be familiar with [Atlassian's data residency settings](https://confluence.atlassian.com/cloud/manage-data-residency-976763149.html) to keep your data in one particular server region. Configure the draw.io advanced app edition to match this.
 
 1. Go to the draw.io app configuration section in your Confluence Cloud settings.
 2. Add the following JSON string: ``"lockdown": true`` to the configuration to restrict data transmission to between the browser and your Atlassian storage location.
@@ -101,6 +101,7 @@ For example, add your own floorplan template for regularly changing seating arra
 
 ## Administration and licensing
 
+* [Compare draw.io Zero Egress and draw.io app editions for Confluence Cloud](/doc/faq/confluence-cloud-drawio-zero-egress-vs-app-editions.html)
 * [See the number of draw.io diagrams in a Confluence instance](/doc/faq/number-of-diagams-in-confluence-instance.html)
 * [License draw.io for Confluence Cloud correctly](/doc/faq/license-drawio-confluence-jira-cloud.html)
 * [Get a community draw.io license for Confluence or Jira Cloud](/doc/faq/drawio-community-license-cloud.html)

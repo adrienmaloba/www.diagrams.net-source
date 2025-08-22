@@ -115,7 +115,7 @@ In the _Outline_ floating panel above right, you can see that the brainstorming,
 
 ## Collaborate in other applications using draw.io
 
-There are many [draw.io app integrations with popular project planning tools and content platforms](/integrations.html), including Atlassian Jira and Confluence, Google Workplace and Classroom, Microsoft Office and soon Teams, Trello, Dropbox, Notion and more. 
+There are many [draw.io app integrations with popular project planning tools and content platforms](/integrations.html), including Atlassian Jira and Confluence, Google Workplace and Classroom, Microsoft Office 365, Dropbox, Notion and more. Many third parties also integrate draw.io into extensions and editors, including the [unofficial draw.io extension for VSCode and GitHub](/blog/edit-diagrams-with-github-dev.html).
 
 As draw.io allows you to store diagram files in multiple cloud storage platforms, you can also embed your diagram files in a variety of content platforms and applications, including in Confluence Cloud.
 <br /><img src="/assets/img/blog/embed-diagrams-confluence-cloud.png" style="width=100%;max-width:500px;height:auto;" alt="Embedded diagrams in draw.io for Confluence Cloud">
