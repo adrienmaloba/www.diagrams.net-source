@@ -54,7 +54,7 @@ This beats single-sign-on, as you don’t even need to have an account in our on
 
 ### Integrations with many apps, platforms and tools
 
-If you prefer to store your information in enterprise collaboration platforms such as Atlassian Confluence Cloud, Jira Cloud, GitHub, GitLab, Google Workspace, Microsoft Office 365, you can. There are [many third-party integrations with other applications](/integrations.html) to provide diagramming wherever your teams are working. 
+If you prefer to store your information in enterprise collaboration platforms such as Atlassian Confluence Cloud, Jira Cloud, GitHub, GitLab, Google Workspace, Microsoft Office 365, Notion, you can. There are [many third-party integrations with other applications](/integrations.html) to provide diagramming wherever your teams are working. 
 
 Store your draw.io files securely in your choice of cloud platform, and embed them into many different collaboration platforms and apps. 
 
