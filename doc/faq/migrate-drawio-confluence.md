@@ -24,7 +24,7 @@ When creating pages on a new instance, those Confluence ``Page IDs`` will change
 
 **Should I use this ``Page IDs`` method, or the new draw.io migration tool?**
 
-Now that [Atlassian supports bulk space permissions editing in Cloud](https://jira.atlassian.com/browse/CONFCLOUD-1053), we recommend you [use the older ``Page IDs`` method](/doc/faq/migrate-drawio-confluence.html), especially if you are: 
+Now that [Atlassian supports bulk space permissions editing in Cloud](https://jira.atlassian.com/browse/CONFCLOUD-1053), we recommend you [use the older ``Page IDs`` method](/doc/faq/migrate-drawio-confluence.html) as described below, especially if you are: 
 * migrating from an older version of Confluence DC/Server
 * migrating from one Cloud instance to another or from Cloud to DC/Server
 * you have write permissions to your entire new Cloud instance and want to migrate from the Confluence DC/Server 8.0 using this older method.
@@ -32,6 +32,8 @@ Now that [Atlassian supports bulk space permissions editing in Cloud](https://ji
 The [new draw.io migration tool](/blog/confluence-drawio-migration.html) in Confluence Data Center/Server may be more convenient for some administrators. It updates the macros in your server instance first, and avoids problems with inadequate permissions in your Cloud instance, but may cause problems if pages are renamed during migration. 
 
 **Minimum versions:** The new migration tool works with draw.io 11.3.8 and later on Confluence DC/Server 7.x, and draw.io 12.2.0 and later on Confluence DC/Server 8.x.
+
+**Gliffy DC to draw.io Zero Egress Cloud:** Ensure the [Gliffy mass import](/doc/faq/mass-import-gliffy-confluence-server.html) has completed successfully on your Confluence DC instance before starting the DC to Cloud migration process. 
 
 ## Migrating using the ``Page IDs`` method
 
@@ -69,6 +71,16 @@ Restore the link targets in your draw.io diagrams in the target Confluence Cloud
 <br /><img src="/assets/img/blog/confluence-cloud-import-pageids.png" style="max-width:100%;height:auto;" alt="Import draw.io diagram data from another Confluence Cloud instance">
 
 Now, those diagrams that contained links should send you do the correct page in your new Confluence Cloud instance. And embedded diagrams should display correctly.
+
+**Short session timing out?** 
+
+If your organisation limits session times, this import process may time out. Before you start the PageID import, select the two options below. When the session times out, you can run it again from this page making sure the two options remain checked, and the import will continue where it was interrupted. Note that the data is cached in the browser - use the same machine and same browser to resume.
+* _Cache page IDs mapping_
+* _Remember imported pages_
+<br /><img src="/assets/img/blog/confluence-cloud-pageid-import-short-sessions.png" style="max-width:100%;height:auto;" alt="Cache the PageID import in your browser if short sessions cause this process to time out">
+
+
+### Re-index the new instance
 
 _Optional:_ Re-index your target Confluence instance after importing the draw.io ``Page IDs`` to double check that attachments are correctly indexed via the _draw.io re-indexing_ tab.
 <br /><img src="/assets/img/blog/confluence-cloud-reindexing.png" style="max-width:100%;height:auto;" alt="Reindex the draw.io diagrams in the Confluence Cloud instance">

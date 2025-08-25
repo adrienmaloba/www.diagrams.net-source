@@ -1,0 +1,52 @@
+---
+layout: post
+author: draw.io
+slug: drawio-dc-to-zero-egress
+date: 2025-08-21 09:54:00
+title: Migrate draw.io from Confluence DC to Zero Egress Cloud
+tags: [features, Atlassian]
+categories: [features,atlassian]
+---
+
+You can now migrate from draw.io for Confluence Data Center to the Zero Egress draw.io app for Atlassian's Confluence Cloud. The [Zero Egress draw.io app](/blog/drawio-forge-zero-egress.html) is fully client-side and Forge-only. This enforces data residency and isolation - there is no external data egress. Diagram data is stored within the Confluence page content on Atlassian's infrastructure and in the user's browser as they edit diagrams and pages in that Confluence Cloud instance.
+<br />[<img src="/assets/img/blog/drawio-dc-to-zero-egress-cloud.png" style="width=100%;max-width:600px;height:auto;" alt="Flowchart summary for migrating from draw.io in Confluence DC to draw.io Zero Egress for Confluence Cloud">](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&nav=1&title=drawio-dc-to-zero-egress-cloud.drawio&dark=auto#R%3Cmxfile%3E%3Cdiagram%20name%3D%22Page-1%22%20id%3D%22NDM1n4kGSD_w2esr1PbB%22%3E5Vtbd6M2EP41fowPN3F5TGwn2Z6kTdenZ5u%2B9MggjHYBuSDHzv76SkayAWEbN74QNy9BgyTEfPPNjEa4Zw6S5UMGZ9EzCVDcM7Rg2TOHPcPQbdNk%2F7jkvZB4rlMIphkORKeNYIx%2FIiHUhHSOA5RXOlJCYopnVaFP0hT5tCKDWUYW1W4hiatPncGpeKK2EYx9GCOl2zcc0KiQuoazkT8iPI3kk3XbK%2B4kUHYWE%2BcRDMiiJDJHPXOQEUKLq2Q5QDFXntRLMe5%2By931wjKU0jYDxn9r4aseLb75E3Rv%2FPX9j6f87cY0jWKeNxjPxSv3DBsms555l05y%2Fi%2FI4KKPCes0HKzUz%2BFcywYkDdnQ1Ee8EZN5IF6Xvksd5gucxDBlrTs%2FwnHwBN%2FJnK85p9D%2FIVt3GcoZ%2FC%2FyhfSa6Blyo9KYNCIZ%2FklSCmMhYPNkVNiOUe0x5o%2BQ42gSi4lDHMcDEpNstUIzDJHt%2B6uZMvIDle4EjjfR%2BGBV3QKBN5RRtCyJhPofEEkQzd5ZF3HXEZYgqGCJ5mJjV7ol%2B0QlozKlEApjnq6n3uDNLgTkB8FvKfBXAOWIb0dzh973qjyAyA0bVW77LpqEjSrfY8OtkTCaVA8aVK97J1O9YymqRQHzPaJJMhqRKUlhPNpI7zIyTwMUCO1u%2BjwRMhN6%2Fo4ofRegwDljawWF1jqVqyPzzEe7ekpPzWxhinbO6Qic%2BGvuRClDMaT4reqCj4%2BAXHnZ%2BCPE3AV7WJDglCsKZQnOc0zSXEGrisUiwhSNZ3ClrAULhmezfknh1tZv7fVDXgMVrJMxAbhXwgSjLROA2TEmqFnAV3SDmYKXlWAfYDjNYHJFXDDcjpHB1hTlfkoySBNvQQarW2SQKy%2BRYbScMaUy2QvL978Mr8j%2BLb1r9m9eif1bbe3f7lhaBNQ9wRi%2B8d0AWtGA6VkSgV3EZHo9bABdS42kbZSweMYsBFNU33qHGUkqW%2FTmvfiJoWFLCzCDpXRvCEbu0CrdG%2BIM%2BZSl1Ow%2Bgjk9KaJ2m033WSF1gALpK1IjSgedXosdXtu8VqBzo%2FVN1xMVs9buTUz3QnBKS5lcLZJ5Xt8A1UkKry3GlUtle6bSZYVBTlRoYsdEsiMJwxxRxWjWmviIHdmKHf1KPoMZ7Y%2BdslCw3%2BDkxuUQgzN16zgGVx1wSqh3RIFqrZa1Y%2B5QA%2FzGLqf8sggMzd3Ycko9GwY%2FxDgM2drvt42oh5eIJJN53iK0kFRWDhmGxynIHitm6LWYobt96bRLYcNtiBqu0QfbzeiDccO5EnK33hi2JveZEmNH3Rg%2Bwzzn4xKxPxR8qZ%2BSXEt%2BrNugFhgthRfnTZBNNZs67ETqQ2cYALmB1YSFa0xM2z7LGYaEwmvKbBvPNNzTbVfsTvso0NZHSd3u91GW2y0fJVd%2BiTONI7JBsro1G1xQpYMB%2Brbulf6cCzsqR78ENdAS0z9L1698KpajFK2hPFFfNd5F4%2Fh0Aq3pBOxu0QmodBqlcMLBuW1Il294xIF%2BhHriyxJDWxXJEjib4XS6ZcRXlKBkgrJ1IrGqsPHx%2Be5EfV8yfgiZc3aHL5FFwYb0HMZ4yus1MQrppvPTqjX0OuYLPLMWGnWv71X%2B1EjZlM2D08XJbufyrYkto9%2FnI7btKsTeUj15ghMUVxUp2eAzRTLamnfcNrEP41txI8FBUGDGP2Aq%2FMUKtRkvIaxeBtz1wPAAUKTJKDRYf%2FsmHtMrf162pQZim5pepUjvGBWR2t73hBURS4VvHBVbsByJ3IYXLT5BeeJw91Y%2Fsu6b9m7vdu5SBbhIrnNR96Z1y70BtWK47ZChI%2F5N2szH%2FZvW11xZqvmvDk1Q6%2BZ8Hk1WVj47ZwBoyxmja5xRS0n%2F67PWgwNT%2Fay1xR78zGev8uP8T08yu3VgcjpGMvXU8ktyyo%2BrLrkR1TWvM1Wp19HYWjwG%2F%2Fz%2BmGfR7LefzFH8cmNcjg41gzwyPxyVH40KuDAZ5J5O%2BdJqfaB09M%2BrLsqH%2BqFF1%2FigK3ic8TPotsg0ZMhtwdqOjGlZCjLG2cDYEq0v8gsZlAa3%2FIeD%2FAkzlBaSexzL48AA5tFq%2FoNCu%2FS0e12X1HqL0A7OFNpZc%2FMzxWLDs%2Fmxpzn6Fw%3D%3D%3C%2Fdiagram%3E%3C%2Fmxfile%3E)
+
+[_Open this flowchart in draw.io_](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&nav=1&title=drawio-dc-to-zero-egress-cloud.drawio&dark=auto#R%3Cmxfile%3E%3Cdiagram%20name%3D%22Page-1%22%20id%3D%22NDM1n4kGSD_w2esr1PbB%22%3E5Vtbd6M2EP41fowPN3F5TGwn2Z6kTdenZ5u%2B9MggjHYBuSDHzv76SkayAWEbN74QNy9BgyTEfPPNjEa4Zw6S5UMGZ9EzCVDcM7Rg2TOHPcPQbdNk%2F7jkvZB4rlMIphkORKeNYIx%2FIiHUhHSOA5RXOlJCYopnVaFP0hT5tCKDWUYW1W4hiatPncGpeKK2EYx9GCOl2zcc0KiQuoazkT8iPI3kk3XbK%2B4kUHYWE%2BcRDMiiJDJHPXOQEUKLq2Q5QDFXntRLMe5%2By931wjKU0jYDxn9r4aseLb75E3Rv%2FPX9j6f87cY0jWKeNxjPxSv3DBsms555l05y%2Fi%2FI4KKPCes0HKzUz%2BFcywYkDdnQ1Ee8EZN5IF6Xvksd5gucxDBlrTs%2FwnHwBN%2FJnK85p9D%2FIVt3GcoZ%2FC%2FyhfSa6Blyo9KYNCIZ%2FklSCmMhYPNkVNiOUe0x5o%2BQ42gSi4lDHMcDEpNstUIzDJHt%2B6uZMvIDle4EjjfR%2BGBV3QKBN5RRtCyJhPofEEkQzd5ZF3HXEZYgqGCJ5mJjV7ol%2B0QlozKlEApjnq6n3uDNLgTkB8FvKfBXAOWIb0dzh973qjyAyA0bVW77LpqEjSrfY8OtkTCaVA8aVK97J1O9YymqRQHzPaJJMhqRKUlhPNpI7zIyTwMUCO1u%2BjwRMhN6%2Fo4ofRegwDljawWF1jqVqyPzzEe7ekpPzWxhinbO6Qic%2BGvuRClDMaT4reqCj4%2BAXHnZ%2BCPE3AV7WJDglCsKZQnOc0zSXEGrisUiwhSNZ3ClrAULhmezfknh1tZv7fVDXgMVrJMxAbhXwgSjLROA2TEmqFnAV3SDmYKXlWAfYDjNYHJFXDDcjpHB1hTlfkoySBNvQQarW2SQKy%2BRYbScMaUy2QvL978Mr8j%2BLb1r9m9eif1bbe3f7lhaBNQ9wRi%2B8d0AWtGA6VkSgV3EZHo9bABdS42kbZSweMYsBFNU33qHGUkqW%2FTmvfiJoWFLCzCDpXRvCEbu0CrdG%2BIM%2BZSl1Ow%2Bgjk9KaJ2m033WSF1gALpK1IjSgedXosdXtu8VqBzo%2FVN1xMVs9buTUz3QnBKS5lcLZJ5Xt8A1UkKry3GlUtle6bSZYVBTlRoYsdEsiMJwxxRxWjWmviIHdmKHf1KPoMZ7Y%2BdslCw3%2BDkxuUQgzN16zgGVx1wSqh3RIFqrZa1Y%2B5QA%2FzGLqf8sggMzd3Ycko9GwY%2FxDgM2drvt42oh5eIJJN53iK0kFRWDhmGxynIHitm6LWYobt96bRLYcNtiBqu0QfbzeiDccO5EnK33hi2JveZEmNH3Rg%2Bwzzn4xKxPxR8qZ%2BSXEt%2BrNugFhgthRfnTZBNNZs67ETqQ2cYALmB1YSFa0xM2z7LGYaEwmvKbBvPNNzTbVfsTvso0NZHSd3u91GW2y0fJVd%2BiTONI7JBsro1G1xQpYMB%2Brbulf6cCzsqR78ENdAS0z9L1698KpajFK2hPFFfNd5F4%2Fh0Aq3pBOxu0QmodBqlcMLBuW1Il294xIF%2BhHriyxJDWxXJEjib4XS6ZcRXlKBkgrJ1IrGqsPHx%2Be5EfV8yfgiZc3aHL5FFwYb0HMZ4yus1MQrppvPTqjX0OuYLPLMWGnWv71X%2B1EjZlM2D08XJbufyrYkto9%2FnI7btKsTeUj15ghMUVxUp2eAzRTLamnfcNrEP41txI8FBUGDGP2Aq%2FMUKtRkvIaxeBtz1wPAAUKTJKDRYf%2FsmHtMrf162pQZim5pepUjvGBWR2t73hBURS4VvHBVbsByJ3IYXLT5BeeJw91Y%2Fsu6b9m7vdu5SBbhIrnNR96Z1y70BtWK47ZChI%2F5N2szH%2FZvW11xZqvmvDk1Q6%2BZ8Hk1WVj47ZwBoyxmja5xRS0n%2F67PWgwNT%2Fay1xR78zGev8uP8T08yu3VgcjpGMvXU8ktyyo%2BrLrkR1TWvM1Wp19HYWjwG%2F%2Fz%2BmGfR7LefzFH8cmNcjg41gzwyPxyVH40KuDAZ5J5O%2BdJqfaB09M%2BrLsqH%2BqFF1%2FigK3ic8TPotsg0ZMhtwdqOjGlZCjLG2cDYEq0v8gsZlAa3%2FIeD%2FAkzlBaSexzL48AA5tFq%2FoNCu%2FS0e12X1HqL0A7OFNpZc%2FMzxWLDs%2Fmxpzn6Fw%3D%3D%3C%2Fdiagram%3E%3C%2Fmxfile%3E)
+
+Zero egress gives you complete control over sensitive documentation, where diagram data is kept fully within your infrastructure allowing no transmission to external servers. 
+
+The Zero Egress draw.io app has the advanced configuration option ``lockdown`` enabled - this ensures diagram data passes only between the users' browser and your Confluence Cloud instance where it is stored. 
+
+**Tip:** The Zero Egress draw.io app is qualified for _Runs on Atlassian_ and is _Cloud Fortified_. This version of draw.io will work with Atlassian's Isolated Cloud and Government Cloud, both expected to release to customers within the next year.
+
+## Migrating draw.io diagrams in Confluence 
+
+When new pages are made when migrating a Confluence instance, new page IDs are assigned. All linked content in a diagram must be identified beforehand in the source DC instance and adjusted afterwards to use the new PageIDs in the target Cloud instance. This affects diagrams containing links to content within the instance, and diagrams on one Confluence page that have been embedded on another page. 
+
+**Migrating from Gliffy DC to draw.io Zero Egress in Cloud**
+
+There is no Gliffy conversion in the Zero Egress draw.io app.
+
+[Mass convert all Gliffy diagrams to be draw.io diagrams](/doc/faq/mass-import-gliffy-confluence-server.html) first _in your Confluence DC source instance_.
+<br /><img src="/assets/img/blog/gliffy-import-confluence-server.png" style="width=100%;max-width:400px;height:auto;" alt="Go to the Gliffy Import tab in the draw.io add-on configuration in Confluence server to convert all of your diagrams at once">
+
+Once you have confirmed this conversion was successful, then you can migrate to draw.io Zero Egress in Confluence Cloud.
+
+## Migrate draw.io from Confluence DC to Cloud
+
+This process is the same if you migrate from the standard draw.io app 
+
+1. Ensure you have all administrator permissions for both instances (view/add attachments/pages/spaces).
+<br /><img src="/assets/img/blog/confluence-server-cloud-migration-space-permissions.png" style="width=100%;max-width:400px;height:auto;" alt="Check that the space permissions in your Cloud instance are set to: all admins can write and all users can read">
+2. Re-index the draw.io Diagrams index in your _source DC instance_ to ensure all page attachments are correctly indexed via the draw.io app Configuration before you start the migration.
+<br /><img src="/assets/img/blog/confluence-server-cloud-migration-reindex.png" style="width=100%;max-width:400px;height:auto;" alt="In the draw.io configuration, run a re-index on your Confluence Cloud instance to make sure all diagram links and embedded diagrams are referred to correctly">
+3. Export the draw.io ``PageIDs`` from your _source DC instance_ via the draw.io app Configuration and download this mapping file to your local device. Keep this file - it will be used after you have migrated, and for troubleshooting. 
+<br /><img src="/assets/img/blog/confluence-cloud-export-pageids.png" style="width=100%;max-width:400px;height:auto;" alt="To make sure links in diagrams continue to work, export the page IDs from Confluence to correctly migrate">
+4. Migrate your _source DC instance_ to your target Cloud instance. <br />&nbsp;
+5. Now, import the ``PageIDs`` file you previously saved into your new target Confluence Cloud instance via the draw.io app Configuration. Make sure you save this import log for troubleshooting purposes.
+   * If you are limited to short sessions that can time out, enable the _Cache page IDs mapping_ and _Remember imported pages_ options before starting the import. 
+   <br /><img src="/assets/img/blog/confluence-cloud-pageid-import-short-sessions.png" style="width=100%;max-width:400px;height:auto;" alt="Cache the PageID import in your browser if short sessions cause this process to time out">
+   * Run the import again from this page making sure the two options remain checked, and the import will continue where it was interrupted. Note that the data is cached in the browser - use the same machine and same browser to resume.<br />&nbsp;
+6. Finally, re-index your new Confluence Cloud target instance to double-check page attachments are all correctly indexed after migration.
+
+[Detailed steps for migrating draw.io between Confluence instances](/doc/faq/migrate-drawio-confluence.html)

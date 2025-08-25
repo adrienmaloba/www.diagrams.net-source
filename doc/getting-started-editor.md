@@ -6,7 +6,7 @@ categories: [features]
 
 draw.io is a free and open source diagramming app that you can use online at [app.diagrams.net](https://app.diagrams.net), and offline (draw.io desktop).
 
-As a security-first diagramming app for teams, we provide the diagramming functionality, and you choose where to keep your diagram data. There are many different [integrations with other platforms and applications](/integrations.html), including [Atlassian Confluence Cloud](/doc/drawio-confluence-cloud.html), Google Documents, GitHub, Microsoft Word.
+As a security-first diagramming app for teams, we provide the diagramming functionality, and you choose where to keep your diagram data. There are many different [integrations with other platforms and applications](/integrations.html), including [Atlassian Confluence Cloud](/doc/drawio-confluence-cloud.html), Google Workspace and Classroom, GitHub, Gitlab, Notion, Microsoft Office 365.
 
 Our draw.io diagram editor looks the same and offers the same main features no matter where you are using it. You can open a diagram created in one integration in another.
 

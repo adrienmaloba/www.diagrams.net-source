@@ -78,10 +78,12 @@ For deliverables that need to move between actors, but not be placed inside any 
 
 **Kanban boards**
 
-The [simple Kanban board](/blog/kanban-board.html) in our template library has automatic labelling and colours for the different status of tasks. It uses a slightly modified version of the table tool. 
+The [simple Kanban board](/blog/kanban-boards.html) in our template library has automatic labelling and colours for the different status of tasks. It uses a slightly modified version of the table tool. 
 1. Click on the + in the toolbar and select _Template_, or select _Arrange > Insert > Template_.
 2. Select the Simple Kanban Board template, and select _Insert_. 
 
+Use the table tools to add and delete tasks inside each vertical Kanban lane.
+<br />
 <img src="/assets/img/blog/kanban-table-tools.png" style="max-width:100%;height:auto;" alt="The simple Kanban board template in draw.io is a table with container cells - use the table tool or the Arrange tab to add or delete columns and rows">
 
 

@@ -85,5 +85,5 @@ With draw.io, your team can co-create Kanban boards and Gantt charts for plannin
 
 With the freehand tool (via the toolbar, or _Arrange > Insert > Freehand_), you can draw freehand shapes, annotate or mark up diagrams with your mouse (or a stylus on a tablet) without leaving the diagram editor, to show your team members quickly where changes need to be made. 
 
-No matter whether you use draw.io online, on your local device or with one of our [integrations](/integrations.html), your diagram data stays where your team documents reside, whether that is in Google Drive, Confluence, One Drive, Dropbox, Notion, GitHub, or Teams. 
+No matter whether you use draw.io online, on your local device or with one of our [integrations](/integrations.html), your diagram data stays where your team documents reside, whether that is in Google Drive, Confluence, Jira, One Drive, Dropbox, Notion, GitHub, or GitLab. 
 
