@@ -4,7 +4,7 @@ layout: page
 path: /trust/
 ---
 
-This Privacy Policy details how the draw.io by JGraph App for Microsoft Teams (hereafter called the "draw.io app" collects, uses and shares information gathered from the User ("you"), as well as explaining how data is processed and stored. The App is created by JGraph Ltd ("we/us/draw.io").
+This Privacy Policy details how the draw.io App for Microsoft Teams (hereafter called the "draw.io app" collects, uses and shares information gathered from the User ("you"), as well as explaining how data is processed and stored. The App is created by draw.io Ltd ("we/us/draw.io").
 
 The draw.io App enables a user to select a diagram from their OneDrive or Sharepoint, then load and edit that diagram within a tab on the Teams interface. Usage of the online app.draw.io application is covered by the draw.io privacy policy, this policy is specific to just operation of the Microsoft Teams app.
 

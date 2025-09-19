@@ -7,7 +7,7 @@ permalink: /about.html
 
 draw.io is a technology stack for building diagramming applications, and the world’s most widely used browser-based end-user diagramming software.
 
-draw.io is a registered trademark of JGraph Ltd and draw.io AG. JGraph Ltd is a company registered in England, draw.io AG is a company registered in Switzerland. Jointly, these companies develop and own the software, run the diagrams.net and draw.io sites and own the diagrams.net and draw.io brands.
+draw.io is a registered trademark of draw.io Ltd. draw.io Ltd is a company registered in England, draw.io AG is a company registered in Switzerland. Jointly, these companies develop and own the software, run the diagrams.net and draw.io sites and own the diagrams.net and draw.io brands.
 
 We promise you we won’t hide your data from you and will always give you some way to open and edit that data, at no cost. When companies pay us money it should be because we add value, not because they are locked in.
 
@@ -31,7 +31,7 @@ Our mission statement is __“provide free, high quality diagramming software fo
 
 <br>
 <code>
-  JGraph Ltd<br>
+  draw.io Ltd<br>
   Artisans' House,<br>  
   7 Queensbridge<br>
   NN4 7BF<br>
@@ -39,7 +39,7 @@ Our mission statement is __“provide free, high quality diagramming software fo
   UK<br>
 </code>
 <code>
-  JGraph Ltd is a private limited company registered in England #04051179<br>
+  draw.io Ltd is a private limited company registered in England #04051179<br>
 </code>
 <br>
 <code>

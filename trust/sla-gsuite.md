@@ -6,7 +6,7 @@ path: /trust/
 
 #diagrams.net draw.io plugins for G Suite - Service Level Agreement (SLA)
 
-JGraph warrants that the diagrams.net web application will have a minimum up-time of 99.9% over a calendar year. Below this value licensees will receive a 100% credit of their annual fees paid for that calendar year against the following year’s subscription. Up-time measures the availability of the site using a third-party utility at [status.diagrams.net](http://status.diagrams.net/). Up-time does not include availability of third-party service, such as Google Drive and Google Authentication, nor does the lack of availability of particular features within the application count towards down-time.
+draw.io warrants that the diagrams.net web application will have a minimum up-time of 99.9% over a calendar year. Below this value licensees will receive a 100% credit of their annual fees paid for that calendar year against the following year’s subscription. Up-time measures the availability of the site using a third-party utility at [status.diagrams.net](http://status.diagrams.net/). Up-time does not include availability of third-party service, such as Google Drive and Google Authentication, nor does the lack of availability of particular features within the application count towards down-time.
 
 diagrams.net diagrams are stored within one of the 3 storage options available:
 
@@ -16,7 +16,7 @@ diagrams.net diagrams are stored within one of the 3 storage options available:
 
 You are responsible for storage and backup of that data, the diagrams.net servers do no have access to your data and cannot provide additional backup.
 
-JGraph Ltd provides ticketing support for the plugins at our [support desk](https://drawio.atlassian.net/servicedesk/customer/portal/16). The initial response time (in business hours) to the ticket depends on the severity of the problem:
+draw.io Ltd provides ticketing support for the plugins at our [support desk](https://drawio.atlassian.net/servicedesk/customer/portal/16). The initial response time (in business hours) to the ticket depends on the severity of the problem:
 
 | **Level**     | **Response Time**     | **Severity of Issue(s)**        |
 |-----------|-------------------|-----------------------------|
@@ -25,7 +25,7 @@ JGraph Ltd provides ticketing support for the plugins at our [support desk](http
 | 3	        | 8 business hours	| Interruption to individual users and no work around is available |
 | 4	        | 12 business hours	| Hindrance to individual users and acceptable work around is available |
 
-The resolution time of the incident depends upon the complexity of the issue and the time you take to respond to requests for additional information. JGraph’s target is to respond to each communication within the same interval as for initial communication, during business hours.
+The resolution time of the incident depends upon the complexity of the issue and the time you take to respond to requests for additional information. draw.io's target is to respond to each communication within the same interval as for initial communication, during business hours.
 
 Business hours are Monday – Friday, 09:00 – 17:00 local time London, UK
 
