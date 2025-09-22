@@ -1,5 +1,5 @@
 ---
-title: JGraph Privacy Policy
+title: draw.io Privacy Policy
 layout: page-wrapped
 path: /trust/
 ---
@@ -7,7 +7,7 @@ path: /trust/
 ```
 1.	  Privacy Statement: Introduction
 
-    1.1	  JGraph Limited is a controller within the meaning of the Data Protection Act 2018 and the UK GDPR. Further details about us and how to contact us appear below.
+    1.1	  draw.io Limited is a controller within the meaning of the Data Protection Act 2018 and the UK GDPR. Further details about us and how to contact us appear below.
 
     1.2	  This notice describes how we collect, store, transfer and use personal data. It tells you about your privacy rights and how the law protects you.
 
@@ -249,11 +249,11 @@ path: /trust/
 
 17.	   About Us
 
-    17.1   JGraph Limited is a company formed in England and Wales with registered company number 0405 1179 and registered offices at Artisans' House, 7 Queensbridge, Northampton, Northamptonshire, NN4 7BF.
+    17.1   draw.io Limited is a company formed in England and Wales with registered company number 0405 1179 and registered offices at Artisans' House, 7 Queensbridge, Northampton, Northamptonshire, NN4 7BF.
 
-    17.2   diagrams.net is a trademark and draw.io is a registered trademark of JGraph Limited. JGraph Limited develops and owns the software, runs the diagrams.net and draw.io sites and owns the diagrams.net and draw.io brands.
+    17.2   diagrams.net is a trademark and draw.io is a registered trademark of draw.io Limited. draw.io Limited develops and owns the software, runs the diagrams.net and draw.io sites and owns the diagrams.net and draw.io brands.
 
-    17.3   We have appointed a data protection officer who is responsible for ensuring that our Privacy Statement is followed. If you have any questions about how we process your personal data, including any requests to exercise your legal rights, please contact us at privacy@jgraph.com.
+    17.3   We have appointed a data protection officer who is responsible for ensuring that our Privacy Statement is followed. If you have any questions about how we process your personal data, including any requests to exercise your legal rights, please contact us at privacy@draw.io.
 ```
 
 v2.1 2023.08.30
