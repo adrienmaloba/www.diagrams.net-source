@@ -14,7 +14,7 @@ With remote working on the rise worldwide, online replacements for analog tools 
 
 The online draw.io editor and our Atlassian integrations are the leading solution for web based sketching and diagramming functionality. We offer security-first diagramming for teams working with Atlassian products. 
 
-This article describes the draw.io integration for Confluence that we, JGraph, build, deliver and maintain alongside the [online draw.io application](https://app.diagrams.net) and draw.io desktop, and further [integrations](/integrations.html).
+This article describes the draw.io integration for Confluence that we, draw.io Ltd., build, deliver and maintain alongside the [online draw.io application](https://app.diagrams.net) and draw.io desktop, and further [integrations](/integrations.html).
 
 ## All teams love using whiteboards
 

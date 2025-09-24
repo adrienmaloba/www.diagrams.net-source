@@ -65,7 +65,7 @@ When you click on a shape that is used as a toggle and it exists on the layer or
 
 ### Build the custom link
 
-1. Go to [jgraph.github.io/drawio-tools/tools/link.html](https://jgraph.github.io/drawio-tools/tools/link.html).
+1. Go to [the draw.io utility tools page](https://jgraph.github.io/drawio-tools/tools/link.html).
 2. Paste the layer ID into the _Cells/Layers_ text field. You can toggle more than one layer or shape in a custom link - add all of their shape/layer IDs separated by a space.
 3. Click on _5. Add Action_ to generate the _Custom Link_ in the larger text field below. 
 4. Click on _Copy Link_ to copy the _Custom Link_.

@@ -40,7 +40,7 @@ The template library file is an [XML file following a specific file format](/doc
 </templates>
 ```
 
-**Note:** To include the default draw.io templates, start with [our template library file](https://app.diagrams.net/templates/index.xml) change the path to all of the draw.io templates to be the URLs of the raw files in the [jgraph/drawio repository](https://github.com/jgraph/drawio). 
+**Note:** To include the default draw.io templates, start with [our template library file](https://app.diagrams.net/templates/index.xml) change the path to all of the draw.io templates to be the URLs of the raw files in the [drawio repository](https://github.com/jgraph/drawio). 
 
 For example, the basic class diagram template ``basic/classes.xml`` needs to be: <br />``https://raw.githubusercontent.com/jgraph/drawio/dev/src/main/webapp/templates/basic/classes.xml``.
 
@@ -54,7 +54,7 @@ In the template library file, the custom shape libraries opened by the templates
 
 [Custom shape library files](/blog/custom-template-libraries.html) must be stored in an accessible location, such as into a GitHub repository, and use the [mxGraphLibrary file format](/doc/faq/format-custom-shape-library.html).
 
-We'll use the [freehand-rockpool-shapes.xml](https://raw.githubusercontent.com/jgraph/drawio-diagrams/dev/blog/freehand-rockpool-shapes.xml) custom shape library from the [jgraph/drawio-diagrams repository](https://github.com/jgraph/drawio-diagrams). 
+We'll use the [freehand-rockpool-shapes.xml](https://raw.githubusercontent.com/jgraph/drawio-diagrams/dev/blog/freehand-rockpool-shapes.xml) custom shape library from the [drawio-diagrams repository](https://github.com/jgraph/drawio-diagrams). 
 <br /><img src="/assets/img/blog/template-library-custom-shape-library.png" style="width=100%;max-width:400px;height:auto;" alt="The custom shape library to be used in one of the template diagrams">
 <br />**Note:** Make sure you click through to _Raw_ in GitHub to copy the library file's URL. 
 

@@ -10,7 +10,7 @@ The draw.io app is available for Confluence Cloud in different versions offering
 
 | Features | [draw.io<br>app editions](https://marketplace.atlassian.com/apps/1210933/draw-io-diagrams-uml-bpmn-aws-erd-flowcharts?tab=pricing) | [draw.io<br>Zero Egress](https://marketplace.atlassian.com/apps/1235446/draw-io-zero-egress-diagramming-secured-on-forge)|
 | :------- |           :------------:          |    :--------:       |
-| Atlassian framework | Connect/Forge hybrid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Forge only |
+| Atlassian framework | Transitioning to Forge-only&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Forge-only |
 | [Cloud Fortified](/blog/drawio-atlassian-cloud-fortified.html) | yes | yes |
 | [Zero egress](/blog/drawio-forge-zero-egress.html) (``lockdown``) | advanced only | yes |
 | [Data residency support](/blog/data-governance-lockdown.html) | yes | yes |
