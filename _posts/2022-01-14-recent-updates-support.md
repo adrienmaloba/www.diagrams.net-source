@@ -8,7 +8,7 @@ tags: [features]
 categories: [features]
 ---
 
-We've recently implemented a number of features, most popularly requested via our drawio Github repository. To reach support at JGraph for diagrams.net and our draw.io apps, please read and follow the [instructions on our support page](https://github.com/jgraph/drawio/wiki/Getting-Support). 
+We've recently implemented a number of features, most popularly requested via our drawio Github repository. To reach support at draw.io for diagrams.net and our draw.io apps, please read and follow the [instructions on our support page](https://github.com/jgraph/drawio/wiki/Getting-Support). 
 
 Skip to the end of this post to see how to upvote existing issues and feature requests. 
 

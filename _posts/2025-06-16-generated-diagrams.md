@@ -81,4 +81,4 @@ Generating multiple iterations and hoping for a usable diagram that you can then
 
 New to diagramming or to draw.io? The [getting started guide](/doc/) and [simple flowchart tutorial](/doc/getting-started-basic-flow-chart.html) will get you up and running. 
 
-For example diagrams, check the [diagram gallery](/example-diagrams.html), the [use cases](/blog/use-cases.html) on this blog, or the [template library](/doc/faq/insert-template.html) in draw.io. There are many more templates and examples in the [jgraph/drawio-diagrams repository on GitHub](https://github.com/jgraph/drawio-diagrams).
+For example diagrams, check the [diagram gallery](/example-diagrams.html), the [use cases](/blog/use-cases.html) on this blog, or the [template library](/doc/faq/insert-template.html) in draw.io. There are many more templates and examples in our [drawio-diagrams repository on GitHub](https://github.com/jgraph/drawio-diagrams).

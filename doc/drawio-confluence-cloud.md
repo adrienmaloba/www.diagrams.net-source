@@ -46,7 +46,7 @@ This is the layout and tools you will see in the draw.io Diagram editor.
 
 ### Draw a diagram
 
-Step through [this tutorial to draw a basic flowchart](/doc/getting-started-basic-flow-chart.html#add-shapes-to-the-drawing-canvas). Our free online version of draw.io at app.diagrams.net has the same layout and tools as the draw.io Diagram macro as both are developed by us here at JGraph.
+Step through [this tutorial to draw a basic flowchart](/doc/getting-started-basic-flow-chart.html#add-shapes-to-the-drawing-canvas). Our free online version of draw.io at app.diagrams.net has the same layout and tools as the draw.io Diagram macro as both are developed by us here at draw.io Ltd.
    * add and connect shapes using the shape libraries on the left
    * add labels to the shapes and connectors on the drawing canvas
    * style your diagram using the tools in the format panel on the right.

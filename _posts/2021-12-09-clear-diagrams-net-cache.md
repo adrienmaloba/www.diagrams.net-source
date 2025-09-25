@@ -16,8 +16,8 @@ If you are experiencing odd behaviour in the diagram editor, or with your embedd
 
 1. Click _Help_ and note the number at the bottom of the menu. 
 <br /><img src="/assets/img/blog/help-menu.png" style="width=100%;max-width:400px;height:auto;" alt="Select Help in the draw.io menu to see which version you are currently using">
-1. You can compare this number to the [most recent VERSION number](https://github.com/jgraph/drawio) in the JGraph's ``drawio`` repository on GitHub.
-<br /><img src="/assets/img/blog/drawio-version-github.png" style="width=100%;max-width:500px;height:auto;" alt="Check JGraph's drawio repository on GitHub to see what the current version is">
+1. You can compare this number to the [most recent VERSION number](https://github.com/jgraph/drawio) in our ``drawio`` repository on GitHub.
+<br /><img src="/assets/img/blog/drawio-version-github.png" style="width=100%;max-width:500px;height:auto;" alt="Check our drawio repository on GitHub to see what the current version is">
 
 **Using draw.io in Confluence Cloud or Jira Cloud?**
 
