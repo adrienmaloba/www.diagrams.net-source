@@ -8,7 +8,7 @@ tags: [data protection]
 categories: [trust, integrations, atlassian]
 ---
 
-draw.io and our Atlassian integrations are the leading solution for web based sketching and diagramming functionality. The article describes the draw.io integration for Confluence that we, JGraph, build, deliver and maintain alongside the online app.diagrams.net and draw.io desktop tools.
+draw.io and our Atlassian integrations are the leading solution for web based sketching and diagramming functionality. The article describes the draw.io integrations for Confluence that we, draw.io Ltd., build, deliver and maintain alongside the online app.diagrams.net and the offline draw.io Desktop application.
 
 Atlassian recently [deprecated their Confluence Server range](https://www.atlassian.com/blog/announcements/journey-to-cloud). As the software market evolves, accelerating the move to Cloud is the next natural step in Atlassian's strategy.
 

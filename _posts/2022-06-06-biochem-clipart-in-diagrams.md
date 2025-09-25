@@ -17,7 +17,7 @@ With these icons, you can create scientific illustrations, educational content, 
 
 **Open source supports extensions and integrations**
 
-Our open source [jgraph/drawio repository on Github](https://github.com/jgraph/drawio) has encouraged many third-party integrations, in addition to our own draw.io apps and extensions for Atlassian software, Notion, Google Workplace, and Microsoft Office.
+The [drawio repository on Github](https://github.com/jgraph/drawio) has encouraged many third-party integrations, in addition to our own draw.io apps and extensions for Atlassian software, Notion, Google Workplace, and Microsoft Office.
 
 [See the range of draw.io integrations](/integrations/)
 

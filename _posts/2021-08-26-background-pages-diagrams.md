@@ -50,7 +50,7 @@ If you are storing your diagrams in Google Drive, you could create a background 
 
 ## When can I use the features?
 
-There are a number of flavours of draw.io that we, JGraph, are responsible for. There are also other packages that third-parties author. In the later case, ask your app author when they will update.
+There are a number of flavours of draw.io that we, at draw.io Ltd, are responsible for. There are also other packages that third-parties author. In the later case, ask your app author when they will update.
 
 Of the apps we develop and maintain:
 

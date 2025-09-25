@@ -8,7 +8,7 @@ tags: [features, Atlassian]
 categories: [features,atlassian]
 ---
 
-draw.io and the draw.io branded Atlassian integrations are the leading solution for web based sketching and diagramming functionality. The article describes the draw.io integration for Confluence that we, JGraph, build, deliver and maintain alongside the online version of our editor at app.diagrams.net, our draw.io desktop application.
+draw.io and the draw.io branded Atlassian integrations are the leading solution for web based sketching and diagramming functionality. The article describes the draw.io integration for Confluence that we, draw.io Ltd., build, deliver and maintain alongside the online version of our editor at app.diagrams.net, our draw.io desktop application.
 
 Confluence Cloud is a popular tool for team productivity suitable for both small and large organisations. Atlassian provides customers with free instances, as long as the instance has ten users or fewer, and you can diagram in these instances with our draw.io Confluence Cloud integration.
 
