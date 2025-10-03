@@ -10,17 +10,7 @@ categories: [features,atlassian]
 
 Atlassian has [encouraged all Connect apps to transition to Forge](https://www.atlassian.com/blog/developer/updates-to-marketplace-revenue-share-2026) where their modernised Forge architecture can provide increased data security, updated integrated tools and UIs and other useful features. Our hybrid Connect/Forge draw.io app is currently migrating to be fully Forge-only, allowing for enough time to troubleshoot before the first migration deadline in January 2026, should any problems arise.
 
-You should see no difference in functionality - the diagram editor is not changing, and your existing diagrams and draw.io macros will not be changed through this transition.
-
-You are strongly recommended NOT to upgrade to this version, v3.x. It provides no security or functionality advantages.
-
-**New approval required**
-
-Because draw.io now uses forge functionality to embed from Google Drive, OneDrive and Github, the app will prompt for every user to allow access to these OAuth endpoints. Unfortunately, there is no way to avoid this currently until Atlassian provide some technical means to do so. [Dynamic modules](https://community.developer.atlassian.com/t/rfc-95-forge-dynamic-modules/92696/7) might help in this regard. If having every single user approve the app after upgrade is a problem, please contact [Atlassian support](https://support.atlassian.com/).
-
-<img src="/assets/img/blog/access-required-dialog-forge.png" style="width=100%;max-width:500px;height:auto;" alt="The Forge-only draw.io app requests access per user when used for the first time">
-
-<img src="/assets/img/blog/drawio-no-fullscreen-forge.png" style="width=100%;max-width:500px;height:auto;" alt="The Forge-only draw.io app cannot run in full screen as Atlassian does not currently support full screen apps in their Forge UI suite - if this is an issue, please add a comment to Atlassian's FRGE-557 or ECO-195 bug reports">
+You should see no difference in functionality - the diagram editor is not changing, and your existing diagrams and draw.io macros will not be changed through this transition. 
 
 **No full-screen custom macro UI on Forge**
 
