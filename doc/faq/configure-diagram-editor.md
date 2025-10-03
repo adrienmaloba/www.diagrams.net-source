@@ -209,6 +209,8 @@ This configuration produces the following _More Shapes_ dialog when combined wit
 
 * ``simpleLabels``: true - Disables word wrap and complex formatting for labels by default to avoid foreignObjects in the SVG output (14.5.9 and later).
 
+* ``pasteAtMousePointer``: true - Specifies paste should be at the mouse pointer location (28.2.6 and later).
+
 * ``emptyDiagramXml/emptyLibraryXml``: Defines the XML for blank diagrams and libraries (6.5.4 and later).
 
 * ``selectParentLayer``: true - Selects the parent layer for the current selection (22.1.4 and later). Default is false.
