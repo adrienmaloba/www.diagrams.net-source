@@ -53,4 +53,4 @@ IFrames use the draw.io lightbox and centre the diagram in the page. If you have
 * [Embed diagrams from OneDrive into Confluence](/doc/faq/embed-diagram-onedrive-confluence-cloud.html)
 * [Embed a diagram as an SVG image](/doc/faq/embed-svg.html)
 * [Embed diagrams into GitHub pages](/blog/embed-diagrams-github-markdown.html)
-* [Simple draw.io embedding walk-through][/blog/embedding-walkthrough.html]
+* [Simple draw.io embedding walk-through](/blog/embedding-walkthrough.html)

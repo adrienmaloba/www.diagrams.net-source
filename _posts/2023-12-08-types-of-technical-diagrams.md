@@ -13,7 +13,7 @@ Technical diagrams are used throughout many different professions and industries
 
 **Looking for something specific?** We've detailed many different [use cases for various fields on our blog](/blog/use-cases.html) - perhaps you'll find your specific use case there.
 
-_All technial diagrams on this page were created in draw.io._
+_All technical diagrams on this page were created in draw.io._
 
 ## What makes a diagram _technical_?
 
@@ -42,7 +42,7 @@ Let's have a look at some of the professions that make heavy use of technical di
 **Electrical, chemistry, industrial and process control engineers** draw block diagrams, event-driven process chains, catalytic cycles, process flows, IDEF0 manufacturing models, and timing diagrams.
 <br />[<img src="/assets/img/blog/sysml-internal-block-diagram.png" style="width=100%;max-height:160px;width:auto;" alt="Draw SysML internal block diagrams in draw.io with the SysML shape library">](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&page=0&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Fsysml-internal-block-diagram.drawio) &nbsp;&nbsp;&nbsp; [<img src="/assets/img/blog/template-process_flow_diagram.png" style="width=100%;max-height:180px;width:auto;" alt="A PERT diagram template that is available in draw.io">](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Ftemplates%2Fengineering%2Fprocess_flow_diagram.xml)
 
-**Human relations and accounts** draw organisation charts, mindmaps, timelines, floorplans, reponsibility diagrams, visual processes and workflows, and many other less technical diagrams for presentations and documentation.
+**Human relations and accounts** draw organisation charts, mindmaps, timelines, floorplans, responsibility diagrams, visual processes and workflows, and many other less technical diagrams for presentations and documentation.
 <br />[<img src="/assets/img/blog/bpmn-example-order-process.png" style="width=100%;max-height:150px;width:auto;" alt="An example BPMN diagram that details the steps involved in processing an order">](https://viewer.diagrams.net/?splash=0&ui=kennedy&ibs=bpmn2&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fbpmn-2-example.drawio) &nbsp;&nbsp;&nbsp; [<img src="/assets/img/blog/incident-response-roles.png" style="width=100%;max-height:140px;width:auto;" alt="Use an org chart to show incident response roles and responsibilities">](https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fincident-response-roles.drawio)
 
 **Marketing and event planners** draw customer journey maps, context diagrams, [storymaps](/blog/story-mapping.html), floorplans and layouts. Graphics designers and marketing also need to create a wide array of not-so-technical yet informative diagrams for presentations, brochures, customer websites, whitepapers and more. You can also create these in draw.io.
