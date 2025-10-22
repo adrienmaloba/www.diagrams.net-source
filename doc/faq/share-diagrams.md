@@ -30,7 +30,7 @@ You can use diagrams stored in Google Drive with the [draw.io (diagrams.net) add
 
 **Troubleshooting:** If you find you are having connection problems, [check that your browser allows third-party cookies](/doc/faq/google-drive-connection-problems.html) so that draw.io can talk to Google Drive.
 
-<img src="/assets/img/blog/addon-google-docs-examples.png" style="max-width:100%;height:auto;" alt="Embed a diagram in Google Docs">
+<img src="/assets/img/blog/google-docs-examples.png" style="max-width:100%;height:auto;" alt="Embed a diagram in Google Docs">
 
 ## Related
 
