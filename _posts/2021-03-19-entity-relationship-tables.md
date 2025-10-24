@@ -55,6 +55,8 @@ Some people prefer to connect primary to foreign keys across entities in an ER d
 **Tip:** You can either set the ends of the connectors using the style tab, or use the connectors in the _Entity Relation_ shape library. Hover over the connector shapes in this shape library to see which relationship they represent.
 <br /><img src="/assets/img/blog/entity-relation-shape-library-hover.png" style="width=100%;max-width:300px;height:auto;" alt="Hover over a connector in the Entity Relation shape library to see how it is used to show a relationship">
 
+There are various notations you can use for the connector ends. The most common is [crow's foot notation](/blog/crows-foot-notation.html).
+
 ## Work from an ER diagram template
 
 When you create a new diagram, you can choose from a wide variety of templates, including many different entity relationship models. You can also insert one of these templates into an existing diagram. 
