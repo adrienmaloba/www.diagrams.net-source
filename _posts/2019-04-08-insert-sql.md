@@ -31,7 +31,7 @@ As SQL and MySQL are the most popular languages used to program and work with re
 
 ## Use the entity relation connectors
 
-When you want to add a connector from the entity shape library, hover over the connectors and a larger preview of connector will let you see the different connection types at each end.
+The Entity Relation shape library contains all the connectors that use [crow's foot notation](/blog/crows-foot-notation.html). When you want to add a connector from the entity shape library, hover over the connectors and a larger preview of connector will let you see the different connection types at each end.
 
 Click on one of the connector shapes in the entity relation shape library to drop it quickly onto the drawing canvas.
 
