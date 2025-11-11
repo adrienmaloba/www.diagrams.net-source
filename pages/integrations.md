@@ -76,6 +76,7 @@ The following integrations are not directly provided by the draw.io team.
 * [**Nuclino:**](https://www.nuclino.com/apps/drawio/) Embed your diagrams easily into this content development platform.
 * [**ONLYOFFICE:**](https://www.onlyoffice.com/blog/2022/03/onlyoffice-integrates-draw-io/) Integrates the diagram editor in documents via a plugin to their Docs application.
 * [**ownCloud:**](https://marketplace.owncloud.com/apps/drawio/) Create and modify diagrams in the ownCloud open-source collaboration platform's file editor app.
+* [**Plane.so:**](https://plane.so/marketplace/drawio) Integrates the diagram and board editors as macros in Pages in their project management platform.
 * [**Redmine:**](https://www.redmine.org/plugins/redmine_drawio) Create diagrams in your project documentation in Redmine, a project management web application, based on Ruby on Rails.
 * [**Tiki Wiki CMS Groupware:**](https://info.tiki.org/HomePage) Manage [diagrams](https://doc.tiki.org/Diagram) in Tiki Wiki CMS Groupware, a collaborative, free and open source wiki-based content management system.
 * [**VS Code:**](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) Edit and manage diagrams directly inside VS Code. [See how to use the VS Code extension with github.dev](/blog/edit-diagrams-with-github-dev.html)
