@@ -78,7 +78,7 @@ The following integrations are not directly provided by the draw.io team.
 * [**ownCloud:**](https://marketplace.owncloud.com/apps/drawio/) Create and modify diagrams in the ownCloud open-source collaboration platform's file editor app.
 * [**Plane.so:**](https://plane.so/marketplace/drawio) Integrates the diagram and board editors as macros in Pages in their project management platform.
 * [**Redmine:**](https://www.redmine.org/plugins/redmine_drawio) Create diagrams in your project documentation in Redmine, a project management web application, based on Ruby on Rails.
-* [**Tiki Wiki CMS Groupware:**](https://info.tiki.org/HomePage) Manage [diagrams](https://doc.tiki.org/Diagram) in Tiki Wiki CMS Groupware, a collaborative, free and open source wiki-based content management system.
+* [**Tiki Wiki CMS Groupware:**](https://tiki.org) Manage [diagrams](https://doc.tiki.org/Diagram) in Tiki Wiki CMS Groupware, a collaborative, free and open source wiki-based content management system.
 * [**VS Code:**](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) Edit and manage diagrams directly inside VS Code. [See how to use the VS Code extension with github.dev](/blog/edit-diagrams-with-github-dev.html)
 * [**XWiki:**](https://extensions.xwiki.org/xwiki/bin/view/Extension/Diagram%20Application) Create diagrams in XWiki by using the Diagram Application extension.
 * [**Wiki.js:**](https://js.wiki/feedback/p/drawio) Store and display diagrams in your documentation in Wiki.js, an open source Wiki program.
